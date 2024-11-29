@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 7ccbab4c66adefe44865ba74ddff6880
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: Luther1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1454
+      y: 924
+      width: 0
+      height: 0
+    spriteID: 6dccecb6ebaabde4882eb1f77debfb61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1454, y: 924}
+    spritePosition: {x: 0, y: 921}
+  - name: Luther2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 791
+      y: 924
+      width: 661
+      height: 567
+    spriteID: fc4c3b3ade644f841b3a9b2bedf16107
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 791, y: 924}
+    spritePosition: {x: 0, y: 44}
+  - name: Sam1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 876
+      height: 921
+    spriteID: c132537c399c4cb4eaca35dc5893c3ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1, y: 1}
+    spritePosition: {x: 196, y: 0}
+  - name: Sam2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 879
+      y: 1
+      width: 847
+      height: 921
+    spriteID: 15e0f361a67fb6949be7dff663dd618f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 879, y: 1}
+    spritePosition: {x: 196, y: 0}
+  - name: Rosa1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1456
+      y: 924
+      width: 0
+      height: 0
+    spriteID: 415dd341b60437d4da4dbafabe9dc022
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1456, y: 924}
+    spritePosition: {x: 0, y: 921}
+  - name: Rosa2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 924
+      width: 788
+      height: 624
+    spriteID: 6507bcf1316f38d478513fbb75dc66d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 924}
+    spritePosition: {x: 783, y: 0}
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  rigSpriteImportData:
+  - name: Luther1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1454
+      y: 924
+      width: 0
+      height: 0
+    spriteID: 6dccecb6ebaabde4882eb1f77debfb61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1454, y: 924}
+    spritePosition: {x: 0, y: 921}
+  - name: Luther2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 791
+      y: 924
+      width: 661
+      height: 567
+    spriteID: fc4c3b3ade644f841b3a9b2bedf16107
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 791, y: 924}
+    spritePosition: {x: 0, y: 44}
+  - name: Sam1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 876
+      height: 921
+    spriteID: c132537c399c4cb4eaca35dc5893c3ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1, y: 1}
+    spritePosition: {x: 196, y: 0}
+  - name: Sam2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 879
+      y: 1
+      width: 847
+      height: 921
+    spriteID: 15e0f361a67fb6949be7dff663dd618f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 879, y: 1}
+    spritePosition: {x: 196, y: 0}
+  - name: Rosa1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1456
+      y: 924
+      width: 0
+      height: 0
+    spriteID: 415dd341b60437d4da4dbafabe9dc022
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1456, y: 924}
+    spritePosition: {x: 0, y: 921}
+  - name: Rosa2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 924
+      width: 788
+      height: 624
+    spriteID: 6507bcf1316f38d478513fbb75dc66d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 924}
+    spritePosition: {x: 783, y: 0}
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 1
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  padding: 1
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: LutherGrab
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 67620a653eea9ff44bb55589016a7237
+    layerID: 8
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Luther1
+    spriteName: Luther1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 6dccecb6ebaabde4882eb1f77debfb61
+    layerID: 10
+    mosaicPosition: {x: 1454, y: 924}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Luther2
+    spriteName: Luther2
+    isGroup: 0
+    parentIndex: 0
+    spriteID: fc4c3b3ade644f841b3a9b2bedf16107
+    layerID: 7
+    mosaicPosition: {x: 791, y: 924}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SamGrab
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: cd4cf8e476107f14787b68aa8bad2eed
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sam1
+    spriteName: Sam1
+    isGroup: 0
+    parentIndex: 3
+    spriteID: c132537c399c4cb4eaca35dc5893c3ae
+    layerID: 5
+    mosaicPosition: {x: 1, y: 1}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Sam2
+    spriteName: Sam2
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 15e0f361a67fb6949be7dff663dd618f
+    layerID: 4
+    mosaicPosition: {x: 879, y: 1}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: RosaGrab
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 294b3256d5e3b1d45a731b4391e1f48e
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rosa1
+    spriteName: Rosa1
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 415dd341b60437d4da4dbafabe9dc022
+    layerID: 13
+    mosaicPosition: {x: 1456, y: 924}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Rosa2
+    spriteName: Rosa2
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 6507bcf1316f38d478513fbb75dc66d5
+    layerID: 2
+    mosaicPosition: {x: 1, y: 924}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: LutherGrab
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 67620a653eea9ff44bb55589016a7237
+    layerID: 8
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Luther1
+    spriteName: Luther1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 6dccecb6ebaabde4882eb1f77debfb61
+    layerID: 10
+    mosaicPosition: {x: 1454, y: 924}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Luther2
+    spriteName: Luther2
+    isGroup: 0
+    parentIndex: 0
+    spriteID: fc4c3b3ade644f841b3a9b2bedf16107
+    layerID: 7
+    mosaicPosition: {x: 791, y: 924}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SamGrab
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: cd4cf8e476107f14787b68aa8bad2eed
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sam1
+    spriteName: Sam1
+    isGroup: 0
+    parentIndex: 3
+    spriteID: c132537c399c4cb4eaca35dc5893c3ae
+    layerID: 5
+    mosaicPosition: {x: 1, y: 1}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Sam2
+    spriteName: Sam2
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 15e0f361a67fb6949be7dff663dd618f
+    layerID: 4
+    mosaicPosition: {x: 879, y: 1}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: RosaGrab
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 294b3256d5e3b1d45a731b4391e1f48e
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rosa1
+    spriteName: Rosa1
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 415dd341b60437d4da4dbafabe9dc022
+    layerID: 13
+    mosaicPosition: {x: 1456, y: 924}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Rosa2
+    spriteName: Rosa2
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 6507bcf1316f38d478513fbb75dc66d5
+    layerID: 2
+    mosaicPosition: {x: 1, y: 924}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638661842791689267
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 1
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

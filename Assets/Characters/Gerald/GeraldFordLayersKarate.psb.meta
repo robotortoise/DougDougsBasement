@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: 60bfb82c062e75f44aa71e431aef6ac1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: ClosedEyesK
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 773
+      width: 91
+      height: 31
+    spriteID: 213f37c1b294ef546968bcd7d8eec5f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 773}
+    spritePosition: {x: 192, y: 671}
+  - name: EyesK1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 773
+      width: 91
+      height: 31
+    spriteID: f35b59cf76209ca48a0841c0530e73a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 773}
+    spritePosition: {x: 192, y: 671}
+  - name: EyesK2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 773
+      width: 90
+      height: 34
+    spriteID: 2a84befe417c3774ba12f86c17cecdcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 773}
+    spritePosition: {x: 191, y: 671}
+  - name: EyesK3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 773
+      width: 85
+      height: 37
+    spriteID: 9b32131b1c9881d40a752cedb8274544
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1, y: 773}
+    spritePosition: {x: 193, y: 671}
+  - name: ClosedMouthK
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 812
+      width: 52
+      height: 42
+    spriteID: 6490a490cd9095140b0c2f877ea62498
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1, y: 812}
+    spritePosition: {x: 210, y: 609}
+  - name: OpenMouthK1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 812
+      width: 52
+      height: 42
+    spriteID: 5819684dd45a5ba4e8c0693a71396205
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 812}
+    spritePosition: {x: 210, y: 609}
+  - name: OpenMouthK2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 812
+      width: 52
+      height: 42
+    spriteID: 937b34a948d68094084ce7bbf0cbc62f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 812}
+    spritePosition: {x: 210, y: 609}
+  - name: BodyK
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 526
+      height: 770
+    spriteID: 681f2677d78236e4bbf2c8b1ab7785d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1, y: 1}
+    spritePosition: {x: 0, y: 0}
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  rigSpriteImportData:
+  - name: ClosedEyesK
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 773
+      width: 91
+      height: 31
+    spriteID: 213f37c1b294ef546968bcd7d8eec5f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 773}
+    spritePosition: {x: 192, y: 671}
+  - name: EyesK1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 773
+      width: 91
+      height: 31
+    spriteID: f35b59cf76209ca48a0841c0530e73a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 773}
+    spritePosition: {x: 192, y: 671}
+  - name: EyesK2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 773
+      width: 90
+      height: 34
+    spriteID: 2a84befe417c3774ba12f86c17cecdcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 773}
+    spritePosition: {x: 191, y: 671}
+  - name: EyesK3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 773
+      width: 85
+      height: 37
+    spriteID: 9b32131b1c9881d40a752cedb8274544
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1, y: 773}
+    spritePosition: {x: 193, y: 671}
+  - name: ClosedMouthK
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 812
+      width: 52
+      height: 42
+    spriteID: 6490a490cd9095140b0c2f877ea62498
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1, y: 812}
+    spritePosition: {x: 210, y: 609}
+  - name: OpenMouthK1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 812
+      width: 52
+      height: 42
+    spriteID: 5819684dd45a5ba4e8c0693a71396205
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 812}
+    spritePosition: {x: 210, y: 609}
+  - name: OpenMouthK2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 812
+      width: 52
+      height: 42
+    spriteID: 937b34a948d68094084ce7bbf0cbc62f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 812}
+    spritePosition: {x: 210, y: 609}
+  - name: BodyK
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 526
+      height: 770
+    spriteID: 681f2677d78236e4bbf2c8b1ab7785d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1, y: 1}
+    spritePosition: {x: 0, y: 0}
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 1
+  layerMappingOption: 0
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  padding: 1
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: EyesK
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 3af4c00b072c8ae41844a2984fbcecce
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ClosedEyesK
+    spriteName: ClosedEyesK
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 213f37c1b294ef546968bcd7d8eec5f4
+    layerID: 0
+    mosaicPosition: {x: 180, y: 773}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EyesK1
+    spriteName: EyesK1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f35b59cf76209ca48a0841c0530e73a6
+    layerID: 0
+    mosaicPosition: {x: 273, y: 773}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EyesK2
+    spriteName: EyesK2
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2a84befe417c3774ba12f86c17cecdcb
+    layerID: 0
+    mosaicPosition: {x: 88, y: 773}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EyesK3
+    spriteName: EyesK3
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9b32131b1c9881d40a752cedb8274544
+    layerID: 0
+    mosaicPosition: {x: 1, y: 773}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MouthK
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f17d6db02fee3a042a0ad5569993c430
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ClosedMouthK
+    spriteName: ClosedMouthK
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 6490a490cd9095140b0c2f877ea62498
+    layerID: 0
+    mosaicPosition: {x: 1, y: 812}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: OpenMouthK1
+    spriteName: OpenMouthK1
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 5819684dd45a5ba4e8c0693a71396205
+    layerID: 0
+    mosaicPosition: {x: 55, y: 812}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: OpenMouthK2
+    spriteName: OpenMouthK2
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 937b34a948d68094084ce7bbf0cbc62f
+    layerID: 0
+    mosaicPosition: {x: 109, y: 812}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BodyK
+    spriteName: BodyK
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 681f2677d78236e4bbf2c8b1ab7785d2
+    layerID: 0
+    mosaicPosition: {x: 1, y: 1}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: EyesK
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 3af4c00b072c8ae41844a2984fbcecce
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ClosedEyesK
+    spriteName: ClosedEyesK
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 213f37c1b294ef546968bcd7d8eec5f4
+    layerID: 0
+    mosaicPosition: {x: 180, y: 773}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EyesK1
+    spriteName: EyesK1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f35b59cf76209ca48a0841c0530e73a6
+    layerID: 0
+    mosaicPosition: {x: 273, y: 773}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EyesK2
+    spriteName: EyesK2
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2a84befe417c3774ba12f86c17cecdcb
+    layerID: 0
+    mosaicPosition: {x: 88, y: 773}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EyesK3
+    spriteName: EyesK3
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9b32131b1c9881d40a752cedb8274544
+    layerID: 0
+    mosaicPosition: {x: 1, y: 773}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MouthK
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f17d6db02fee3a042a0ad5569993c430
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ClosedMouthK
+    spriteName: ClosedMouthK
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 6490a490cd9095140b0c2f877ea62498
+    layerID: 0
+    mosaicPosition: {x: 1, y: 812}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: OpenMouthK1
+    spriteName: OpenMouthK1
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 5819684dd45a5ba4e8c0693a71396205
+    layerID: 0
+    mosaicPosition: {x: 55, y: 812}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: OpenMouthK2
+    spriteName: OpenMouthK2
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 937b34a948d68094084ce7bbf0cbc62f
+    layerID: 0
+    mosaicPosition: {x: 109, y: 812}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BodyK
+    spriteName: BodyK
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 681f2677d78236e4bbf2c8b1ab7785d2
+    layerID: 0
+    mosaicPosition: {x: 1, y: 1}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638661821712239261
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 1
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
