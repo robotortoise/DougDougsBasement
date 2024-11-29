@@ -1,0 +1,5 @@
+; English <en> to Spanish <es> localization document for `TestScript` naninovel script
+
+# 4e
+; a
+

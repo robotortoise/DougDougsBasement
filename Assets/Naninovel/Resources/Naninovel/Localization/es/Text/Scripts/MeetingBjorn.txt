@@ -1,0 +1,1389 @@
+; English <en> to Spanish <es> localization document for `MeetingBjorn` naninovel script
+
+# 60
+; Welcome, students!
+
+
+# 61
+; You're a...
+
+
+# 62
+;  donkey?
+
+
+# 63
+; <shake>Donkey?!</shake><br>You think I'm a...
+
+
+# 64
+; I'd threaten to eat you if I thought that you had any nutritional value.
+
+
+# 65
+; (Come on, Bjorn. Rein it in...)
+
+
+# 66
+; I'm not a zebra, Luther!<br>I'm actually a unicorn.<br>
+
+
+# 67
+; We're <i>much</i> sparklier!
+
+
+# 68
+; So, students...<br>Have you been enjoying your escape room experience?
+
+
+# 69
+; The Jokebot was okay.
+
+
+# 6a
+; I had fun...
+
+
+# 6b
+; <br>
+
+
+# 6c
+; Well, until Elgrim showed up, at least.
+
+
+# 6d
+; Elgrim?
+
+
+# 6e
+; More like "Elgrim 
+
+
+# 6f
+; this milt 
+
+
+# 70
+; on your-"
+
+
+# 71
+; Don't <i>make</i> me vore you, Luther.
+
+
+# 72
+; .
+
+
+# 73
+; .
+
+
+# 74
+; .
+
+
+# 1c3
+; I... 
+
+
+# 75
+; retract my statement.
+
+
+# 76
+; What's an "Elgrim"?
+
+
+# 77
+; Don't worry about that.<br>Everything went according to plan.
+
+
+# 78
+; No demons here, haha!<br>Ha...
+
+
+# 79
+; Oh well.<br>I trust your judgment, Rosa.
+
+
+# 7a
+; Now, before we start the final battle...
+
+
+# 7b
+; !
+
+
+# 7c
+; <br>You're the main character, so you may ask me any questions you have before we duel.
+
+
+# 7d
+; Take <i>that</i>, Twitch chat.
+
+
+# 7e
+; Bjorn glared at Luther, and Luther promptly shut up.
+
+
+# 7f
+; Wish he would do that when <i>I</i> glared at him.
+
+
+# 80
+; So, Elgrim wasn't part of the escape room?
+
+
+# 81
+; What would a microwave talk like?
+
+
+# 82
+; Do you know Herald Ford?
+
+
+# 83
+; The only question is how fast you'll lose. Let's fight, zebra.
+
+
+# 84
+; That demon guy, Elgrim...
+
+
+# 85
+; <br>Was he part of the escape room, too?
+
+
+# 86
+; What the flippity-fuck are you blabbering about, 
+
+
+# 87
+; ?
+
+
+# 88
+; "Demon?"<br>The only demon here is your demon-strable lack of sanity!
+
+
+# 89
+; <wave>Sparkles!</wave><br>That was such nonsense, I feel like I'm getting a horse-ache just listening to you!
+
+
+# 8a
+; Are you sure you don't mean a unicorn-ache?
+
+
+# 8b
+; I will <shake>smite</shake> you, fish!
+
+
+# 8c
+; I guess Bjorn doesn't know anything about High Demon Elgrim.
+
+
+# 8d
+; Have you ever wondered what your microwave would sound like if it could talk?
+
+
+# 8e
+; .
+
+
+# 8f
+; .
+
+
+# 90
+; .
+
+
+# 91
+; Have you?
+
+
+# 92
+; Constantly.<br>It's always on my mind.
+
+
+# 93
+; For example — would it hate me for the smelly food that I put inside it?
+
+
+# 94
+; What would Michael Wave even sound like?
+
+
+# 95
+; Heh.<br>Actually...
+
+
+# 96
+; Do you think he <i>likes</i> it when I put tin foil<br>inside his naughty little mouth?
+
+
+# 97
+; It's not often that I'm at a loss for words, but...
+
+
+# 98
+; .
+
+
+# 99
+; .
+
+
+# 9a
+; .
+
+
+# 9b
+; Admittedly, I'm at a loss.<br>What do I even say to that?
+
+
+# 9c
+; Maybe you could comment on how the American education system is responsible for my silliness?
+
+
+# 9d
+; "Silliness" is one word for it, certainly.<br>Not the one I'd use.
+
+
+# 9e
+; There must be something deeper going on.
+
+
+# 9f
+; Do you perhaps have some sort of injury to your prefrontal cortex?
+
+
+# a0
+; Professor.<br>You can't just say that to a student.
+
+
+# a1
+; What's the fucker gonna do?<br>
+
+
+# a2
+; Microwave me?
+
+
+# a3
+; Maybe I should ask him something else...
+
+
+# a4
+; Do you know the 38th president of the United States, Henry Ford?<br>I saw him earlier.
+
+
+# a5
+; Oh, yes.<br>He's one of my employees.
+
+
+# a6
+; You...
+
+
+# a7
+;  hired a former president to run your<br>pottery class—turned—escape room?
+
+
+# 1c0
+; Sure did.<br>I took it upon myself to read the entirety of the Geneva Conventions, and believe it or not...
+
+
+# 1c1
+; Oh boy.
+
+
+# 1c2
+; ...They don't list <i>anything</i> about the enslavement of ghosts!<br>Now that's a loophole if I've ever heard one!
+
+
+# aa
+; Terry Ford is...
+
+
+# ab
+; ...a <shake>g-ghost</shake>?
+
+
+# ac
+; Indeed he is!
+
+
+# ad
+; Ford died in 2006.<br>A day after Christmas, too — rough.
+
+
+# ae
+; ...
+
+
+# af
+; You hired a <i>dead guy?!</i>
+
+
+# b0
+; You hired <i>that</i> dead guy?!
+
+
+# b1
+; He's very sensitive about it.<br>Try not to bring it up, okay?
+
+
+# b2
+; Moving on...
+
+
+# b3
+; So, Elgrim wasn't part of the escape room?
+
+
+# b4
+; What would a microwave talk like?
+
+
+# b5
+; Do you know Herald Ford?
+
+
+# b6
+; I'm done asking questions. Let's fight, zebra.
+
+
+# b7
+; <shake>ZEBRA?!</shake><br>Ohhh, you tumultuous little shit!
+
+
+# b8
+; I am <shake>Bjorn</shake>, the majestic unicorn and headmaster of this school!<br>You will treat me as the trivia master that I am!
+
+
+# b9
+; Provoke Bjorn more. It's funny!
+
+
+# ba
+; Leave poor Bjorn alone.
+
+
+# bb
+; "Trivia master", huh?
+
+
+# bc
+; Well, I'm glad you're still a master of <i>something</i>, Professor, even if not the school.
+
+
+# bd
+; Oh, that is <i>it!</i>
+
+
+# be
+; I was going to go easy on you since you twerps were<br>clearly struggling with Jokebot.
+
+
+# bf
+; But it's all hoofs on deck now!
+
+
+# c0
+; Get ready to be <i>pegged</i>, fuckers!<br><shake>I am <i>not</i> playing around!</shake>
+
+
+# c1
+; Choose a question...<br><shake>NOW!</shake>
+
+
+# c2
+; All right.<br>Let the trivia battle begin!
+
+
+# c3
+; What would you like the first question to be about?
+
+
+# c4
+; Can we really choose anything?<br>Anything at all?
+
+
+# c5
+; Anything!<br>I am the trivia master, after all!<br>No subject exists that I don't know trivia about.
+
+
+# c6
+; That's a double negative.<br>I think what you actually meant to say-
+
+
+# c7
+; Don't make me have fish sticks tonight.
+
+
+# c8
+; ...
+
+
+# c9
+; How about we start with... fried foods?
+
+
+# ca
+; Hey, you're not a student.
+
+
+# cb
+; Excellent choice, Rosa!
+
+
+# cc
+; Like unicorns, fried foods are simply delightful.<br>The shape of a round donut reminds me of the delicious golden hue of a peg in Peggle...
+
+
+# cd
+; By the way, what's a Peggle?
+
+
+# ce
+; <shake>Shut up!</shake>
+
+
+# cf
+; Now, for the trivia question!<br>Oh, I'm just <i>sparkling</i> with excitement!
+
+
+# d0
+; What temperature is food generally fried at?<br>Remember, oil works by frying foods at <i>extremely</i> high temperatures.
+
+
+# d1
+; 240 degrees Fahrenheit.
+
+
+# d2
+; 190 degrees Celsius.
+
+
+# d3
+; 375 degrees Fahrenheit.
+
+
+# d4
+; 240 degrees?<br>That's a <wave>biiiig</wave> number!
+
+
+# d5
+; <i>240 degrees?!</i><br>That's barely enough to cook rocky mountain oysters, much less fry them!
+
+
+# d6
+; Try again, and remember that fried foods<br>need to be 
+
+
+# d7
+; <shake>HOT</shake>, 
+
+
+# d8
+; <shake>HOT</shake>, 
+
+
+# d9
+; <shake>HOT</shake>!!
+
+
+# da
+; 190 degrees?
+
+
+# db
+; That's way too cold for-
+
+
+# dc
+; .
+
+
+# dd
+; .
+
+
+# de
+; .<br>
+
+
+# df
+; Uh, 190 degrees... 
+
+
+# e0
+; <i>in Celsius</i>.
+
+
+# e1
+; <i>Celcius?!</i><br>We only measure things in Fahrenheit here in the<br>good 'ol U-S of A!
+
+
+# e2
+; I may be an immigrant from Peggleland, but I got my citizenship the same way anyone else did —
+
+
+# e3
+;  by passing a written test and having white relatives.
+
+
+# e4
+; That's a point from you, 
+
+
+# e5
+; or it would be if you had any.
+
+
+# e6
+; But Professor, 
+
+
+# e7
+;  is right.<br>190 degrees is actually-
+
+
+# e8
+; Nothing's right about communism, Rosa.
+
+
+# e9
+; What?
+
+
+# ea
+; I meant what I said,
+
+
+# eb
+;  dammit!
+
+
+# ec
+; .
+
+
+# ed
+; .
+
+
+# ee
+; .
+
+
+# ef
+; 350 degrees...?
+
+
+# f0
+; That's way too cold.
+
+
+# f1
+; 375 degrees.
+
+
+# f2
+; You're guessing! You can't guess.
+
+
+# f3
+; You never told me that.
+
+
+# f4
+; I'm telling you <i>now</i>.
+
+
+# f5
+; They're pretty close to right, though!<br>It depends on the batch.
+
+
+# f6
+; Sometimes the doughier ones need a higher temperature to fry.
+
+
+# f7
+; What...?!<br>
+
+
+# f8
+; Who the hell said that?
+
+
+# f9
+; Oh, that was me!
+
+
+# fa
+; Something in my inventory is... 
+
+
+# fb
+; tingling.
+
+
+# fc
+; We didn't need to know that, 
+
+
+# fd
+; .
+
+
+# fe
+; It's <i>not</i> a euphemism!
+
+
+# ff
+; Sam's right.
+
+
+# 100
+; Keep the meta commentary<br>on a need-to-know basis, 
+
+
+# 101
+; .
+
+
+# 102
+; Hee hee!<br>You guys are funny.
+
+
+# 103
+; Well, I definitely heard something.
+
+
+# 104
+; You did?<br>Where?
+
+
+# 105
+; I rummaged around in my inventory until I found... something.
+
+
+# 106
+; Whatever it was, it was... <i>squirming</i>.
+
+
+# 107
+; Is this...?
+
+
+# 1c4
+; Hey, guys!
+
+
+# 109
+; It's me, Pringle! 
+
+
+# 10a
+; I'm not just any voice...<br>
+
+
+# 10b
+; I'm part of a complete breakfast!
+
+
+# 10c
+; <shake>WHAT THE <b>FUCK</b> IS THAT?!</shake>
+
+
+# 10d
+; <wave>Ewwwwwwwwwwwwww!!</wave><br><br>Kill it, 
+
+
+# 10e
+; !
+
+
+# 10f
+; Everyone,
+
+
+# 110
+;  calm down!
+
+
+# 111
+; You...!<br>You're one of the missing students.
+
+
+# 112
+; Oh, Professor Bjorn!
+
+
+# 113
+; It's so nice to see your friendly face once again!
+
+
+# 114
+; .
+
+
+# 115
+; .
+
+
+# 116
+; .
+
+
+# 117
+; Wait...<br>How the <i>fuck</i> are you alive?
+
+
+# 118
+; Oh, I've just been hanging out down here in the basement since, ah...
+
+
+# 119
+; .
+
+
+# 11a
+; .
+
+
+# 11b
+; .
+
+
+# 11c
+; Well, the Wii U was just announced.<br>Did it come out yet?
+
+
+# 11d
+; Hm...<br>How long have you been down here?
+
+
+# 11e
+; Personally, I think all time is meaningless!<br>Only fools value its sway.
+
+
+# 11f
+; ...
+
+
+# 120
+; Seriously, though, you kind of find yourself losing track when your only company is the cellar slugs.<br>
+
+
+# 121
+; They're <wave>soooooooooooo</wave> uninteresting!
+
+
+# 122
+; Yes, I <i>know</i> Slugmantha is pregnant.<br>No, I don't care!
+
+
+# 123
+; You're <i>always</i> pregnant!
+
+
+# 124
+; <br>You're <i>slugs!</i>
+
+
+# 125
+; Anyhoo!<br>It's nice to chat up some vertebrates for a change.<br>Got stuffy in there.
+
+
+# 126
+; Is he... okay...?
+
+
+# 127
+; Forgive me if this is rude, but...
+
+
+# 128
+; I have to echo the professor's sentiments.<br>How <i>are</i> you even alive?
+
+
+# 129
+; Can you really say that I was living?
+
+
+# 12a
+; My body parts regenerate, so I was able to subsist on my own flesh until that demon guy found me.
+
+
+# 12b
+; Guess he's talking about Elgrim.
+
+
+# 12c
+; Should we take you to a hospital?
+
+
+# 12d
+; I'm fine, seriously!<br>Just finish the quiz!
+
+
+# 12e
+; Oh, right!<br>The quiz!
+
+
+# 12f
+; Yes, ah...
+
+
+# 130
+; <br>You got that question right, so your score is now 
+
+
+# 131
+; one. <br>Congrats!
+
+
+# 132
+; Now, onto the second question!
+
+
+# 133
+; Give me a topic!<br>Any topic.
+
+
+# 134
+; Okay, so I know you told me not to ask about <i>Peggle</i>, but what's <i>pegging</i>?
+
+
+# 135
+; ...
+
+
+# 136
+; Not that topic.
+
+
+# 137
+; Ooh, ooh!<br>
+
+
+# 138
+; What about the ancient Egyptian pyramids?
+
+
+# 139
+; Excellent choice, Sam!
+
+
+# 13a
+; Oh, just thinking about the magnificent architecture of the ancient Egyptians has my horn tingling with uninhibited excitement!
+
+
+# 13b
+; We didn't want to know that.
+
+
+# 13c
+; Hey, speak for yourself.
+
+
+# 13d
+; Now, for the question!
+
+
+# 13e
+; What is my favorite flavor of ice cream?
+
+
+# 13f
+; You said you were going to ask the students about the pyramids.
+
+
+# 140
+; No, I didn't.<br>Answer the question, 
+
+
+# 141
+; .
+
+
+# 142
+; But you just-
+
+
+# 143
+; I said <shake><b>answer the question</b></shake>!
+
+
+# 144
+; ...
+
+
+# 145
+; What is Bjorn's favorite flavor of ice cream?
+
+
+# 146
+; Rainbow sorbet.
+
+
+# 147
+; Lemon.
+
+
+# 148
+; Chocolate chip.
+
+
+# 149
+; Minoxidil with finasteride.
+
+
+# 14a
+; Lemon?
+
+
+# 14b
+; Lemon?!<br>Are you for fucking real right now?<br><shake>LEMON!?</shake>
+
+
+# 14c
+; I like lemon.
+
+
+# 14d
+; You know what?<br>Maybe lemon does have some value... 
+
+
+# 14e
+; when squeezed over <i>fish and chips!</i>
+
+
+# 14f
+; I... don't think the professor likes lemon, 
+
+
+# 150
+; .
+
+
+# 151
+; Gee, you don't say.
+
+
+# 152
+; Mention it again and I'll turn your <i>life</i> into lemonade!
+
+
+# 153
+; Maybe I should try something else...
+
+
+# 154
+; Chocolate chip?
+
+
+# 155
+; Eh, I'm not the biggest fan of chocolate.<br>It's toxic to some animals, you know.
+
+
+# 156
+; Is it toxic to unicorns?
+
+
+# 157
+; No.<br>I just don't like it.
+
+
+# 158
+; Oh.
+
+
+# 159
+; There's gotta be <i>something</i> that he likes.
+
+
+# 15a
+; What about minoxidil with a side of finasteride?
+
+
+# 1af
+; .
+
+
+# 1b0
+; .
+
+
+# 15b
+; .
+
+
+# 15c
+; .......
+
+
+# 15d
+; ........
+
+
+# 15e
+; Aren't those the ingredients that are used in anti-balding medicine?
+
+
+# 15f
+; Stay calm, Bjorn.
+
+
+# 160
+; <br>Remember what your parole officer told you.
+
+
+# 161
+; I think I'll try something else.
+
+
+# 162
+; That's probably the right call.
+
+
+# 163
+; Rainbow sorbet ice cream, maybe?
+
+
+# 164
+; Sorbet isn't ice cream.
+
+
+# 1b8
+; Ice cream or not, you've churned out the right answer 
+
+
+# 168
+; with that crisp head of yours, 
+
+
+# 169
+; !
+
+
+# 16a
+; You're two questions in, but don't get cocky!
+
+
+# 16b
+; Yay!<br>You did it!
+
+
+# 16c
+; We've quizzed 
+
+
+# 16d
+; , so it's time for your turn, Sam.
+
+
+# 16e
+; Let's go!
+
+
+# 16f
+; Who was the first president of the United States of America?
+
+
+# 170
+; Oh, that's easy!<br>
+
+
+# 171
+; It was none other than-
+
+
+# 172
+; I have a better question for you, Sam.
+
+
+# 173
+; Who was the 38th president of the United States?
+
+
+# 174
+; Herald Ford!
+
+
+# 175
+; Ford Prefect!
+
+
+# 176
+; Hmph.
+
+
+# 177
+;  Not the worst I've heard.
+
+
+# 1b2
+; Color me impressed.
+
+
+# 1b3
+; The first name is actually "Gerald", by the way.
+
+
+# 178
+; <shake>Augh!</shake>
+
+
+# 179
+; <br>Can't a single goddamn person remember who I am?
+
+
+# 17b
+; Gerald Ford!<br>Gerald <shake>FUCKING</shake> Ford!!<br>It's not difficult to remember!
+
+
+# 17c
+; Maybe you're messing with me.<br>Is that it?
+
+
+# 17d
+; Whatever.<br>You'll all learn to respect me soon enough.
+
+
+# 17e
+; I fought inflation during one of the worst economic recessions in America, and this is the thanks I get for it?
+
+
+# 17f
+; You there — fish!
+
+
+# 180
+; Me?
+
+
+# 181
+; Who was the first president?
+
+
+# 182
+; George Washington, obviously.
+
+
+# 183
+; And you — blue child.<br>I bet you know who William Taft was.
+
+
+# 184
+; Oh, of course!<br>William Taft was the biggest president ever!
+
+
+# 185
+; GAH! See?!
+
+
+# 186
+; People remember Taft, and all he did was eat too many fruitcakes!
+
+
+# 187
+; Well, guess who the fruitcake is now, assholes?
+
+
+# 188
+; Is he coming out?
+
+
+# 189
+; All right, Gerald.<br>That's enough.
+
+
+# 18a
+; You've had your time in the spotlight — I don't pay you for theatrics.
+
+
+# 18b
+; Quiet, emu!<br>You don't pay me at all!
+
+
+# 18c
+; An <shake>emu</shake>?!
+
+
+# 18d
+; I'd have your head for this if you had one!
+
+
+# 18e
+; What's he talking about?
+
+
+# 18f
+; The president is a ghost, remember?
+
+
+# 190
+; I don't know.
+
+
+# 191
+; Whatever.<br>I don't need to listen to you.
+
+
+# 192
+; You — the large bell pepper.
+
+
+# 193
+; Me?
+
+
+# 1b9
+; You just <i>had</i> to stop Elgrim from returning, didn't you?
+
+
+# 195
+; He only needed the souls of eighteen more teensy-weensy, little, itty-bitty human children for a full resurrection,<br>but you wouldn't even let him have that, would you?
+
+
+# 1ba
+; Elgrim was...
+
+
+# 196
+; <br>trying to eat me...?
+
+
+# 197
+; T-that's gross!<br>I'm eighteen. I am <i>not</i> a kid!
+
+
+# 198
+; I feel like you should be upset for other reasons, Sam.
+
+
+# 199
+; What?<br>Don't be gross, man.
+
+
+# 1bb
+; Elgrim...!
+
+
+# 19a
+; I only wanted your soul.
+
+
+# 19b
+; Eating the whole child is like eating the shell of a lobster.<br>You just don't do that.
+
+
+# 19c
+; So, the reason Elgrim is back...
+
+
+# 19d
+; Correct.
+
+
+# 19e
+; From the depths of the underworld, I joined Elgrim-
+
+
+# 19f
+; Yo.
+
+
+# 1a0
+; -in a quest to conquer this wretched Earth.
+
+
+# 1a1
+; My thought was that, hey, once their world is overrun by demons and hellspawn,<br>people will finally remember me for something!
+
+
+# 1a2
+; No such thing as bad publicity, right?
+
+
+# 1a3
+; That's horrible!
+
+
+# 1a4
+; See?<br>The otter gets it.
+
+
+# 1bf
+; I do not “get it”.<br>I think what you're doing is absolutely vile.
+
+
+# 1a5
+; I think you should be ashamed of yourself, Gerald!
+
+
+# 1a6
+; But you remembered my name, right?<br>That means my evil plan is working.
+
+
+# 1bc
+; .
+
+
+# 1bd
+; .
+
+
+# 1a7
+; .
+
+
+# 1be
+; It's time...
+
+
+# 1a8
+; Come inside me, Elgrim!
+
+
+# 1a9
+; Use me, Elgrim!<br>Use me to show them all how <shake>fucked</shake> they are when I'm in control!
+
+
+# 1b5
+; You're...
+
+
+# 1aa
+;  doing this on purpose, right?
+
+
+# 1ab
+; Don't make me wait.
+
+
+# 1c5
+; Oh, for crying out...<br>
+
+
+# 1b7
+; <i>Sure.</i><br>
+
+
+# 1ac
+; Let's get started.
+
+
+# 1ad
+; Open wide, Gerry.
+
+
+# 1ae
+; Gerry?
+

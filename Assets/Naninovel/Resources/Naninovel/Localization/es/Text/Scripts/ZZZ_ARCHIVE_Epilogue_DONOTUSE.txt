@@ -1,0 +1,109 @@
+; English <en> to Spanish <es> localization document for `ZZZ_ARCHIVE_Epilogue_DONOTUSE` naninovel script
+
+# 1
+; Weeks went by.
+
+
+# 226
+; Eventually, classes at DougDoug Community CollegeCollege returned to normal.
+
+
+# 227
+; Or, well, as normal as things could be.
+
+
+# 232
+; Bjorn's "pottery class" façade was discovered and destroyed.
+
+
+# 233
+; Bjorn himself was reassigned to teach one of those fitness boot camps, which ended up working out rather well for him.
+
+
+# 234
+; After the defeat of High Demon Elgrim, Sam was finally able to accept the loss of his brothers.
+
+
+# 235
+; Using what he learned while investigating his brothers, Sam furthered his skill set and is graduating with a career in criminal forensics.
+
+
+# 236
+; After we escaped, Pringle shared his story with the press, which made him famous among survivalists everywhere.
+
+
+# 237
+; He used the resulting fame to start his own high-budget YouTube channel where he gave cooking advice.
+
+
+# 238
+; Nowadays, Pringle is famous throughout the world.
+
+
+# 239
+; People know him for giving queer commentary while cooking five-star meals on his hit channel, <i>Cooking With A 'Pan' Pan</i>.
+
+
+# 23a
+; Luther...<br>
+
+
+# 23b
+; He started drinking soda again, and it was pretty bad for a while there.
+
+
+# 23c
+; Believe it or not, the person who helped him break the cycle was actually Luther's old flame, Freddi Fish.
+
+
+# 23d
+; Freddi installed a new operating system in him.
+
+
+# 23e
+; Shrinkbot — that's what he goes by nowadays — really helped Luther work through a lot of issues.
+
+
+# 23f
+; Last I heard, Luther and his boyfriend are doing a lot better.<br>I'm happy for him!
+
+
+# 240
+; As for me...?
+
+
+# 241
+; Well, Professor Bjorn told the press about what happened, risking his reputation to save ours.
+
+
+# 242
+; Everyone involved in the Elgrim incident — including Bjorn — got an award from the National Anti-Demon Federation.
+
+
+# 243
+; I was able to graduate and I got a job working at the Monterey Bay Aquarium.
+
+
+# 244
+; I still run my YouTube channel, but it's a side thing now.
+
+
+# 245
+; My true passion is helping pups learn about the ocean and the treasures within.
+
+
+# 246
+; I could have never dreamed of getting a job like this. Thank you, 
+
+
+# 247
+;  — it wouldn't have been possible without you.
+
+
+# 248
+; And if you ever want to go to the aquarium, let me know and I'll get you in for free.
+
+
+# 249
+; Oh, and don't worry — the only demons we have here at the Monterey Bay Aquarium are black seadevil anglerfish.
+

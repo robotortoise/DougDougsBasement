@@ -1,0 +1,441 @@
+; English <en> to Spanish <es> localization document for `DogDogScriptScript` naninovel script
+
+# 8d4
+; Choose what color you are.
+
+
+# 8d5
+; I'm red.
+
+
+# 8d6
+; I'm green.
+
+
+# 8d7
+; I'm purple.
+
+
+# 8d8
+; I'm golden.
+
+
+# 8d9
+; I've got that classic DougDoug orange, baby!
+
+
+# 8da
+; Thank you for your selection.
+
+
+# 8db
+; Welcome...
+
+
+# 8dc
+;  to DougDoug Community CollegeCollege!
+
+
+# 8dd
+; And that concludes the materials from chapter one.
+
+
+# 8de
+; Remember that safety is paramount when rock climbing, and to always use your harness.
+
+
+# 8df
+; I'll see you all on Thursday.
+
+
+# 8e0
+; Don't forget to bring your own equipment and to review chapter two on your own.
+
+
+# 8e1
+; You can buy the needed materials from the bookstore if you haven't already.
+
+
+# 8e2
+; Thank you.<br>Class is dismissed.
+
+
+# 8e3
+; Professor, you don't need to say "class dismissed".
+
+
+# 8e5
+; This is college.<br>I could just leave in the middle of class if I wanted.
+
+
+# 941
+; We're all adults here, you know.
+
+
+# 93d
+; .
+
+
+# 93e
+; .
+
+
+# 93c
+; .
+
+
+# 8e6
+; Well I'm the professor, and I wanted a catchphrase.
+
+
+# 8e7
+; .
+
+
+# 8e8
+; .
+
+
+# 8e9
+; .
+
+
+# 8ea
+; <i>Class is dismissed!</i><br>
+
+
+# 8eb
+; See, it's fun.<br>We're having fun, and I'm a great college professor.
+
+
+# 940
+; I'm like the main character of this class.
+
+
+# 942
+; This guy seriously has a degree...?
+
+
+# 8ec
+; I shudder to imagine what's on his LinkedIn...
+
+
+# 8ed
+; Oh, howdy!<br>Glad I caught you after the lecture.
+
+
+# 8ee
+; Hi, Sam.
+
+
+# 8ef
+; What'd you think of the class?
+
+
+# 8f0
+; It was okay.
+
+
+# 8f1
+; I was extremely confused.
+
+
+# 8f2
+; It was okay.<br>But geez, that Professor DougDoug guy sure likes to hear himself talk.
+
+
+# 8f3
+; Yeah, he's a real yapper.
+
+
+# 8f4
+; I was so incredibly confused.
+
+
+# 8f5
+; Why are we learning about rock climbing?<br>Aren't we in computer science?
+
+
+# 8f6
+; Oh, right.<br>About that.
+
+
+# 8f7
+; I read about DougDoug on one of those professor rating sites.<br>They said he likes to solve problems that no one has.
+
+
+# 8f8
+; Huh.<br>I guess that makes sense.
+
+
+# 8f9
+; ...
+
+
+# 93f
+; Oh.
+
+
+# 8fb
+; Ah, sorry!<br>I totally blanked on your name. Could you remind me?
+
+
+# 8fc
+; Well, my name is…
+
+
+# 8fd
+; Well, my name is...
+
+
+# 8fe
+; Oh, yeah!<br>That sounds familiar.
+
+
+# 8ff
+; I feel silly for forgetting.<br>Sorry about that, 
+
+
+# 900
+; .
+
+
+# 901
+; No problem, Sam.<br>It's nice to see you again!
+
+
+# 902
+; Hey, we both have pottery class next, right?<br>Want to walk with me?
+
+
+# 903
+; Sure!
+
+
+# 904
+; On our way to pottery class,<br>I pulled out my schedule.
+
+
+# 905
+; I wasn't particularly artsy, but the pottery class piqued my interest because it was being co-taught by Rosa, the famous marine biology YouTuber.
+
+
+# 906
+; Wow…<br>
+
+
+# 907
+; Rosa the Otter was <i>so</i> cool.
+
+
+# 908
+; And besides, the immature part of my brain liked it whenever I saw "POT101" on my class schedule.
+
+
+# 909
+; Heh.<br>Illegal drugs.
+
+
+# 90a
+; This is it.
+
+
+# 90b
+; Yep. Room 2B.
+
+
+# 90c
+; "2B", huh?
+
+
+# 90d
+; .
+
+
+# 90e
+; .
+
+
+# 90f
+; .
+
+
+# 910
+; "2B" these nuts.
+
+
+# 911
+; .
+
+
+# 912
+; .
+
+
+# 913
+; .
+
+
+# 914
+; Got 'em.
+
+
+# 915
+; You sure did, 
+
+
+# 916
+; .
+
+
+# 917
+; The lights in the room were off.
+
+
+# 918
+; Where is everyone?
+
+
+# 919
+; This is kind of creeping me out.
+
+
+# 91a
+; Yeah, the darkness is really getting to me.
+
+
+# 91b
+; Shouldn't you guys figure out how to turn on the lights?
+
+
+# 91c
+; You're just... standing there.<br>It's weird and I don't like it!
+
+
+# 91d
+; Oh.
+
+
+# 91e
+; <br>Hi, 
+
+
+# 91f
+; Luther.
+
+
+# 920
+; Ugh, <i>you're</i> here.<br><i>Great</i>.
+
+
+# 921
+; All I said was hello.
+
+
+# 922
+; Counterpoint...
+
+
+# 923
+;  I hate you.
+
+
+# 924
+; You hate everyone.
+
+
+# 925
+; Everyone hated me first.<br>But you?
+
+
+# 926
+; <wave>Noooooooo!</wave><br>People like <i>you</i> and your brothers.
+
+
+# 927
+; No one gives a damn about poor little Luther!
+
+
+# 928
+; They <i>despise</i> me!
+
+
+# 929
+; …
+
+
+# 92a
+; You... 
+
+
+# 92b
+; know about my brothers?
+
+
+# 92c
+; Of course I do!<br>Everyone does.
+
+
+# 92d
+; My brothers...<br>I'll avenge them, I swear it.
+
+
+# 92e
+; That DougDoug guy seemed weird to me.
+
+
+# 92f
+; That's why I'm taking his class, actually.
+
+
+# 930
+; Call it a hunch, but I think he might be related to my brothers' disappearances.
+
+
+# 931
+; Oh, hey.<br>You guys know Professor DougDoug?
+
+
+# 943
+; Yeah. 
+
+
+# 932
+; Actually, he taught us rigging.
+
+
+# 933
+; Anyway...<br>Luther's right.
+
+
+# 934
+; <br>We need to find a light switch.
+
+
+# 935
+; Hey, what's that lever over there?
+
+
+# 936
+; Ooh, I bet it does something really cool when I pull on it!
+
+
+# 937
+; Luther, you shouldn't just-
+
+
+# 938
+; Before me or Sam could protest,<br>Luther swam over to the lever and yanked it – hard.
+
+
+# 939
+; <i>Luther!<i>
+
+
+# 93a
+; Hey, nothing happened.<br>Maybe it's broken.
+
+
+# 93b
+; Suddenly, the floor dropped out from underneath us.
+

@@ -1,0 +1,1133 @@
+; English <en> to Spanish <es> localization document for `FinalBossScript` naninovel script
+
+# 147
+; Doug Douggity-Damn...
+
+
+# 148
+; He...!<br>He didn't...!
+
+
+# 149
+; ...
+
+
+# 24b
+; This is... 
+
+
+# 14a
+; <i>entirely</i> unprofessional conduct!
+
+
+# 14b
+; Fear me, mortals!
+
+
+# 24c
+; <shake>Oooooh...</shake><br>This body is so much younger and <wave>sexier</wave>, too!
+
+
+# 14c
+; <br>And it's all thanks to the power of High Demon Elgrim!
+
+
+# 25c
+; So much power...!
+
+
+# 14d
+; <br>I can feel it surging throughout my flesh!
+
+
+# 14e
+; This world shall rue the day it scorned <i>Gerald Ford!</i>
+
+
+# 14f
+; No one scorned you, asshole!
+
+
+# 150
+; Now, to get out of this blasted basement.
+
+
+# 151
+; What the <i>fuck</i> did you just call it?!
+
+
+# 24d
+; Ah, yes.
+
+
+# 152
+; <br>Horse.
+
+
+# 153
+; A <shake>horse?!</shake><br>Did you just call me a goddamn <i>horse<i>?!
+
+
+# 154
+; I believe that you have a key for me.
+
+
+# 251
+; Why the flying unicorn fuck would I give you anything?
+
+
+# 155
+; <br>Also, I am <i>not</i> a goddamn-
+
+
+# 24e
+; I literally do not care what you are, whelp.
+
+
+# 24f
+; <br>If you do not give me what I desire, 
+
+
+# 156
+; then...
+
+
+# 25d
+; <shake>My h-horn...!</shake><br>
+
+
+# 157
+; H-how did you...?
+
+
+# 25e
+; Now the only one that's feeling 
+
+
+# 25f
+; <i>horny</i>
+
+
+# 158
+;  is... <i>Gerald Ford!</i>
+
+
+# 159
+; What the hell?
+
+
+# 15a
+; That's...!
+
+
+# 15b
+; I meant what I said.<br>I'm a demon, not a pansy.
+
+
+# 15c
+; Now, to finish the job...
+
+
+# 15d
+; Say your last words, Bjorn the Uni-cuck.
+
+
+# 260
+; <shake>Augh...!</shake>
+
+
+# 15e
+; Don't you worry, Professor Bjorn!<br>I've got you!
+
+
+# 268
+; Rosa dove in front of Bjorn, blocking the ex-president's path.
+
+
+# 160
+; Rosa, you would risk your life for mine?<br>What a good apprentice you are!
+
+
+# 261
+; What you're doing here...
+
+
+# 262
+; <br>It isn't right, Mr. President!<br>
+
+
+# 162
+; Murder is wrong, no matter your warped logic behind it!
+
+
+# 284
+; Even if it's Professor Bjorn?
+
+
+# 285
+; Even if it's Professor Bjorn!
+
+
+# 164
+; It's not murder if he's going to come back as a ghost, Rosa.<br>Duh.
+
+
+# 263
+; .
+
+
+# 264
+; .
+
+
+# 165
+; .
+
+
+# 166
+; Rosa, I thought you were defending me because you had an attachment to me.
+
+
+# 292
+; Oh, goodness no. You're extremely unethical.
+
+
+# 167
+; I just did it because it was the right thing to do.
+
+
+# 265
+; .
+
+
+# 266
+; .
+
+
+# 168
+; .
+
+
+# 267
+; Oh.
+
+
+# 269
+; Anyway...
+
+
+# 26a
+; If you don't move, then I guess I'll have to kill you both!
+
+
+# 16a
+; You can't get away from me this time, Elgrim!
+
+
+# 16b
+; It's <i>Ford</i>, damn you!<br>Gerald Ford!
+
+
+# 16c
+; Hi-yah!
+
+
+# 293
+; .
+
+
+# 294
+; .
+
+
+# 16d
+; .
+
+
+# 295
+; .
+
+
+# 296
+; .
+
+
+# 16e
+; .
+
+
+# 16f
+; And you did that, because...?
+
+
+# 170
+; Well, ah...<br>I thought I was going to hit him harder than that.
+
+
+# 171
+; That was very foolish of you, boy.
+
+
+# 172
+; Uh-oh.
+
+
+# 173
+; You know, I was going to get my bearings, maybe set a few houses on fire in my hometown of Omaha, Nebraska.
+
+
+# 174
+; But that was then, and this is now.
+
+
+# 286
+; Do you wish to join your younger brothers, Sam?<br>
+
+
+# 175
+; <shake>Because I'll lead you right to 'em!</shake>
+
+
+# 289
+; You...!<br>
+
+
+# 176
+; Don't tell me <i>you</i> were the one who...!
+
+
+# 177
+; I can't just stand here and watch!<br>I need to do something!
+
+
+# 178
+; What should I do...?
+
+
+# 179
+; Taunt the former president.
+
+
+# 17a
+; Ask him why he's not demon-speaking like Sam.
+
+
+# 17b
+; Use something from my inventory.
+
+
+# 17c
+; Use the  "holey oil" on the former president.
+
+
+# 17d
+; Hey, uh...
+
+
+# 17e
+; Yes?
+
+
+# 26b
+; Uh....
+
+
+# 17f
+; <br>Uhhhhhhhhh.............
+
+
+# 180
+; Um, this is uncomfortable.
+
+
+# 26d
+; .
+
+
+# 26e
+; .
+
+
+# 181
+; .
+
+
+# 182
+; I was going to try and make fun of you, but...
+
+
+# 183
+; Ah, <i>dammit</i>!<br>I totally blanked on your name.<br>Sorry, what was it again?
+
+
+# 184
+; <shake>GRAAAAUGH!</shake><br>How <i>dare</i> you!
+
+
+# 185
+; He didn't like that.<br>Good to know.... I think.
+
+
+# 287
+; <shake>I'll fucking 
+
+
+# 26c
+; <b>kill</b> you, 
+
+
+# 186
+; </shake>!!
+
+
+# 187
+; Hey, Geronimo.
+
+
+# 188
+; Ugh. What is it now?<br>Come on, get it over with before I kill you.
+
+
+# 189
+; Why aren't you speaking all funny like Sam was?
+
+
+# 18a
+; That's because I was eating Sam.<br>This is more of a full merge – I am Ford, yet I am also Elgrim.
+
+
+# 18b
+; So, it's like a fu...
+
+
+# 18c
+; Call it a <i>fusion dance</i> and I vaporize you.
+
+
+# 18d
+; I don't think he can actually do that, 
+
+
+# 18e
+; .
+
+
+# 18f
+; Yes, that doesn't make sense.<br>If he could vaporize us, he would have already done so.
+
+
+# 190
+; I don't need to hear it from the sea nut gallery.
+
+
+# 26f
+; Sea?<br>More like...
+
+
+# 191
+; Sea deez nuts on your face!
+
+
+# 270
+; .
+
+
+# 271
+; .
+
+
+# 272
+; .
+
+
+# 192
+; What?
+
+
+# 193
+; Hah!<br>Got 'em!
+
+
+# 273
+; .
+
+
+# 274
+; .
+
+
+# 194
+; .
+
+
+# 275
+; .
+
+
+# 276
+; .
+
+
+# 195
+; .
+
+
+# 196
+; Er, is Sam still-
+
+
+# 197
+; No, this isn't my doing.<br>Sam's just weird.
+
+
+# 198
+; Guess the ex-president is still half-Elgrim...
+
+
+# 199
+; Is that information useful to me?<br>How'd I defeat him last time?
+
+
+# 19a
+; What should I use...?
+
+
+# 19b
+; Use the gun.
+
+
+# 19c
+; Talk to Pringle.
+
+
+# 19d
+; Return to the previous menu.
+
+
+# 19e
+; What should I use the gun on?
+
+
+# 19f
+; Jerry Ford.
+
+
+# 1a0
+; Luther.
+
+
+# 1a1
+; The oil puddle.
+
+
+# 1a2
+; Return to the previous menu.
+
+
+# 1a3
+; Demon or not, Garry Ford is still a former president.<br>I can't shoot him!
+
+
+# 1a4
+; You were thinking of <i>shooting him?</i>
+
+
+# 277
+; I...
+
+
+# 1a5
+;  I wasn't!<br>That's why I said I wasn't going to do it!
+
+
+# 278
+; Then why'd you mention it?
+
+
+# 279
+; He's right.
+
+
+# 1a6
+; I can't just say things like that out loud.<br>This isn't a point-and-click adventure game.
+
+
+# 1a7
+; Right.<br>That's <i>my</i> territory.
+
+
+# 1a8
+; And mine.
+
+
+# 1a9
+; <i>My</i> favorite game is <i>Jeopardy!</i> for the Phillips CD-i.
+
+
+# 27a
+; .
+
+
+# 27b
+; .
+
+
+# 1aa
+; .
+
+
+# 1ab
+; ...
+
+
+# 1ac
+; What?<br>No one ever asks about my interests.
+
+
+# 1ad
+; As much as I'd love to shoot Luther, I don't think doing that would help in this specific situation.
+
+
+# 1ae
+; ...
+
+
+# 1af
+; Although...
+
+
+# 1b0
+; He's hideous! He makes me sick just looking at him.
+
+
+# 1b1
+; Why are you staring at me?<br>What'd I do this time?
+
+
+# 27d
+; Nothing... 
+
+
+# 27c
+; unfortunately.
+
+
+# 1b4
+; ...?
+
+
+# 1b5
+; I need "holey" oil, huh...?
+
+
+# 1b6
+; I pulled out my gun, aiming at the oil puddle.
+
+
+# 1b7
+; Goodness!<br>What was that for, 
+
+
+# 1b8
+; ?!
+
+
+# 28a
+; Stale marshmallows, 
+
+
+# 1b9
+; !
+
+
+# 28b
+; Oh, forgot to reload.
+
+
+# 1ba
+; Watch where you're aiming that thing, 
+
+
+# 1bb
+; !
+
+
+# 1bc
+; Oh, don't worry.<br>I'm aiming exactly where I need to.
+
+
+# 1bd
+; What?<br>That doesn't explain anything at all!
+
+
+# 1be
+; ...
+
+
+# 1bf
+; Hey, Pringle.
+
+
+# 1c0
+; Hi, 
+
+
+# 1c1
+; !<br>What's sizzling?
+
+
+# 1c2
+; I have a question for you.
+
+
+# 1c3
+; Can I have some of your oil, please?
+
+
+# 1c4
+; Does your pan regenerate like the rest of your body?
+
+
+# 1c5
+; Return to the previous menu.
+
+
+# 1c6
+; The last time we fought him,<br>Elgrim was defeated by holy oil.
+
+
+# 1c7
+; The oil inside your pan... it's not holy, is it?
+
+
+# 1c8
+; No, this oil is all produced by yours truly.
+
+
+# 1c9
+; You know how the human face secretes oil?<br>It's kind of like that.
+
+
+# 27e
+; Eww.
+
+
+# 1ca
+; Well, I'm a pepper, so I'm not too familiar with human skin.
+
+
+# 27f
+; It's not holy.<br>
+
+
+# 1cb
+; But I'll totally let you use some of it if you need some!
+
+
+# 1cc
+; Are you trying to use it against Elgrim?
+
+
+# 1cd
+; Yeah.<br>Would you be able to drip some of it on the ground for me?
+
+
+# 1ce
+; Sure, no sweat!
+
+
+# 1cf
+; Pringle poured some of his oil on the ground.<br>Then, he hopped back into my inventory.
+
+
+# 1d0
+; Piece of cake — literally!
+
+
+# 280
+; Get it?
+
+
+# 1d1
+; Because you need cooking oil to make a cake?
+
+
+# 1d2
+; Yeah, I got it.
+
+
+# 1d3
+; Now that there's some oil spilled on the ground...<br>What's next?
+
+
+# 1d4
+; Pringle, can I ask you a weird question?
+
+
+# 1d5
+; You can ask me anything!
+
+
+# 281
+; Okay, awesome.<br>
+
+
+# 1d6
+; Can I shoot you?
+
+
+# 282
+; .
+
+
+# 283
+; .
+
+
+# 1d7
+; .
+
+
+# 1d8
+; .....................
+
+
+# 1d9
+; Like, with-
+
+
+# 1da
+; With a gun, yeah.
+
+
+# 1db
+; ..................
+
+
+# 1dc
+; But, why...?
+
+
+# 1dd
+; I just thought...
+
+
+# 1de
+; Um, does...
+
+
+# 1df
+; If I shot you, would you be okay afterwards?
+
+
+# 1e0
+; ...
+
+
+# 1e1
+; Are you mentally well, 
+
+
+# 1e2
+; ?<br>Have you eaten today?
+
+
+# 1e3
+; I have some food if you haven't, you know.
+
+
+# 1e4
+; I...<br>W-well, like, if I shot you, then the oil would be full of holes.<br>And if your pan could regenerate, then...
+
+
+# 1e5
+; ...
+
+
+# 1e6
+; Sorry, but I'm not letting you shoot me.
+
+
+# 1e7
+; Damn.<br>Good thing I asked first.
+
+
+# 1e8
+; ...
+
+
+# 1e9
+; You are a strange one, 
+
+
+# 1ea
+; .
+
+
+# 1eb
+; The pan is calling the kettle black.
+
+
+# 1ec
+; This can't go on.<br>I have to save my friends, and this world.
+
+
+# 1ed
+; I need to end you, Elgrim!
+
+
+# 1ee
+; Oh, of <i>course</i> Elgrim is the dangerous part of me.
+
+
+# 1ef
+; <i>Gerald Ford</i> can't even be a little threatening, huh?
+
+
+# 28c
+; I crouched down low, bracing myself.
+
+
+# 28d
+; I closed my eyes as I licked the puddle of holey oil.
+
+
+# 1f2
+; It tasted of ash, soot, and gunpowder.
+
+
+# 1f3
+; Ew...
+
+
+# 1f4
+; That's disgusting.
+
+
+# 1f5
+; Gerald...
+
+
+# 1f6
+; ?!
+
+
+# 252
+; Y-You...
+
+
+# 1f7
+; <br>Y-You said my name...!
+
+
+# 28f
+; I knew what I had to do.
+
+
+# 290
+; The only question was if I had the strength to go through with it.
+
+
+# 291
+; There was one way to find out.
+
+
+# 1fc
+; Ask the ex-president if you can kiss him.
+
+
+# 1fd
+; Mr. President...
+
+
+# 257
+; May I...
+
+
+# 253
+;  k
+
+
+# 254
+; i
+
+
+# 255
+; s
+
+
+# 256
+; s
+
+
+# 1ff
+;  you?
+
+
+# 200
+; Wait, what was his full name again?
+
+
+# 201
+; Gerald Ford.
+
+
+# 202
+; Gerald Ford!
+
+
+# 203
+; Gerald Ford~ mwah~
+
+
+# 204
+; <wave>K-Kiss...?!</wave>
+
+
+# 205
+; <br>You w-want to...
+
+
+# 206
+; You want to kiss... 
+
+
+# 207
+; <shake><i>m-me</i></shake>?!
+
+
+# 208
+; Yes I do, 
+
+
+# 209
+; <i>Gerald Ford</i>.
+
+
+# 20a
+; <i>O-oh</i>,
+
+
+# 20b
+;  fuck.<br>T-that's...
+
+
+# 20c
+; P-please!<br>Say my name again!
+
+
+# 20d
+; I want to kiss you, <b>Gerald Ford</b>!
+
+
+# 20e
+; B-Being kissed...
+
+
+# 297
+; .
+
+
+# 298
+; .
+
+
+# 20f
+; .
+
+
+# 299
+; You said my name!
+
+
+# 288
+; <br>You... 
+
+
+# 210
+; said <i>my name</i>!
+
+
+# 211
+; I sure did, <i>Gerald Ford!</i>
+
+
+# 29a
+; Oh, <i>wow</i>...
+
+
+# 258
+; <br>Hearing that felt <i>amazing</i>.
+
+
+# 213
+; Even Betty, the love of my life, called me "Harold" at times...
+
+
+# 214
+; But, you...!<br>You remembered my name — first <i>and</i> last!
+
+
+# 215
+; Gerald, you moron!
+
+
+# 216
+; This is <i>clearly</i> a trap!
+
+
+# 217
+; ..................
+
+
+# 259
+; I don't 
+
+
+# 218
+; <i>care</i>!
+
+
+# 25a
+; ...<br>They said my full name!
+
+
+# 21a
+; Come here, you sexy bell pepper, you!
+
+
+# 25b
+; G-Gerald...!
+
+
+# 21b
+; I ran towards Gerald Ford,<br>my lack-of-heart beating at a breakneck pace.
+
+
+# 21c
+; I grabbed the back of his neck, my lips meeting his<br>in a fiery display of pepper-on-demon action.
+
+
+# 21d
+; As we embraced, it felt like time itself stopped, the holey oil<br>spilling down Gerald Ford's throat alongside my saliva.
+
+
+# 28e
+; ...
+
+
+# 21f
+; Even if it was fake...
+
+
+# 222
+; I'm just glad someone finally... remembered.
+
+
+# 223
+; T-thank you, 
+
+
+# 225
+; ...<br>For everything...
+

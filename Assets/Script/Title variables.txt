@@ -1,0 +1,33 @@
+Title variables
+
+
+g_TitleCharState - defaults to "0". Other states listed below.
+
+
+1 = PlayerFullBody.{PlayerCustomAppearance}
+
+2 = PlayerFullBody.{PlayerCustomAppearance},Sam
+
+3 = PlayerFullBody.{PlayerCustomAppearance},Sam,Luther
+
+4 = PlayerFullBody.{PlayerCustomAppearance},Sam,Luther,Rosa
+
+5 = PlayerFullBody.{PlayerCustomAppearance},Sam,Luther,Jokebot
+
+6 = PlayerFullBody.{PlayerCustomAppearance},Sam,Luther,Jokebot,Elgrim
+
+7 = PlayerFullBody.{PlayerCustomAppearance},EvilSam,Luther,Jokebot
+
+8 = PlayerFullBody.{PlayerCustomAppearance},Sam,Luther,Jokebot
+
+9 = PlayerFullBody.{PlayerCustomAppearance},Sam,Luther,Jokebot,GeraldFord
+
+10 = PlayerFullBody.{PlayerCustomAppearance},Sam,Luther,Jokebot,GeraldFord,Bjorn
+
+11 = PlayerFullBody.{PlayerCustomAppearance},Sam,Luther,Jokebot,GeraldFord,Bjorn,Pringle
+
+12 = PlayerFullBody.{PlayerCustomAppearance},Sam,Luther,Jokebot,GeraldFear,Bjorn,Pringle
+
+13 = PlayerFullBody.{PlayerCustomAppearance}
+
+Prefab order - 

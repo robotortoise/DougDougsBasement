@@ -1,0 +1,36 @@
+Bjorn: {Bjorn}
+BjornNoFade: Bjorn
+BWElgrim: Elgrim
+BWLuther: Luther
+DougDoug: DougDoug
+Elgrim: {Elgrim}
+EpilogueBjorn: 
+EpilogueJokebot: 
+EpilogueLuther: 
+EpiloguePringle: 
+EpilogueRosa: 
+EpilogueSam: 
+EvilSam: {EvilSam}
+Gerald: {Gerald}
+GeraldFade: Gerald Ford
+GeraldFear: Gerald Fear
+GeraldKarate: {Gerald}
+ItemChara: NEVER_SHOW_THIS_PLS
+Jokebot: {Jokebot}
+JokebotBroken: Jokebot
+JokebotNoSpeaking: Jokebot
+KissyChar: ARGHKISSY
+LogoGuy: 
+Luther: {Luther}
+Player: {PlayerName}
+PlayerFullBody: {PlayerName}
+PlayerInternal: {PlayerName}
+PolyTrio: 
+Pringle: {Pringle}
+QueenPhoto: dummy
+Rosa: {Rosa}
+Sam: {Sam}
+SavingSam: Sam
+Student: 
+System:  
+TitleChar: TestDummy

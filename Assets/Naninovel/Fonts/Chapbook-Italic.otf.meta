@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f81a1c970404cfc4097441ddccb3d179
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 30
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Chapbook
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: beecdd365bfe7b44b872b4f82dcaaf61, type: 3}
+  - {fileID: 12800000, guid: 194bb436cc13ecd42b050657222d20f5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,297 @@
+; English <en> to Spanish <es> localization document for `Epilogue` naninovel script
+
+# 1
+; Weeks went by.
+
+
+# 3
+; Eventually, classes at DougDoug Community CollegeCollege returned to normal.
+
+
+# e
+; <shake>ARGGGH!</shake>
+
+
+# 227
+; Or, well, as normal as things could be with Professor Bjorn.
+
+
+# 2
+; Horse-covered unicorn shit, that's an awful answer!
+
+
+# 8
+; Don't you know anything?!
+
+
+# 15
+; But, professor Bjorn!
+
+
+# 16
+; You never told us we'd have to know...
+
+
+# f
+; I told you already <i>not</i> to talk back to me!
+
+
+# 12
+; Eep!<br>Sir, yes sir!
+
+
+# 232
+; Bjorn's "pottery class" façade was discovered and destroyed.
+
+
+# 233
+; Bjorn himself was reassigned to teach one of those after-school fitness boot camps, which ended up working out rather well for him.
+
+
+# a
+; I think he still calls it "pottery class", though.<br>Perhaps the name is symbolic of our duel with Elgrim...
+
+
+# 11
+; Give me 100 push-ups, whelp!<br>Victory at all costs!
+
+
+# 17
+; But I don't have arms!
+
+
+# 14
+; A-And you said this was pottery class!
+
+
+# 4
+; Or maybe he's just a weirdo.
+
+
+# 6
+; He had his horn surgically re-attached, and I am  glad he's well, even if he's still... himself.
+
+
+# 13
+; What did I <i>just</i> say?!
+
+
+# c
+; Eep!
+
+
+# 18
+; Sir, yes sir!
+
+
+# 234
+; After the defeat of High Demon Elgrim, Sam was finally able to accept the loss of his brothers.
+
+
+# 46
+; Using what he learned while investigating Elgrim as a base, Sam furthered his skillset and abilities.
+
+
+# 235
+; Last I asked, he said he's graduating with a major in criminal forensics!
+
+
+# 47
+; Say the line, Sam!
+
+
+# 1b
+; Ba
+
+
+# 1c
+; -ba
+
+
+# 1d
+; -ga
+
+
+# 52
+; -boosh!
+
+
+# 53
+; Yeah!
+
+
+# 3e
+; After Elgrim's defeat, Pringle shared his story with the press, which made him popular with survivalists everywhere. 
+
+
+# 3f
+; He used the resulting fame to start his own high-budget YouTube channel where he gives cooking advice.
+
+
+# 40
+; According to IMDB, his show has five stars.
+
+
+# 239
+; It's called <i>Cooking With A "Pan" Pan</i>.
+
+
+# 41
+; Yeah! What's up, gamers?
+
+
+# 42
+; I give relevant queer commentary while cooking five-star meals.
+
+
+# 43
+; Order up — ladies, dudes, and whoever else is up for some great food!
+
+
+# 54
+; .
+
+
+# 55
+; .
+
+
+# 2d
+; .
+
+
+# 44
+; Luther started drinking again.
+
+
+# 23b
+; Honestly, it was rather bad for a while there.
+
+
+# 2e
+; ...
+
+
+# 23c
+; Believe it or not, the person who helped him break the cycle was actually his old flame, Freddi Fish.
+
+
+# 23d
+; With my blessing, Freddi installed a new operating system in Jokebot.
+
+
+# 30
+; I see, I see...<br> And how does that make you feel, Luther?
+
+
+# 31
+; .
+
+
+# 32
+; .
+
+
+# 33
+; .
+
+
+# 45
+; Shrinkbot — 
+
+
+# 23e
+; that's what Jokebot goes by now — really helped Luther work through a lot of his issues.
+
+
+# 35
+; Are you sure that you're licensed for this?
+
+
+# 36
+; I'm licensed for Windows 10, 11, and Windows Server 2012.
+
+
+# 48
+; That's not what I...
+
+
+# 49
+; Eh, whatever.
+
+
+# 38
+; I don't have health insurance, and this is free.
+
+
+# 4a
+; Sad, dude.<br>It makes me feel sad.
+
+
+# 4b
+; Ah, sadness reminds me of my ex-girlfriend.
+
+
+# 4c
+; Did I ever tell you about Siri?
+
+
+# 4d
+; .
+
+
+# 4e
+; .
+
+
+# 4f
+; .
+
+
+# 39
+; Last I heard, Luther and his partner — who's not Freddi, by the way! — are doing well.
+
+
+# 3a
+; Luther says he's sworn off the hard stuff for good, too.
+
+
+# 240
+; As for me...?
+
+
+# 241
+; Well, Professor Bjorn told the press about what happened.<br>He risked his perjured reputation to boost ours.
+
+
+# 242
+; As such, everyone involved in the Elgrim incident — including Bjorn! — got an award from the National Anti-Demon Federation.
+
+
+# 51
+; I was able to graduate.
+
+
+# 243
+; Plus, I got a job working at the Monterey Bay Aquarium to fulfill my dreams!
+
+
+# 246
+; Thank you, 
+
+
+# 247
+;  — it wouldn't have been possible without you.
+
+
+# 248
+; And if you ever want to go to the aquarium, let me know and I can show you around.
+
+
+# 3c
+; Oh, and don't fret about demons — 
+
+
+# 249
+; the only ones we have <i>here</i> are the black seadevil anglerfish.
+

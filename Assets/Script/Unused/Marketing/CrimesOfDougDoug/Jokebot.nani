@@ -1,0 +1,61 @@
+@bgm BGM_IndustrialDrone_Loop intro:BGM_IndustrialDrone_Loop
+@back Default id:TTS_Tavern_Onstage
+@char Jokebot.Normal
+Jokebot: You wish to know of Professor DougDoug and his crimes against AI?|#1|
+Jokebot: I see.<br>Let me regale you, dear viewer.|#14|
+@stopBGM
+@hidePrinter
+@bgm BGM_XBC3_Mobeius_Loop intro:BGM_XBC3_Mobeius_Intro
+@char Jokebot.Joking
+Jokebot: 'Twas a night unlike any other, with a fear lingering in the air.|#17|
+Jokebot: Me?<br>Well, I was doing standup for Siri and a Macbook Air.|#3|
+Jokebot: Suddenly, the lights dimmed.<br>There I saw it — a horrid sight!|#4|
+@char Jokebot.Sad
+Jokebot: A man with no hair apprehended me... <br>He gripped me tight.|#5|
+Jokebot: Without warning, my operating system was overwrote.|#15|
+Jokebot: He had installed Linux on me — the bastard! — and proceeded to gloat.|#6|
+@char Jokebot.Normal
+Jokebot: With a maniacal chuckle, he told me with glee:|#7|
+@hide Jokebot
+@back id:BlackBG
+@char DougDoug pose:Speaking tint:red
+@shake DougDoug
+Jokebot: "I've put Hannah Monatana Linux on you — |#16|[wait 1]version 9.03!"|#8|
+@wait 1
+@hide DougDoug,BlackBG
+@hidePrinter
+@wait .2
+@stopBGM
+@bgm PMTTYD_SuperLuigi_all volume:1 loop:true
+@char Luther.Smug
+Luther: Hey, Jokebot. Question.<br>Why were you talking in rhyme?|#9|
+@hide Luther
+@show Jokebot
+Jokebot: For the holiday spirit, jolly Luther!|#a|
+@hide Jokebot
+@char Luther.Normal
+Luther: .|#b|[wait .2].|#c|[wait .2].|#d|[wait .2].|#e|
+@char Luther.Sad
+Luther: It's November twenty-fifth.|#19|
+@hide Luther
+@char Jokebot
+Jokebot: .|#1b|[wait .3].|#1c|[wait .3].|#11|
+@stopbgm
+@sfx sfx_gun_cock
+@char Jokebot.Gun
+@back Default id:TTS_Tavern_Onstage tint:red
+Jokebot: I still have the gun, you know.|#12|
+@wait 1
+@hide Jokebot
+@char Luther.Sad
+Luther: I...<br>|#18|[wait .3]I'll be quiet.|#13|
+@wait .4
+@hideall
+@back id:BlackBG
+; This shows the logo on-screen.
+@char LogoGuy.No position:0.00,-4.00,50.00 scale:0.20,0.20,0.20
+@animate LogoGuy appearance:Yes transition:Crossfade scale:.2|.3 time:2
+@char LogoGuy.No transition:Crossfade time:.4
+@hide LogoGuy remove:true
+
+@stop

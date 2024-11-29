@@ -1,0 +1,1129 @@
+; English <en> to Spanish <es> localization document for `JokebotScript` naninovel script
+
+# 1
+; Ugh…
+
+
+# 2
+; <br>What happened?
+
+
+# 3
+; <wave>Eww…</wave>
+
+
+# 4
+; Did we land on a pile of someone's dirty socks?
+
+
+# 5
+; At least they broke our fall.
+
+
+# 6
+; I rubbed my eyes, trying to get my vision to adjust.
+
+
+# 7
+; What the hell happened?
+
+
+# 8
+; Oh, there you are.
+
+
+# 9
+; Hello, dears.
+
+
+# a
+; My name is Rosa, and I'm the student teacher for Professor Bjorn.
+
+
+# b
+; I'll be instructing the lecture for Escape Rooms 101 today.
+
+
+# c
+; <i>Whoa…!</i>
+
+
+# d
+; Standing in front of me was none other than <i>the</i> Rosa!
+
+
+# e
+; <wave>Eeeeeyaaaah!</wave><br>Woooow, she's sooooo cool!
+
+
+# f
+; I...<br>U-um, I...
+
+
+# 10
+; I took a deep breath.<br>Everyone was totally staring at me.
+
+
+# 11
+; Hi, Rosa!<br>I <i>definitely</i> didn't know who you were before this specific moment.
+
+
+# 12
+; Smooth, 
+
+
+# 13
+; .
+
+
+# 14
+; Hello to you, too.<br>Like 
+
+
+# 15
+;  said, my name is Rosa.
+
+
+# 16
+; Rosa <i>knows my name</i>!<br>This is the best day of my life!
+
+
+# 11d
+; Although...
+
+
+# 17
+; <br>She probably just looked at the student roster.
+
+
+# 18
+; I mean, I was probably the only two-hundred pound bell pepper taking the class.
+
+
+# 19
+; Wait.<br>Why are <i>you</i> here, Rosa?
+
+
+# 1a
+; I'm Luther, and that's Sam.
+
+
+# 1b
+; Do you know where we are?<br>Were we kidnapped?
+
+
+# 1c
+; Before Rosa could respond, a voice spoke through a nearby speaker system.
+
+
+# 1d
+; Welcome, little adventurers!<br>It's me, Professor Bjorn.
+
+
+# 1e
+; I see that you're confused.<br>Don't worry, this is all a part of pottery class.
+
+
+# 1f
+; Oh, phew.<br>I was worried about that.
+
+
+# 20
+; Or, perhaps, I should say... <i>Escape Room</i> class!
+
+
+# 21
+; That's right!
+
+
+# 22
+; <br>I, Bjorn, the magnificent Peggle unicorn — have tricked you into signing up for the wrong class on your schedule!
+
+
+# 23
+; Heehee…<br><shake>Hahaha!</shake>…
+
+
+# 24
+; Why would you do that?<br>That doesn't make sense.
+
+
+# 25
+; HR wouldn't let me host an escape room class.
+
+
+# 26
+; They said it was too 
+
+
+# 27
+; "dangerous" and 
+
+
+# 28
+; "illegal" to lock students inside the school basement.
+
+
+# 29
+; Had to pretend it was a pottery class to get the curriculum approved.<br>
+
+
+# 2a
+; What a bunch of worrywarts, honestly!
+
+
+# 2b
+; It's perfectly safe, 
+
+
+# 2c
+; and nothing is illegal if you're not caught!
+
+
+# 2d
+; You locked us in here?
+
+
+# 2e
+; Yes, I did!<br>
+
+
+# 2f
+; And good luck finding your way out!
+
+
+# 30
+; …
+
+
+# 31
+; …
+
+
+# 32
+; I apologize.<br>Professor Bjorn can be somewhat...
+
+
+# 33
+;  eccentric.
+
+
+# 34
+; .
+
+
+# 35
+; .
+
+
+# 36
+; .
+
+
+# 37
+; So...
+
+
+# 38
+;  does this still count as an art credit?
+
+
+# 39
+; I think that-
+
+
+# 3a
+; Suddenly, I heard a loud, metallic crash.<br>And then...
+
+
+# 3b
+; A terrifying mechanical monstrosity jumped in front of us!
+
+
+# 3c
+; The machine posed proudly, an eerie grin adorning its face.
+
+
+# 3d
+; Now what?
+
+
+# 3e
+; Oh, <shake>eww</shake>!<br>It's some sort of creepy robot!
+
+
+# 3f
+; Eugh...
+
+
+# 40
+; This joke appears to rely on a sudden, unrelated statement that interrupts or shifts the conversation by referring to an unseen, creepy robot.
+
+
+# 41
+; Verdict?
+
+
+# 42
+; <br><wave>Funny.</wave>
+
+
+# 43
+; That wasn't a joke.
+
+
+# 44
+; ...
+
+
+# 45
+; You're a weeeeeird robot.
+
+
+# 46
+; I am <i>not</i> a weird robot.
+
+
+# 47
+; I am Jokebot, an AI created by Professor Bjorn.
+
+
+# 49
+; My designation is to be the first Pegging Master that the students must defeat to complete today's lab.
+
+
+# 4a
+; You're the first <i>what</i> master?
+
+
+# 4b
+; Did you mean Peggle?<br>The professor said "Peggle".
+
+
+# 4c
+; That's right.
+
+
+# 4d
+; As stated, I am one of three adversarial Peggle Masters<br>created for the students to defeat.
+
+
+# 4e
+; But that's not what you just-
+
+
+# 4f
+; Shut up, Luther.
+
+
+# 50
+; So, we have to find a way to defeat you.
+
+
+# 51
+; That's right.
+
+
+# 52
+; You must defeat me and avoid my dangerous Peggle Master power to escape this basement.
+
+
+# 53
+; Ooh, and if you do a good job,<br>you can win a <wave>bonus prize<wave>!
+
+
+# 54
+; ...prize?
+
+
+# 55
+; There... wasn't supposed to be a prize.
+
+
+# 56
+; Uh…
+
+
+# 57
+; "Uh" does not have a relatable element, appropriate comedic timing, or emotional impact.
+
+
+# 58
+; Try to work on your conceptualization and sense of surprise.
+
+
+# 59
+; <br>Additionally, humor would be a welcome addition to any joke.
+
+
+# 5a
+; You don't look very dangerous at all.<br>
+
+
+# 5b
+; What if we just walked past you?
+
+
+# 5c
+; Then you wouldn't get credit for pottery class.
+
+
+# 11f
+; That is true.
+
+
+# 5d
+; Regardless, if you attempt to avoid my comedy, then...
+
+
+# 60
+; I will shoot you with this gun that I found.
+
+
+# 61
+; It is the bonus prize.<br><br><shake><i>Surprise!</i><shake>
+
+
+# 62
+; ...
+
+
+# 63
+; Jokebot...
+
+
+# 64
+; For your Peggle Master challenge, you were supposed to give a fun riddle to the students.
+
+
+# 65
+; Here is my <shake>fun</shake> riddle!!!
+
+
+# 67
+; Tell me a funny joke...or I will shoot you with my gun.
+
+
+# 68
+; That's <i>not</i> a riddle!
+
+
+# 69
+; Sam, don't question him!<br>
+
+
+# 6a
+; He has a gun!
+
+
+# 6b
+; Well he's <i>your</i> robot, lady!<br>Do something!
+
+
+# 6c
+; "Lady...?"
+
+
+# 6d
+; A joke…?<br>Did I have a joke?
+
+
+# 6e
+; Professor DougDoug is bald.
+
+
+# 6f
+; Professor DougDoug is bad at 2D platformers.
+
+
+# 70
+; Help me set up a Java IDE, please!
+
+
+# 71
+; Hey, Jokebot!<br>Do you know Professor DougDoug?
+
+
+# 72
+; Professor DougDoug is a college professor that is notable<br>for explaining subjects to students using food.
+
+
+# 73
+; Well, he used to do that.
+
+
+# 116
+; Did you know that Professor DougDoug... 
+
+
+# 74
+; is bald?
+
+
+# 117
+; .
+
+
+# 118
+; .
+
+
+# 75
+; .
+
+
+# 76
+; Even though we were in a literal life-or-death situation,<br>I couldn't help but be proud of my amazing comedy skills.
+
+
+# 77
+; ...
+
+
+# 78
+; I don't get it.
+
+
+# 79
+; What's wrong with being bald?<br>I'm bald.
+
+
+# 7a
+; Er...
+
+
+# 7b
+; This attempt at humor relies heavily on the ironic premise.
+
+
+# 7c
+; It postulates that DougDoug, the professor known for his full and luscious head of hair, is bald.
+
+
+# 119
+; It's... hilarious.<br>
+
+
+# 7d
+; Right?
+
+
+# 7e
+; Rating?<br><shake>Unfunny</shake>.<br>0/10.
+
+
+# 7f
+; I suggest working on your setups, punchlines, and, really, your entire sense of humor.
+
+
+# 80
+; I am going to ban you now.
+
+
+# 81
+; Oh, that's not so bad.
+
+
+# 82
+; I will ban you by shooting you with my gun.
+
+
+# 83
+; Oh.
+
+
+# 84
+; Wait, hang on!
+
+
+# 85
+; Jokebot lowered the gun, narrowing his<br>cathode ray tube eyes.
+
+
+# 86
+; Yes?
+
+
+# 87
+;  has another joke!<br>Isn't that right?
+
+
+# 11a
+; Uh… 
+
+
+# 88
+; R-right!<br>I totally do!
+
+
+# 89
+; …
+
+
+# 8a
+; Well? Go on, then.<br>Tell me the joke.
+
+
+# 8b
+; Hey, Jokebot!<br>Do you know Professor DougDoug?
+
+
+# 8c
+; Professor DougDoug is a college professor that is notable<br>for explaining subjects to students using food.
+
+
+# 8d
+; Well, he used to do that.
+
+
+# 8e
+; Professor DougDoug is bad at 2D platformers.
+
+
+# 8f
+; ...
+
+
+# 90
+; Is there… a joke?
+
+
+# 91
+; No, that's it.
+
+
+# 92
+; …
+
+
+# 93
+; ................
+
+
+# 94
+; I am going to shoot you now.
+
+
+# 95
+; Ah, yeah...<br>Honestly, that's totally fair.
+
+
+# 96
+; Wait wait <i>wait</i>!
+
+
+# 97
+; If you shoot them now, you won't get to hear their <i>hilarious</i> joke!
+
+
+# 98
+; I heard it the other day, and it's a <shake>reeeeal</shake> knee slapper!
+
+
+# 99
+; Hmm…
+
+
+# 9a
+; Another joke, you say?
+
+
+# 9b
+; A good one, too!<br>It's actually funny!
+
+
+# 9c
+; Wow.<br>A funny joke, you say?
+
+
+# 9d
+; Those <i>are</i> certainly a rarity.
+
+
+# 9e
+; You know, rare things do remind me of my ex, BarbarAI.
+
+
+# 9f
+; Oh, she was such a sweet calculator, and BarbarAI's pretty VFD display would make me the best <i>pi</i>s.
+
+
+# a0
+; I remember her lithe digits...<br>They made my digital heart soar.<br>I have a thing for hands, you see.
+
+
+# a1
+; In Unix time, I believe it was actually <i>1716966000</i>.
+
+
+# a2
+; However, I'd just had my CMOS replaced, so I actually-
+
+
+# a3
+; Does <i>anyone</i> understand him?
+
+
+# a4
+; As Jokebot rambled on, I thought about other jokes I'd heard before.
+
+
+# a5
+; I had to have <i>something</i> funny, right…?
+
+
+# a6
+; Knock knock.
+
+
+# a7
+; Who's there?
+
+
+# a8
+; Jokebot, this isn't a joke.<br>I am being completely serious right now.
+
+
+# a9
+; I need you to tell me how to set up a Java IDE, step by step.
+
+
+# 11b
+; Also, I don't have a computer.<br>So... 
+
+
+# aa
+; can you help me with that?
+
+
+# ab
+; …
+
+
+# ac
+; ………………
+
+
+# ad
+; OOOOOOOOEEEEEEEEEEIOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+
+
+# ae
+; UUUUUUUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUEEEEE
+
+
+# af
+; AAAAAAAAAAAAAEWEEEEEEEEAAAAAAAAAAAAAAAAAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEE
+
+
+# b0
+; 5H78K4RG61M29FYJPYYMCZ1JHJQYLQ2JN4TZ2N12MT2JNODTRX9ZMQP9VTZ.1F9V'MNPYTX9KMJ111100000011
+
+
+# b1
+; ................
+
+
+# b2
+; Is he... dead?
+
+
+# b3
+; Hm...
+
+
+# b4
+; Sam gingerly poked the remains of Jokebot, which clattered as it crashed to the floor.
+
+
+# b5
+; Dense fluid oozed out of the robot's remains.
+
+
+# b6
+; Well, that's a relief.
+
+
+# b7
+; No!
+
+
+# b8
+; Augh, that's coming out of the budget!
+
+
+# b9
+; Darn it… the oil is leaking, too.
+
+
+# ba
+; I suppose it was inevitable.<br>He was clearly malfunctioning.
+
+
+# bb
+; I don't know how or why he got a gun.<br>Maybe his oil went bad.
+
+
+# bc
+; Oil?
+
+
+# bd
+; Jokebot ran on special, extra <i>extra</i> virgin olive oil.
+
+
+# be
+; The priests charge an awful lot to bless it.
+
+
+# bf
+; I'm not sure if we can afford to buy more.
+
+
+# c0
+; Well, I'm glad you're all safe.<br>I can take solace in that.
+
+
+# c1
+; The olive oil...<br>I wonder if...?
+
+
+# c2
+; I'll lick the oil up for you, Rosa!
+
+
+# c3
+; We shouldn't let it go to waste.
+
+
+# c4
+; Rosa, what if I lick it up for you?
+
+
+# c5
+; …
+
+
+# c6
+; ..........
+
+
+# c7
+; I…<br>Sorry, come again?
+
+
+# c8
+; That's <shake>nasty</shake>, man.
+
+
+# c9
+; There's <shake>nothing</shake> weird about drinking olive oil!!<br>It's good for your cholesterol!
+
+
+# ca
+; ...
+
+
+# 11c
+; I... 
+
+
+# cb
+; think you know that's not the problem.
+
+
+# cc
+; Well, we shouldn't let it go to waste.
+
+
+# cd
+; Is there some way we can salvage it?
+
+
+# ce
+; This is kind of embarrassing,<br>but I have a lunchbox we could store it in.
+
+
+# cf
+; I already ate today, so it's empty.
+
+
+# d0
+; That's very kind of you, Sam.<br>I appreciate it.
+
+
+# d1
+; Is it your Signature Edition, All-Metal, Pajama Man one?
+
+
+# d2
+; ...
+
+
+# d3
+; The lunchbox for babies?
+
+
+# d4
+; Even all grown-up, I guess Sam is still a widdle kid inside.
+
+
+# d5
+; Awwwww.
+
+
+# d6
+; Thank you, Sam.<br>Now, I'll fill up the lunchbox with oil, and...<br>There we go!
+
+
+# d7
+; Rosa, I can hold the lunchbox for you!
+
+
+# d8
+; Ah, it's not that heavy.<br>I can-
+
+
+# d9
+; Let me help you!<br>Let me do it!
+
+
+# da
+; ...
+
+
+# db
+; Ah, sure...
+
+
+# dc
+;  filled the lunchbox with holy oil!
+
+
+# dd
+; Just... give it back when you're done, all right?<br>It's not rare or anything, just... sentimental.
+
+
+# de
+; Anyway...
+
+
+# df
+; How do you think Jokebot got a gun?
+
+
+# e0
+; I don't know.<br>It's almost like someone gave it to him.<br>But who would...?
+
+
+# e1
+; Ah, never mind.<br>Shall we move on?
+
+
+# e2
+; She's changing the subject. Suspicious...
+
+
+# e3
+; Hey, before we go…
+
+
+# e4
+; I picked up the gun and stashed it away.
+
+
+# e5
+; You took the gun!
+
+
+# e6
+; You <i>took the gun!?</i><br>Why in heavens did you do that?!
+
+
+# e7
+; Was it loaded?
+
+
+# e8
+; Jokebot said it was a prize, right?
+
+
+# e9
+; I... guess it's okay.<br>As long as you're careful.
+
+
+# ea
+; I still don't understand.<br>Why do you need-
+
+
+# eb
+; Bjorn's voice once again blared through the PA system.
+
+
+# ec
+; Congratulations!<br>That was the first of three Pegging Masters.
+
+
+# ed
+; Now, to escape my devious basement, you must defeat all three of my-
+
+
+# ee
+; "Basement?"<br>You mean <i>dungeon</i>, right?
+
+
+# ef
+; Don't call it a dungeon, you little shit!<br>It's a basement!
+
+
+# f0
+; S-sorry, Professor!
+
+
+# f1
+; Good.<br>Don't interrupt me.
+
+
+# f2
+; They don't mean offense, Professor.
+
+
+# f3
+; Yes, well...
+
+
+# f4
+; I apologize for my outburst. As the headmaster of this school,<br>I should have more decorum.
+
+
+# f5
+; Headmaster...?
+
+
+# f6
+; You're the headmaster?
+
+
+# f7
+; I thought you were demoted.
+
+
+# f8
+; Continue without saying anything.
+
+
+# f9
+; You're the headmaster?
+
+
+# fa
+; Obviously!
+
+
+# fb
+; Well, I <i>was</i>, until I was demoted due to a few tiny, insignificant, easily overlooked… missing students.
+
+
+# fc
+; But I thought you were demoted.
+
+
+# fd
+; What the <shake>flying fuck</shake> is wrong with you?
+
+
+# fe
+; You need better decorum, you pickled pepper prick!
+
+
+# ff
+; Demoted...?!
+
+
+# 100
+; Bjorn the majestic unicorn does not get fucking <shake>demoted</shake> from the position of headmaster!
+
+
+# 101
+; But if you must know the truth —
+
+
+# 102
+;  yes, I was.
+
+
+# 103
+; There were a few students<br>that I may or may not have... misplaced.<br>The parents were angry and sued the district, and…
+
+
+# 104
+; What the <i>fuck</i> is wrong with this guy?
+
+
+# 105
+; Each of the Peggle Masters has a special power you must overcome.
+
+
+# 106
+; Was Jokebot's the gun?
+
+
+# 107
+; What the <shake>FUCK</shake> did I say about you interrupting me?!
+
+
+# 108
+; I... I wasn't!
+
+
+# 109
+; Jokebot was supposed to have a taser.
+
+
+# 10a
+; I don't do guns.<br>Not enough fingers for guns.
+
+
+# 10b
+; Regardless, you made quick work of him.
+
+
+# 10c
+; Excellent job, students!<br>On to the next challenge!
+
+
+# 10d
+; Is he always so...
+
+
+# 10e
+; I paused, struggling to find the right word.
+
+
+# 10f
+; Batshit crazy?
+
+
+# 110
+; I, ah...<br>I don't want to talk about it.
+
+
+# 111
+; Well, what are we standing around for?
+
+
+# 112
+; Yeah!<br>Let's head out.
+
+
+# 113
+; That angry horse scares me.
+
+
+# 114
+; <shake>A HORSE?!</shake>
+
+
+# 115
+; Stop doing that!
+

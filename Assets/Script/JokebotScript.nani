@@ -1,0 +1,736 @@
+; play a rustling through clothes noise.
+@back id:BlackBG
+@sfx sfx_cloth_rustle
+@wait 3
+
+; show complete darkness as BG
+Player: Ugh…|#1|[shake AnimatedPrinter]<br>What happened?|#2|
+; Pajama Sam reference
+Sam: <wave>Eww…</wave>|#3|
+Sam: Did we land on a pile of someone's dirty socks?|#4|
+@wait .5
+Luther: At least they broke our fall.|#5|
+@char Sam.Surprised visible:false wait:false time:0
+@char Luther.SurprisedWithTear visible:false wait:false
+I rubbed my eyes, trying to get my vision to adjust.|#6|
+; Show the escape room BG
+@hide BlackBG
+@back LightOff id:TTS_Tavern_Offstage time:4
+@bgm BGM_IndustrialDrone_Loop intro:BGM_IndustrialDrone_Loop
+
+
+@show Sam,Luther
+Sam: [shake AnimatedPrinter]What the hell happened?|#7|
+@wait 1
+@set Rosa="???"
+Rosa: Oh, there you are.|#8|
+@wait .3
+@hide Sam,Luther
+@char Rosa.Happy
+@spawn DepthOfField params:Rosa
+; Rosa appears!
+; Add Rosa to title
+@set g_TitleCharState="4"
+
+; Pan upwards on her sprite, perhaps with sparkles.
+@stopBgm BGM_IndustrialDrone_Loop fade:0.5
+Rosa: Hello, dears.|#9|
+@wait .3
+@char Rosa.Normal
+@bgm AITSF_tenkai_loop intro:AITSF_tenkai_start
+@set Rosa="Rosa"
+Rosa: My name is Rosa, and I'm the student teacher for Professor Bjorn.|#a|
+@char Rosa.Normal
+Rosa: I'll be instructing the lecture for Escape Rooms 101 today.|#b|
+Player: <i>Whoa…!</i>|#c|
+Standing in front of me was none other than <i>the</i> Rosa!|#d|
+; The player squeals girlishly.
+Player: [shake AnimatedPrinter count:3]<wave>Eeeeeyaaaah!</wave><br>Woooow, she's sooooo cool!|#e|
+Player: I...<br>U-um, I...|#f|
+@hide AnimatedPrinter
+@wait .2
+I took a deep breath.<br>Everyone was totally staring at me.|#10|
+Player: Hi, Rosa!<br>I <i>definitely</i> didn't know who you were before this specific moment.|#11|
+@hide Rosa
+@hide AnimatedPrinter
+; Sam looks at the player blankly.
+@wait .3
+@show Sam,Luther
+@char Sam.Smug
+Sam: Smooth, |#12|{PlayerName}.|#13|
+@char Rosa.Happy
+; Rosa is amused
+Rosa: Hello to you, too.<br>Like |#14|{PlayerName} said, my name is Rosa.|#15|
+PlayerInternal: Rosa <i>knows my name</i>!<br>This is the best day of my life!|#16|
+PlayerInternal: Although...|#11d|[wait .3]<br>She probably just looked at the student roster.|#17|
+PlayerInternal: I mean, I was probably the only two-hundred pound bell pepper taking the class.|#18|
+@wait .5
+Player: Wait.<br>Why are <i>you</i> here, Rosa?|#19|
+@char Luther.Mad2
+Luther: I'm Luther, and that's Sam.|#1a|
+@wait .5
+@stopBgm
+@bgm BGM_IndustrialDrone_Loop intro:BGM_IndustrialDrone_Loop volume:.4
+@char Sam.Angry
+Sam: Do you know where we are?<br>Were we kidnapped?|#1b|
+@wait .5
+@hide Sam,Luther,Rosa
+; Bjorn's voice is heard on the speaker PA system.
+; Play a PA speaker sfx
+@sfx sfx_pa_sound volume:.5
+Before Rosa could respond, a voice spoke through a nearby speaker system.|#1c|
+@set Bjorn="Bjorn"
+@char Bjorn visible:false
+Bjorn: Welcome, little adventurers!<br>It's me, Professor Bjorn.|#1d|
+Bjorn: I see that you're confused.<br>Don't worry, this is all a part of pottery class.|#1e|
+@char Luther.Happy
+Luther: Oh, phew.<br>I was worried about that.|#1f|
+@wait .3
+Bjorn: Or, perhaps, I should say... <i>Escape Room</i> class!|#20|
+Bjorn: That's right!|#21|[wait .6]<br>I, Bjorn, the magnificent Peggle unicorn — have tricked you into signing up for the wrong class on your schedule!|#22|
+@wait .5
+Bjorn: Heehee…<br><shake>Hahaha!</shake>…|#23|
+@wait .5
+
+@char Sam.Surprised
+Sam: Why would you do that?<br>That doesn't make sense.|#24|
+Bjorn: HR wouldn't let me host an escape room class.|#25|
+Bjorn: They said it was too |#26|[wait .3]"dangerous" and |#27|[wait .3]"illegal" to lock students inside the school basement.|#28|
+@char Rosa.Mad wait:false
+@char Luther.Dismayed wait:false
+Bjorn: Had to pretend it was a pottery class to get the curriculum approved.<br>|#29|[wait .3]What a bunch of worrywarts, honestly!|#2a|
+Bjorn: It's perfectly safe, |#2b|[wait .3]and nothing is illegal if you're not caught!|#2c|
+@show Sam,Luther
+@char Sam.Angry
+Sam: You locked us in here?|#2d|
+@wait .5
+Bjorn: Yes, I did!<br>|#2e|[wait .1]And good luck finding your way out!|#2f|
+@hide Bjorn remove:true
+
+; Bjorn's intercom fizzles off.
+@sfx sfx_pa_cutout volume:.6
+@wait .5
+
+Player: …|#30|
+@char Sam.Surprised
+@char Luther.Surprised
+Luther: …|#31|
+@char Rosa.Normal
+Rosa: I apologize.<br>Professor Bjorn can be somewhat...|#32|[wait .3] eccentric.|#33|
+Player: .|#34|[wait .3].|#35|[wait .3].|#36|
+@char Sam.Normal
+Sam: So...|#37|[wait .3] does this still count as an art credit?|#38|
+@print "I think that-|#39|" author:Player waitInput:false
+@wait .1
+@hide AnimatedPrinter
+@wait .1
+@hide Sam,Rosa,Luther
+@sfx sfx_metal_pipe volume:0.6
+@stopBgm fade:0.5
+@wait 1
+Suddenly, I heard a loud, metallic crash.<br>And then...|#3a|
+@back LightOn id:TTS_Tavern_Offstage time:1
+; Zoom into Jokebot.
+@char JokebotNoSpeaking
+; add Jokebot to title
+@set g_TitleCharState="5"
+
+@stopBgm 
+@bgm ZE_ExtremeExtrication_all volume:1
+
+A terrifying mechanical monstrosity jumped in front of us!|#3b|
+@wait .5
+The machine posed proudly, an eerie grin adorning its face.|#3c|
+@wait 1.4
+@hide JokebotNoSpeaking remove:true
+@show Sam,Luther
+@char Luther.Mad2
+Luther: Now what?|#3d|
+@set Jokebot="Creepy Robot"
+Luther: Oh, <shake>eww</shake>!<br>It's some sort of creepy robot!|#3e|
+@char Sam.Angry
+Sam: Eugh...|#3f|
+@stopBgm fade:0.5
+@bgm PMTTYD_SuperLuigi_all volume:1 loop:true
+@hide Sam,Luther,Rosa
+@char Jokebot.Joking
+; Jokebot stares blankly.
+Jokebot: This joke appears to rely on a sudden, unrelated statement that interrupts or shifts the conversation by referring to an unseen, creepy robot.|#40|
+@wait 1.5
+Jokebot: Verdict?|#41|[char Jokebot.Joking]<br><wave>Funny.</wave>|#42|
+@wait .5
+@hide Jokebot
+@show Sam,Rosa,Luther
+Luther: That wasn't a joke.|#43|
+@wait .5
+@hide Sam,Rosa,Luther
+@show Jokebot
+@char Jokebot.Normal
+Jokebot: ...|#44|
+@wait .5
+@hide Jokebot
+@show Sam,Rosa,Luther
+@char Luther.Smug
+Luther: You're a weeeeeird robot.|#45|
+@wait .5
+@hide Sam,Rosa,Luther
+@show Jokebot
+@char Jokebot.Sad
+Jokebot: I am <i>not</i> a weird robot.|#46|
+@set Jokebot="Jokebot"
+@char Jokebot.Joking wait:false
+Jokebot: I am Jokebot, an AI created by Professor Bjorn.|#47|
+@wait .5
+Jokebot: My designation is to be the first Pegging Master that the students must defeat to complete today's lab.|#49|
+@wait .5
+@hide Jokebot
+@show Sam,Rosa,Luther
+@char Sam.Surprised
+Sam: You're the first <i>what</i> master?|#4a|
+@char Luther.Happy
+Luther: Did you mean Peggle?<br>The professor said "Peggle".|#4b|
+@wait .5
+@hide Sam,Rosa,Luther
+@show Jokebot
+Jokebot: That's right.|#4c|
+@wait .5
+@back Default id:TTS_Tavern_Onstage time:1
+Jokebot: As stated, I am one of three adversarial Peggle Masters<br>created for the students to defeat.|#4d|
+@hide Jokebot
+@show Sam,Rosa,Luther
+@char Luther.Dismayed
+@wait .5
+; Luther frowns.
+Luther: But that's not what you just-|#4e|
+Player: Shut up, Luther.|#4f|
+@wait 2.5
+Sam: So, we have to find a way to defeat you.|#50|
+@hide Sam,Rosa,Luther
+@show Jokebot
+Jokebot: That's right.|#51|
+Jokebot: You must defeat me and avoid my dangerous Peggle Master power to escape this basement.|#52|
+Jokebot: Ooh, and if you do a good job,<br>you can win a <wave>bonus prize<wave>!|#53|
+@wait .5
+@hide Jokebot
+@show Sam,Rosa,Luther
+Rosa: ...prize?|#54|
+Rosa: There... wasn't supposed to be a prize.|#55|
+@wait .5
+Sam: Uh…|#56|
+@wait 1
+@hide Sam,Rosa,Luther
+@show Jokebot
+@char Jokebot.Joking
+Jokebot: "Uh" does not have a relatable element, appropriate comedic timing, or emotional impact.|#57|
+Jokebot: Try to work on your conceptualization and sense of surprise.|#58|[wait .3]<br>Additionally, humor would be a welcome addition to any joke.|#59|
+@wait .5
+Player: You don't look very dangerous at all.<br>|#5a|[wait .3]What if we just walked past you?|#5b|
+@stopBgm
+@wait .5
+@hide Jokebot
+@show Sam,Luther,Rosa
+@char Rosa.Annoyed
+Rosa: Then you wouldn't get credit for pottery class.|#5c|
+@wait .5
+@hide Sam,Luther,Rosa
+@char Jokebot.Normal
+Jokebot: That is true.|#11f|
+Jokebot: Regardless, if you attempt to avoid my comedy, then...|#5d|
+@hide AnimatedPrinter
+@stopBgm ZE_ExtremeExtrication_all fade:1
+@wait .5
+@sfx sfx_gun_cock
+@char Jokebot.Gun
+; Jokebot pulls out a gun, pointing it at the player.
+@back Default id:TTS_Tavern_Onstage tint:red
+@bgm XBC3_ChainAttack_Loop intro:XBC3_ChainAttack_Intro
+@wait .3
+Jokebot: I will shoot you with this gun that I found.|#60|
+@wait 1
+Jokebot: It is the bonus prize.<br><br><shake><i>Surprise!</i><shake>|#61|
+@hide Jokebot,AnimatedPrinter
+@show Sam,Rosa,Luther
+@char Sam.Angry wait:false pose:Speaking
+@char Rosa.Mad wait:false pose:Speaking
+@char Luther.SurprisedWithTear wait:false pose:Speaking
+; Rosa is concerned – he was not supposed to find a gun. She shows a concerned sprite.
+
+; In truth, Gerald Ford gave it to him, but the player doesn't know that yet.
+@hide Jokebot
+@show Sam,Rosa,Luther
+Rosa: ...|#62|
+@wait .5
+@char Rosa.Normal
+Rosa: Jokebot...|#63|
+Rosa: For your Peggle Master challenge, you were supposed to give a fun riddle to the students.|#64|
+@hide Sam,Rosa,Luther,AnimatedPrinter
+@show Jokebot
+@sfx sfx_gun_cock wait:false
+@char Jokebot.Gun time:.14
+Jokebot: Here is my <shake>fun</shake> riddle!!!|#65|
+@wait .5
+Jokebot: Tell me a funny joke...or I will shoot you with my gun.|#67|
+@hide Jokebot
+@show Sam,Rosa,Luther
+; Jokebot points the gun at the player
+@char Sam.Angry
+Sam: [shake AnimatedPrinter]That's <i>not</i> a riddle!|#68|
+@char Rosa.Mad
+Rosa: Sam, don't question him!<br>|#69|[wait .1]He has a gun!|#6a|
+@char Luther.Mad2
+@shake Luther
+Luther: Well he's <i>your</i> robot, lady!<br>Do something!|#6b|
+@wait .3
+Rosa: "Lady...?"|#6c|
+@wait .2
+@hidePrinter
+@hideChars wait:false
+
+; Ask the player for a joke. Three choices, in order:
+# JokebotQuiz
+@back Default id:TTS_Tavern_Onstage tint:#FFFFFF wait:false
+A joke…?<br>Did I have a joke?|#6d|
+@set g_choice_enabled=!jokebot_chose_joke_bald
+@choice "Professor DougDoug is bald.|#6e|" goto:.Jokebot_DougBaldPreface
+@set g_choice_enabled=!jokebot_chose_joke_2dplatformers
+@choice "Professor DougDoug is bad at 2D platformers.|#6f|" goto:.Jokebot_DougPlatformersPreface
+@set g_choice_enabled=!jokebot_chose_joke_javaide
+@choice "Help me set up a Java IDE, please!|#70|" goto:.Jokebot_CodingHelp
+; wait for player input
+@stop
+
+# Jokebot_DougBaldPreface
+@set jokebot_chose_joke_bald=true
+; If Jokebot has been asked about Doug, then skip this line.
+@if JokebotAskedAboutDoug=false
+	@show Jokebot
+	@char Jokebot.Normal
+Player: Hey, Jokebot!<br>Do you know Professor DougDoug?|#71|
+Jokebot: Professor DougDoug is a college professor that is notable<br>for explaining subjects to students using food.|#72|
+	@wait .5
+Player: Well, he used to do that.|#73|
+	@set JokebotAskedAboutDoug=true
+@else
+@goto .Jokebot_DougDougBald_Question
+@endIf
+
+# Jokebot_DougDougBald_Question
+; set JokebotKnowsAboutDoug to True
+@show Jokebot
+Player: Did you know that Professor DougDoug... |#116|[wait .5]is bald?|#74|
+@wait 2.5
+Jokebot: .|#117|[wait .3].|#118|[wait .3].|#75|
+Even though we were in a literal life-or-death situation,<br>I couldn't help but be proud of my amazing comedy skills.|#76|
+@hide Jokebot
+@show Sam,Luther,Rosa
+@char Sam.Surprised
+Sam: ...|#77|
+@wait .5
+Sam: I don't get it.|#78|
+@char Luther.Sad
+Luther: What's wrong with being bald?<br>I'm bald.|#79|
+@wait .5
+Player: Er...|#7a|
+@wait .5
+@hide Sam,Rosa,Luther
+@show Jokebot
+@char Jokebot.Joking
+Jokebot: This attempt at humor relies heavily on the ironic premise.|#7b|
+@wait .5
+Jokebot: It postulates that DougDoug, the professor known for his full and luscious head of hair, is bald.|#7c|
+@wait .5
+Player: It's... hilarious.<br>|#119|[wait .5]Right?|#7d|
+@wait .4
+@hide AnimatedPrinter
+@shake AnimatedPrinter hor:true ver:false count:2
+@back Default id:TTS_Tavern_Onstage tint:blue time:1 wait:false
+Jokebot: Rating?<br><shake>Unfunny</shake>.<br>0/10.|#7e|
+Jokebot: I suggest working on your setups, punchlines, and, really, your entire sense of humor.|#7f|
+@wait .3
+Jokebot: I am going to ban you now.|#80|
+@hide Jokebot
+@show Sam,Luther,Rosa
+@char Luther.Happy
+Luther: Oh, that's not so bad.|#81|
+@wait 1
+@hide Sam,Luther,Rosa
+@show Jokebot
+@char Jokebot.Gun
+; Deliver this line matter-of-factly.
+@sfx sfx_gun_cock
+@back Default id:TTS_Tavern_Onstage tint:red time:1 wait:false
+Jokebot: I will ban you by shooting you with my gun.|#82|
+@wait .5
+@hide Jokebot
+@show Sam,Luther,Rosa
+; Luther is disappointed.
+@char Luther.Dismayed
+Luther: Oh.|#83|
+@wait .5
+Rosa: Wait, hang on!|#84|
+@hide Sam,Luther,Rosa
+@show Jokebot
+@char Jokebot.Normal
+Jokebot lowered the gun, narrowing his<br>cathode ray tube eyes.|#85|
+Jokebot: Yes?|#86|
+@wait .5
+@hide Jokebot
+@show Sam,Luther,Rosa
+Rosa: {PlayerName} has another joke!<br>Isn't that right?|#87|
+Player: Uh… |#11a|[wait .3][shake AnimatedPrinter]R-right!<br>I totally do!|#88|
+@hide Sam,Luther,Rosa
+@show Jokebot
+Jokebot: …|#89|
+@wait .5
+@char Jokebot.Joking
+Jokebot: Well? Go on, then.<br>Tell me the joke.|#8a|
+; Return to the Jokebot questions
+@goto .JokebotQuiz
+
+# Jokebot_DougPlatformersPreface
+@if JokebotAskedAboutDoug=false
+	@show Jokebot
+	@char Jokebot.Normal
+Player: Hey, Jokebot!<br>Do you know Professor DougDoug?|#8b|
+Jokebot: Professor DougDoug is a college professor that is notable<br>for explaining subjects to students using food.|#8c|
+	@wait .3
+Player: Well, he used to do that.|#8d|
+	@set JokebotAskedAboutDoug=true
+@else
+@goto .Jokebot_DougPlatformersQuestion
+@endif
+
+# Jokebot_DougPlatformersQuestion
+@set jokebot_chose_joke_2dplatformers=true
+Player: Professor DougDoug is bad at 2D platformers.|#8e|
+@char Jokebot.Normal
+Jokebot: ...|#8f|
+@wait .5
+Jokebot: Is there… a joke?|#90|
+@wait 2.5
+Player: No, that's it.|#91|
+@wait .5
+Jokebot: …|#92|
+@char Jokebot.Sad
+@wait 2.5
+Jokebot: ................|#93|
+@wait .5
+@char Jokebot.Gun
+@sfx sfx_gun_cock
+@back Default id:TTS_Tavern_Onstage tint:red time:1 wait:false
+Jokebot: I am going to shoot you now.|#94|
+@wait .5
+Player: Ah, yeah...<br>Honestly, that's totally fair.|#95|
+@wait .5
+@hide Jokebot
+@show Sam,Luther,Rosa
+@char Sam.Smug
+Sam: Wait wait <i>wait</i>!|#96|
+@wait .5
+Sam: If you shoot them now, you won't get to hear their <i>hilarious</i> joke!|#97|
+Sam: I heard it the other day, and it's a <shake>reeeeal</shake> knee slapper!|#98|
+@hide Sam,Luther,Rosa
+@show Jokebot
+Jokebot: Hmm…|#99|
+@wait .5
+@char Jokebot.Normal
+@back Default id:TTS_Tavern_Onstage time:1 wait:false
+Jokebot: Another joke, you say?|#9a|
+@hide Jokebot
+@show Sam,Luther,Rosa
+@char Sam.Smug
+Sam: A good one, too!<br>It's actually funny!|#9b|
+@wait .5
+@hide Sam,Luther,Rosa
+@show Jokebot
+Jokebot: Wow.<br>A funny joke, you say?|#9c|
+Jokebot: Those <i>are</i> certainly a rarity.|#9d|
+@wait .5
+@char Jokebot.Normal
+Jokebot: You know, rare things do remind me of my ex, BarbarAI.|#9e|
+@wait .5
+@char Jokebot.Sad
+@back Default id:TTS_Tavern_Onstage tint:blue time:1 wait:false
+Jokebot: Oh, she was such a sweet calculator, and BarbarAI's pretty VFD display would make me the best <i>pi</i>s.|#9f|
+; calculator joke
+@char Jokebot.Normal
+Jokebot: I remember her lithe digits...<br>They made my digital heart soar.<br>I have a thing for hands, you see.|#a0|
+Jokebot: In Unix time, I believe it was actually <i>1716966000</i>.|#a1|
+Jokebot: However, I'd just had my CMOS replaced, so I actually-|#a2|
+@hide Jokebot
+@show Sam,Luther,Rosa
+Luther: Does <i>anyone</i> understand him?|#a3|
+@hide Sam,Luther,Rosa
+As Jokebot rambled on, I thought about other jokes I'd heard before.|#a4|
+I had to have <i>something</i> funny, right…?|#a5|
+; return to the first question tree
+@goto .JokebotQuiz
+
+# Jokebot_CodingHelp
+@set jokebot_chose_joke_javaide=true
+@hide Jokebot remove:true
+@char JokebotNoSpeaking
+Player: Knock knock.|#a6|
+Jokebot: Who's there?|#a7|
+Player: Jokebot, this isn't a joke.<br>I am being completely serious right now.|#a8|
+Player: I need you to tell me how to set up a Java IDE, step by step.|#a9|
+Player: Also, I don't have a computer.<br>So... |#11b|[wait .3]can you help me with that?|#aa|
+@wait .5
+JokebotNoSpeaking: …|#ab|
+@wait .5
+JokebotNoSpeaking: ………………|#ac|
+@hide JokebotNoSpeaking remove:true wait:false time:0
+@char JokebotBroken.S1 wait:false
+@animate JokebotBroken loop:true appearance:S1,S2,S3,S4,S5
+@shake AnimatedPrinter count:15 wait:false
+@back Default id:TTS_Tavern_Onstage tint:#FF0000 time:1 wait:false
+JokebotBroken: OOOOOOOOEEEEEEEEEEIOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU|#ad|
+@shake AnimatedPrinter count:15 wait:false
+JokebotBroken: UUUUUUUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUEEEEE|#ae|
+@shake AnimatedPrinter count:15 wait:false
+JokebotBroken: AAAAAAAAAAAAAEWEEEEEEEEAAAAAAAAAAAAAAAAAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEE|#af|
+@shake AnimatedPrinter count:15 wait:false
+JokebotBroken: 5H78K4RG61M29FYJPYYMCZ1JHJQYLQ2JN4TZ2N12MT2JNODTRX9ZMQP9VTZ.1F9V'MNPYTX9KMJ111100000011|#b0|
+@animate JokebotBroken loop:false
+@char JokebotBroken.S5
+@stopBgm fade:0.5
+JokebotBroken: ................|#b1|
+
+; Remove Jokebot broken actor
+@hide JokebotBroken remove:true
+@hide AnimatedPrinter wait:false
+; play Jokebot dying sfx
+@sfx sfx_robot_shutdown volume:.8
+@wait 4
+# JokebotDies
+; Smoke comes out of Jokebot's head like he is a fried piece of electronics equipment.
+@bgm AITSF_tenkai_loop intro:AITSF_tenkai_start wait:false
+@back StagelightsOnly id:TTS_Tavern_Onstage time:1.5 tint:#FFFFFF wait:false
+@show Sam,Luther,Rosa
+@char Luther.Surprised
+Luther: Is he... dead?|#b2|
+@char Sam.Smug
+Sam: Hm...|#b3|
+; Play falling over and then crashing in electronics pile sfx
+@sfx sfx_junk_crash volume:0.5
+Sam gingerly poked the remains of Jokebot, which clattered as it crashed to the floor.|#b4|
+@wait 1
+@sfx sfx_oil_pour
+Dense fluid oozed out of the robot's remains.|#b5|
+Player: Well, that's a relief.|#b6|
+@char Rosa.Sad
+Rosa: No!|#b7|
+@shake AnimatedPrinter
+@char Rosa.Mad
+Rosa: Augh, that's coming out of the budget!|#b8|
+@char Rosa.Annoyed
+Rosa: Darn it… the oil is leaking, too.|#b9|
+@wait .5
+@char Rosa.Sad
+Rosa: I suppose it was inevitable.<br>He was clearly malfunctioning.|#ba|
+
+@char Rosa.Sad
+Rosa: I don't know how or why he got a gun.<br>Maybe his oil went bad.|#bb|
+@char Sam.Surprised
+Sam: Oil?|#bc|
+@char Rosa.Happy
+Rosa: Jokebot ran on special, extra <i>extra</i> virgin olive oil.|#bd|
+Rosa: The priests charge an awful lot to bless it.|#be|
+@char Rosa.Sad
+Rosa: I'm not sure if we can afford to buy more.|#bf|
+
+@char Rosa.Normal
+
+Rosa: Well, I'm glad you're all safe.<br>I can take solace in that.|#c0|
+@wait 2.5
+PlayerInternal: The olive oil...<br>I wonder if...?|#c1|
+@set g_choice_enabled=true
+@choice "I'll lick the oil up for you, Rosa!|#c2|" goto:.OilPrompt1
+@choice "We shouldn't let it go to waste.|#c3|" goto:.OilPrompt2
+@stop
+
+# OilPrompt1
+Player: Rosa, what if I lick it up for you?|#c4|
+@wait .5
+@char Rosa.Normal
+Rosa: …|#c5|
+@wait .5
+Rosa: ..........|#c6|
+@wait 1
+@char Rosa.Mad
+Rosa: I…<br>Sorry, come again?|#c7|
+@char Luther.Surprised
+Luther: That's <shake>nasty</shake>, man.|#c8|
+Player: There's <shake>nothing</shake> weird about drinking olive oil!!<br>It's good for your cholesterol!|#c9|
+@wait .5
+Rosa: ...|#ca|
+@wait .5
+Rosa: I... |#11c|[wait .3]think you know that's not the problem.|#cb|
+@goto .OilPrompt2
+
+# OilPrompt2
+Player: Well, we shouldn't let it go to waste.|#cc|
+Player: Is there some way we can salvage it?|#cd|
+@wait 2
+@char Sam.Smug
+Sam: This is kind of embarrassing,<br>but I have a lunchbox we could store it in.|#ce|
+Sam: I already ate today, so it's empty.|#cf|
+@char Rosa.Happy
+Rosa: That's very kind of you, Sam.<br>I appreciate it.|#d0|
+; Luther is teasing here
+@char Luther.Mad1 look:Left
+Luther: Is it your Signature Edition, All-Metal, Pajama Man one?|#d1|
+@char Sam.Annoyed
+Sam: ...|#d2|
+Luther: The lunchbox for babies?|#d3|
+; Luther is mocking. Angry sprite here.
+@char Luther.Mad2
+Luther: Even all grown-up, I guess Sam is still a widdle kid inside.|#d4|
+Luther: Awwwww.|#d5|
+@hide Sam,Luther
+@wait .5
+Rosa: Thank you, Sam.<br>Now, I'll fill up the lunchbox with oil, and...<br>There we go!|#d6|
+Player: Rosa, I can hold the lunchbox for you!|#d7|
+Rosa: Ah, it's not that heavy.<br>I can-|#d8|
+Player: Let me help you!<br>Let me do it!|#d9|
+Rosa: ...|#da|
+Rosa: Ah, sure...|#db|
+@wait 1
+System: {PlayerName} filled the lunchbox with holy oil!|#dc|
+@show Sam
+Sam: Just... give it back when you're done, all right?<br>It's not rare or anything, just... sentimental.|#dd|
+@wait 2.5
+@char Sam.Normal
+Sam: Anyway...|#de|
+Sam: How do you think Jokebot got a gun?|#df|
+@char Rosa.Sad
+Rosa: I don't know.<br>It's almost like someone gave it to him.<br>But who would...?|#e0|
+@wait .5
+@char Rosa.Normal
+Rosa: Ah, never mind.<br>Shall we move on?|#e1|
+PlayerInternal: She's changing the subject. Suspicious...|#e2|
+@wait .5
+Player: Hey, before we go…|#e3|
+I picked up the gun and stashed it away.|#e4|
+@sfx sfx_bag_store
+System: You took the gun!|#e5|
+@char Rosa.Mad
+Rosa: You <i>took the gun!?</i><br>Why in heavens did you do that?!|#e6|
+@char Sam.Surprised
+Sam: Was it loaded?|#e7|
+Player: Jokebot said it was a prize, right?|#e8|
+@char Sam.Happy
+Sam: I... guess it's okay.<br>As long as you're careful.|#e9|
+Rosa: I still don't understand.<br>Why do you need-|#ea|
+
+; Bjorn's voice is distorted because he's speaking through a PA system.
+@sfx sfx_pa_sound
+@hide Sam,Rosa,Luther
+Bjorn's voice once again blared through the PA system.|#eb|
+@wait .5
+@char Bjorn visible:false
+Bjorn: Congratulations!<br>That was the first of three Pegging Masters.|#ec|
+@wait .5
+Bjorn: Now, to escape my devious basement, you must defeat all three of my-|#ed|
+@wait .5
+@char Sam.Smug
+Sam: "Basement?"<br>You mean <i>dungeon</i>, right?|#ee|
+@wait .5
+Bjorn: Don't call it a dungeon, you little shit!<br>It's a basement!|#ef|
+@char Sam.Sad
+@wait .5
+Sam: S-sorry, Professor!|#f0|
+Bjorn: Good.<br>Don't interrupt me.|#f1|
+@char Sam.Normal wait:false
+@char Rosa.Normal
+@wait .5
+Rosa: They don't mean offense, Professor.|#f2|
+Bjorn: Yes, well...|#f3|
+@wait .5
+Bjorn: I apologize for my outburst. As the headmaster of this school,<br>I should have more decorum.|#f4|
+@wait .5
+Headmaster...?|#f5|
+@set g_choice_enabled=true
+@choice "You're the headmaster?|#f6|" goto:.BjornHeadmaster1
+@choice "I thought you were demoted.|#f7|" goto:.BjornHeadmaster2
+@choice "Continue without saying anything.|#f8|" goto:.BjornHeadmasterContinue
+@stop
+	
+# BjornHeadmaster1
+	@set KnowsBjornHeadmaster=true
+	
+Player: You're the headmaster?|#f9|
+Bjorn: Obviously!|#fa|
+	@wait .5
+Bjorn: Well, I <i>was</i>, until I was demoted due to a few tiny, insignificant, easily overlooked… missing students.|#fb|
+	@goto .BjornHeadmasterContinue
+
+# BjornHeadmaster2
+	@set KnowsBjornHeadmaster=true
+	
+Player: But I thought you were demoted.|#fc|
+Bjorn: What the <shake>flying fuck</shake> is wrong with you?|#fd|
+Bjorn: You need better decorum, you pickled pepper prick!|#fe|
+	@wait 1
+Bjorn: Demoted...?!|#ff|
+Bjorn: Bjorn the majestic unicorn does not get fucking <shake>demoted</shake> from the position of headmaster!|#100|
+Bjorn: But if you must know the truth —|#101|[wait 1] yes, I was.|#102|
+
+Bjorn: There were a few students<br>that I may or may not have... misplaced.<br>The parents were angry and sued the district, and…|#103|
+	@goto .BjornHeadmasterContinue
+
+@endif
+
+# BjornHeadmasterContinue
+PlayerInternal: What the <i>fuck</i> is wrong with this guy?|#104|
+Bjorn: Each of the Peggle Masters has a special power you must overcome.|#105|
+@char Sam.Normal
+Sam: Was Jokebot's the gun?|#106|
+@wait .5
+Bjorn: What the <shake>FUCK</shake> did I say about you interrupting me?!|#107|
+@wait .5
+Sam: I... I wasn't!|#108|
+Bjorn: Jokebot was supposed to have a taser.|#109|
+Bjorn: I don't do guns.<br>Not enough fingers for guns.|#10a|
+@wait .5
+Bjorn: Regardless, you made quick work of him.|#10b|
+@endIf
+Bjorn: Excellent job, students!<br>On to the next challenge!|#10c|
+
+; The intercom fizzles out.
+@sfx sfx_pa_cutout
+@wait 2.5
+Player: Is he always so...|#10d|
+@wait .5
+I paused, struggling to find the right word.|#10e|
+@wait .5
+Sam: Batshit crazy?|#10f|
+@wait .5
+@char Rosa.Sad
+Rosa: I, ah...<br>I don't want to talk about it.|#110|
+@wait 2.5
+@char Luther.Happy
+Luther: Well, what are we standing around for?|#111|
+@char Sam.Normal
+Sam: Yeah!<br>Let's head out.|#112|
+@wait 2
+@hide Sam,Rosa remove:true
+@hide AnimatedPrinter wait:false
+@wait 1
+@char Luther.Dismayed
+Luther: That angry horse scares me.|#113|
+; Bjorn buzzes back onto the intercom
+@sfx sfx_pa_sound wait:false
+@wait 4
+Bjorn: <shake>A HORSE?!</shake>|#114|
+@stopBgm fade:0.5 wait:false
+@wait .4
+@char Luther.SurprisedWithTear
+@char Luther.Mad1
+Luther: Stop doing that!|#115|
+@wait .5
+@hideAll
+@wait .5
+
+@goto SAMGETSHORNY
+@stop

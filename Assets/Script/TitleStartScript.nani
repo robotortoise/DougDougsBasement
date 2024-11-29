@@ -1,0 +1,92 @@
+; This command is played on title screen start
+# Title
+
+@if g_CompletedGame=false
+    @hideUI PlayCreditsButtonMenu wait:false
+    @back id:TitleBG wait:false
+    @bgm BGM_MainMenu_loop intro:BGM_MainMenu wait:false volume:1
+    @endIf
+
+@if g_CompletedGame=true
+    @showUI PlayCreditsButtonMenu wait:false
+    @back id:SexyTitleBG wait:false
+    @bgm BGM_BlueLineAll wait:false volume:1
+    @endIf
+
+; Make sure the sprite is centered on the screen at the default size
+@char TitleChar.Blank pos:0,0 wait:false time:0
+
+@if g_TitleCharState=1
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank time:5,2
+@endIf
+
+@if g_TitleCharState=2
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,Sam,Blank time:5,2,5,2
+@endIf
+
+@if g_TitleCharState=3
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,Sam,Blank,Luther,Blank time:5,2,5,2,5,2
+@endIf
+
+@if g_TitleCharState=4
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,Sam,Blank,Luther,Blank,Rosa,Blank time:5,2,5,2,5,2,5,2
+@endIf
+
+@if g_TitleCharState=5
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,Sam,Blank,Luther,Blank,Jokebot,Blank time:5,2,5,2,5,2,5,2
+@endIf
+
+@if g_TitleCharState=6
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,Sam,Blank,Luther,Blank,Jokebot,Blank,Elgrim,Blank time:5,2,5,2,5,2,5,2,5,2
+@endIf
+
+@if g_TitleCharState=7
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,EvilSam,Blank,Luther,Blank,Jokebot,Blank time:5,2,5,2,5,2,5,2
+@endIf
+
+@if g_TitleCharState=8
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,Sam,Blank,Luther,Blank,Jokebot,Blank time:5,2,5,2,5,2,5,2
+@endIf
+
+@if g_TitleCharState=9
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,Sam,Blank,Luther,Blank,Jokebot,Blank,GeraldFord,Blank time:5,2,5,2,5,2,5,2,5,2
+@endIf
+
+@if g_TitleCharState=10
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,Sam,Blank,Luther,Blank,Jokebot,Blank,GeraldFord,Blank,Bjorn,Blank time:5,2,5,2,5,2,5,2,5,2,5,2
+@endIf
+
+@if g_TitleCharState=11
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,Sam,Blank,Luther,Blank,Jokebot,Blank,GeraldFord,Blank,Bjorn,Blank,Pringle,Blank time:5,2,5,2,5,2,5,2,5,2,5,2,5,2
+@endIf
+
+@if g_TitleCharState=12
+    @animate TitleChar loop:true appearance:PlayerFullBody.{PlayerCustomAppearance},Blank,Sam,Blank,Luther,Blank,Jokebot,Blank,GeraldFear,Blank,Bjorn,Blank,Pringle,Blank time:5,2,5,2,5,2,5,2,5,2,5,2,5,2
+@endIf
+
+@stop
+
+
+# OnNewGame
+@sfx menu_newgame volume:.2
+@stopBgm
+@hideUI TitleUI,PlayCreditsButtonMenu
+@hideAll remove:true time:.5 wait:false
+@back id:BlackBG time:.5
+@stop
+
+# OnLoad
+@sfx menu_continue volume:.2
+@stopBgm
+@hideUI TitleUI,PlayCreditsButtonMenu
+@hideAll remove:true time:.5 wait:false
+@back id:BlackBG time:.5
+@stop
+
+# OnExit
+@sfx menu_quit volume:.2
+@stopBgm
+@hideUI TitleUI,PlayCreditsButtonMenu
+@hideAll remove:true time:.5 wait:false
+@back id:BlackBG time:.5
+@stop

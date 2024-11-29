@@ -1,0 +1,1492 @@
+; English <en> to Spanish <es> localization document for `SAMGETSHORNY` naninovel script
+
+# 209
+; After getting lost in a series of rooms, each one <i>neigh</i>
+
+
+# 94
+; -identical to the last, we found ourselves at the final corridor.
+
+
+# 1ef
+; Hm...<br>I wonder how much it costs for Professor Bjorn to power these bright lights all the time.
+
+
+# 1f0
+; Does he really carry water all the way down here?<br>Sounds like such a pain...
+
+
+# 1eb
+; Must be a hardcore vegan.<br>Mad respect.
+
+
+# 1ec
+; Heh...<br>Those aren't ferns and veggies.
+
+
+# 1f1
+; Oh yeah?<br>Then explain this fancy watering can.
+
+
+# 1f2
+; .
+
+
+# 1f3
+; .
+
+
+# 1f4
+; .
+
+
+# 20a
+; That's... 
+
+
+# 1f6
+; not a watering can.
+
+
+# 1f7
+; Then what is it?
+
+
+# 1f9
+; Well, the answer is obvious.<br>That's clearly a-
+
+
+# 97
+; Heh heh…
+
+
+# 98
+; Hello, Sam.
+
+
+# 99
+; ...
+
+
+# 9a
+; Huh?
+
+
+# 9b
+; Do you remember me, Sam?
+
+
+# 9c
+; What the...?
+
+
+# 9d
+; Perhaps not, then.
+
+
+# 9e
+; It's funny.<br>You look the same as the others,<br>but I suppose this one's memories have been wiped clean.
+
+
+# 9f
+; Such a pity....
+
+
+# a0
+; I would have relished the delectable scent of your fear.
+
+
+# a1
+; The others...?
+
+
+# a2
+; What are you talking about?
+
+
+# 20b
+; Hey, mister big scary demon guy...<br>
+
+
+# a4
+; Are you the next Peggle Master we need to kill?
+
+
+# a5
+; What?
+
+
+# a6
+; Peggle Master!<br>They're like these bad guys that we have to kill.
+
+
+# a7
+; Rosa, he's the next one.<br>Right?
+
+
+# a8
+; Hold on, no one said anything about killing-
+
+
+# a9
+; If that'll make me scarier, then...
+
+
+# aa
+;  yes.<br>Yes, I am.
+
+
+# ab
+; You shall refer to me as "Elgrim"—
+
+
+# ac
+; <br>High Demon Elgrim, to be precise.
+
+
+# ad
+; I'd say it's a pleasure to make your acquaintance, but lying is a sin...<br>Not that <i>I'm</i> particularly concerned about sinning.
+
+
+# ae
+; "High" demon means that I'm in the upper echelon of demons.
+
+
+# af
+; Anything bad that's ever happened to you is my fault — at least, indirectly.
+
+
+# b0
+; Ever lost your socks? Scrape your knee?
+
+
+# b1
+; What about having a rough day at work, coming home to relax, and then a fly lands in your soup?
+
+
+# b2
+; Feels like absolute shit, right?
+
+
+# b3
+; Well, that's due to me.<br>I'm the root of all evil, spreading my essence throughout your crappy little lives.
+
+
+# b4
+; I'm a busy guy.<br>I don't have time to make <i>everyone</i> personally suffer,<br>but I like to do what I can.
+
+
+# b5
+; I've met some scary people, but this guy...
+
+
+# b6
+; Aw, does poor widdle Pajama Sam want to piss his linen pajamas?
+
+
+# b7
+; Good.
+
+
+# b8
+; I love watching you writhe in pain, Sam.
+
+
+# b9
+; You… know me?
+
+
+# ba
+; Um, duh.<br>Your brothers banished me to the deepest pits of Hell.
+
+
+# bb
+; I suppose you could say I'm bitter about it — because I am.<br>I'm extremely bitter, actually.
+
+
+# bc
+; If you were banished, how did you get out?
+
+
+# bd
+; Wouldn't you like to know, Rosa?
+
+
+# be
+; H-how do you know my...?
+
+
+# bf
+; I told you that I'm the root of all evil, didn't I?<br>I know <i>everyone</i>.
+
+
+# c0
+; And... I guess you're not going to just let us go.
+
+
+# 20d
+; Uh-huh.
+
+
+# 20e
+; <br>Good guess,
+
+
+# c1
+;  piss boy.
+
+
+# c2
+; Hey, Luther.
+
+
+# c3
+; What is it?
+
+
+# c4
+; Elgrim...<br>What if we gave you a sacrifice as offering?<br>You know, instead of you killing us.
+
+
+# c5
+; Because there's this fish guy I know
+
+
+# c6
+;  that would definitely be up to offer himself-
+
+
+# c7
+; <shake><i>Hey!</i></shake>
+
+
+# c8
+; Nice try, 
+
+
+# c9
+; , but I think it's more evil of me to keep Luther alive.
+
+
+# ca
+; <i>Dammit.</i>
+
+
+# cb
+; I don't know if I should feel insulted or relieved.
+
+
+# cc
+; Why are you here?
+
+
+# cd
+; To do... 
+
+
+# ce
+; <shake><i>this</i>!</shake>
+
+
+# cf
+; Wait, what are you-
+
+
+# d0
+; .........
+
+
+# d1
+; ..........................................
+
+
+# d2
+; Uh, Sam?<br>
+
+
+# d3
+; You okay there, dude?
+
+
+# d4
+; Sam?
+
+
+# d5
+; ..............
+
+
+# d6
+; What's going on?<br>Where...
+
+
+# d7
+;  Where's Elgrim?
+
+
+# d8
+; .
+
+
+# d9
+; .
+
+
+# da
+; .
+
+
+# db
+; .
+
+
+# dc
+; Understood, captain!
+
+
+# dd
+; All right, initiate the bone ritual with a splash of lunar escape.
+
+
+# de
+; And don't forget to zigzag through the crevices of one storefront.
+
+
+# df
+; What the hell?
+
+
+# e0
+; Sam is...
+
+
+# e1
+; <br>He's...!
+
+
+# e2
+; .
+
+
+# e3
+; .
+
+
+# e4
+; .
+
+
+# e5
+; <shake>Heh...</shake>
+
+
+# e6
+; Everything I learned in the darkness,<br>we shall use in our worst moments.
+
+
+# e7
+; Ba-ba-ga-<shake>boosh!</shake>
+
+
+# e8
+; Guys, he's talking crazy!
+
+
+# e9
+; Elgrim...
+
+
+# ea
+; <br>He's got Sam!
+
+
+# eb
+; Then, perhaps a glance at the simmering horizon will unearth a constellation of enigmas awaiting our decryption.
+
+
+# ec
+; Once our vessels are brimming with celestial ichor,<br>we shall storm the citadel,<br>raining shards of the void upon the stalwart guardians until balance is struck.
+
+
+# ed
+; With the cosmic equilibrium restored, we will channel our energies through the astral gateway,<br>soaring like phoenixes reborn.
+
+
+# ee
+; ...
+
+
+# ef
+; ........
+
+
+# f0
+; What.
+
+
+# f1
+;  The.
+
+
+# f2
+;  Hell.
+
+
+# f3
+; Is Sam...?
+
+
+# f4
+; What do we do, 
+
+
+# f5
+; ?<br>We need to save Sam!
+
+
+# f6
+; What should I do...?
+
+
+# f7
+; Remind Sam who he is.
+
+
+# f8
+; Speak gibberish back to counter the demonspeak.
+
+
+# f9
+; Use something from my inventory.
+
+
+# fa
+; Maybe...
+
+
+# fb
+;  Maybe if I speak gibberish back at him, it'll cause Sam to realize how crazy he sounds.
+
+
+# fc
+; Hey, Sam!
+
+
+# fd
+; Gigamesh.
+
+
+# fe
+; ...
+
+
+# ff
+; Uh...
+
+
+# 100
+;  right.
+
+
+# 101
+; <br>Let me try something.
+
+
+# 102
+; Dougtales, woo-ooh!<br>Every day they're out there making...
+
+
+# 103
+;  <i>Dougtales</i>!
+
+
+# 104
+; .
+
+
+# 105
+; .
+
+
+# 106
+; .
+
+
+# 107
+; ..........
+
+
+# 108
+; Did...
+
+
+# 109
+;  Did it work?
+
+
+# 10a
+; Potatoes and popcorn are awful dishes.<br>Truly, their palette lacks any semblance of flavor, and they only serve as vessels for other condiments.
+
+
+# 20f
+; Nope, didn't fix him.<br>He's... 
+
+
+# 10b
+; still talking crazy.
+
+
+# 10c
+; Guess I need to try something else.
+
+
+# 10d
+; Maybe if I help Sam remember who he is and what his place<br>in this world is, he'll come to.
+
+
+# 10e
+; This isn't you, Sam!
+
+
+# 10f
+; You're a kind, smart college student.<br>That's who you are — you're not a demon!
+
+
+# 110
+; Remember your truth, Sam!<br>Don't let Elgrim control you!
+
+
+# 111
+; Grr...
+
+
+# 112
+; <br>I...
+
+
+# 113
+; <br><shake>Elgrim...!</shake>
+
+
+# 114
+; Sam!?<br>
+
+
+# 115
+; Is that really you?
+
+
+# 116
+; Laruel's lexicon levels luddite.<br>Truly, I cannot turkey the meat appetizer henceforth.
+
+
+# 117
+; Why lexicon not happen?<br>Don't you agree, heavenly?
+
+
+# 118
+; ...
+
+
+# 119
+; Oh.
+
+
+# 11a
+; There has to be something else we can try.
+
+
+# 11b
+; What should I use...?
+
+
+# 11c
+; Use the gun.
+
+
+# 11d
+; Use the oil.
+
+
+# 11e
+; Return to the previous menu.
+
+
+# 11f
+; I retrieved the gun from my pepper pocket (my ass).
+
+
+# 120
+; Hm, maybe if I...
+
+
+# 121
+; You're not thinking of shooting one of my students, are you?<br>That's <i>highly</i> unethical, demonic possession or otherwise.
+
+
+# 122
+; Come on, 
+
+
+# 123
+; .<br>Even <i>I</i> know that's too far.
+
+
+# 124
+; What kind of 
+
+
+# 213
+; <i>idiot</i>
+
+
+# 125
+;  kills a kid<br>just for being <i>sliiiiiightly</i> demonically possessed?
+
+
+# 126
+; .
+
+
+# 127
+; .
+
+
+# 128
+; .
+
+
+# 129
+; .
+
+
+# 12a
+; .
+
+
+# 12b
+; .
+
+
+# 12c
+; .
+
+
+# 12d
+; .
+
+
+# 12e
+; .
+
+
+# 214
+; .
+
+
+# 215
+; .
+
+
+# 12f
+; .
+
+
+# 130
+; I reluctantly put the gun away.
+
+
+# 131
+; Guess I'll have to try something else.
+
+
+# 132
+; Rosa, you said that Jokebot's oil was holy.
+
+
+# 133
+; Yes, it was blessed by a priest.<br>It's not filled with holes or anything.
+
+
+# 211
+; Why would it be filled with...?
+
+
+# 134
+; <br>Eh, whatever.
+
+
+# 135
+; So,
+
+
+# 136
+;  demons are supposed to <i>hate</i> holy water, right?
+
+
+# 137
+; No, we love it, actually.
+
+
+# 138
+; <br><i>Huuuge</i> holy water fanboy here.
+
+
+# 139
+; Hey, he's speaking normal again!
+
+
+# 13a
+; Yes, I am so very normal now.
+
+
+# 13b
+; Ha ha, poggies!<br>Ready to go adventuring in the land of Desire?
+
+
+# 13c
+; Do you... 
+
+
+# 13d
+; mean the land of <i>Darkness</i>?
+
+
+# 13e
+; Sure!<br>If that's what I'm supposed to say.
+
+
+# 13f
+; Does he think that we're idiots?
+
+
+# 140
+; <i>Phew!</i><br>Good thing you're back to normal, Sam!
+
+
+# 141
+; ...
+
+
+# 142
+; Okay, at least <i>one</i> of us is "idiots".
+
+
+# 143
+; Rosa, Luther.<br>Can you hold Sam down for me?
+
+
+# 144
+; Eh...<br>I don't touch <i>mammals</i>.
+
+
+# 145
+; .
+
+
+# 146
+; .
+
+
+# 147
+; .
+
+
+# 148
+; What if he gives me a disease, like salmonella?
+
+
+# 149
+; Just <shake><i>do it</i></shake>!
+
+
+# 14a
+; Luther and Rosa each grabbed one of Sam's arms, holding him in place.
+
+
+# 14b
+; Here goes nothing...
+
+
+# 14c
+; I held the lunchbox over my possessed friend and unlatched it, the holy oil coating Sam's gangly body.
+
+
+# 14d
+; W-wait!<br>Don't-
+
+
+# 14e
+; <shake>AGHHH!!</shake>
+
+
+# 14f
+; Levitation without fail, bake me a reindeer cake.
+
+
+# 150
+; <br>Shit, that cake is enormous.
+
+
+# 151
+; <shake>I-I can feel him...</shake>
+
+
+# 152
+; <shake>H-He's...
+
+
+# 153
+;  He's almost...!
+
+
+# 154
+; Dirt monkey drops were always excellent practicing for stoning.
+
+
+# 155
+; <shake>Levigate Mike Pence
+
+
+# 156
+;  henceforth.</shake>
+
+
+# 157
+; <shake>Get........
+
+
+# 158
+; out........!</shake>
+
+
+# 15c
+; <shake>BA-BA-GA-BOOSH!</shake>
+
+
+# 15d
+; <shake>BEGONE, </shake>
+
+
+# 15e
+; <shake>DEMON!</shake>
+
+
+# 15f
+; Ngh...
+
+
+# 160
+; <shake>Augh!</shake>
+
+
+# 161
+; <br><shake>You...!</shake>
+
+
+# 162
+; You little <shake>twerp</shake>!<br>How <shake><i>dare</i></shake> you reject being my vessel!
+
+
+# 163
+; And <shake><i>you</i></shake>, 
+
+
+# 164
+; !
+
+
+# 165
+; Who do you think you are, exorcizing High Demon Elgrim?
+
+
+# 166
+; <br>Heh...<br>Do you even know who I am?
+
+
+# 167
+; Ah...<br>I shouldn't have pissed him off.<br>
+
+
+# 168
+; <i>Shit.</i>
+
+
+# 169
+; .
+
+
+# 16a
+; .
+
+
+# 16b
+; .
+
+
+# 217
+; Uh...
+
+
+# 16c
+; <br>Is there some reason you're staring at me?
+
+
+# 16d
+; Of course we know who you are, silly!<br>
+
+
+# 16e
+; You're the second Peggle Master!
+
+
+# 219
+; Now, come on! Hand it over!
+
+
+# 16f
+; No!<br>I'm the...
+
+
+# 170
+; .
+
+
+# 171
+; .
+
+
+# 172
+; .
+
+
+# 173
+; What did you just call me?
+
+
+# 21a
+; Our prize! Jokebot said that all of the Peggle Masters would give us a prize when we beat them.
+
+
+# 21b
+; I <i>love</i> free stuff...
+
+
+# 21c
+; <br>So hand it over, jackass!
+
+
+# 174
+; Hey, mister big scary demon guy!
+
+
+# 175
+; Are you the next Peggle Master we need to kill?
+
+
+# 176
+; What?
+
+
+# 177
+; Peggle Master!<br>They're like these bad guys that we have to kill.
+
+
+# 178
+; If that'll make me scarier, then...
+
+
+# 179
+;  yes.<br>Yes, I am.
+
+
+# 17a
+; ...
+
+
+# 17b
+; .............
+
+
+# 17c
+; I...<br>
+
+
+# 17d
+; Uh...<br>
+
+
+# 17e
+; Uhhhhhh....
+
+
+# 17f
+; Well...
+
+
+# 180
+;  shit.<br>
+
+
+# 181
+; Must I...?
+
+
+# 182
+; Hey, Luther?<br>This guy isn't actually part of-
+
+
+# 183
+; Shhhhh!
+
+
+# 184
+; Come on, Rosa!<br>I want to see what he gives us!
+
+
+# 212
+; Free stuff <i>is</i> free stuff, you know.
+
+
+# 185
+; S-Sure,
+
+
+# 186
+;  but...
+
+
+# 187
+; Fine. Take this thing I found when I was on my way over.<br>It's useless to me.
+
+
+# 188
+; It's some type of human cooking utensil.
+
+
+# 189
+; Neat, a funny-looking pan!<br>Thanks, Elgrim!
+
+
+# 18a
+; ...
+
+
+# 18b
+; Anyway, I'll have my revenge...
+
+
+# 18c
+;  I suppose.
+
+
+# 18d
+; Way to kill the moment.
+
+
+# 18e
+; <br><br>Fucking Luther, I swear.
+
+
+# 18f
+; ...
+
+
+# 190
+; He left.
+
+
+# 191
+; Eww, this pan is all slimy!
+
+
+# 192
+; , you can have it.
+
+
+# 193
+; You got the frying pan!
+
+
+# 194
+; ...
+
+
+# 195
+; How are you feeling, Sam?
+
+
+# 196
+; Did I...
+
+
+# 197
+;  join my brothers?
+
+
+# 198
+; No, nothing like that.<br>You're alive and well.
+
+
+# 199
+; That was...
+
+
+# 19a
+;  really shit.<br>I never want to be demonically possessed again.
+
+
+# 19b
+; Do you think he'll come back?<br>Elgrim, I mean.
+
+
+# 19c
+; I guess.<br>At this point, we have to be prepared for anything.
+
+
+# 19d
+; Okay, but do you think-
+
+
+# 19e
+; <shake>Behold, whelps!</shake>
+
+
+# 19f
+; Oh, for Doug's sake...<br>What is it <i>now</i>?
+
+
+# 1a0
+; <shake>Ha-</shake>
+
+
+# 1a1
+; <shake>ha-</shake>
+
+
+# 1a2
+; <shake>ha!</shake>
+
+
+# 1a3
+; You all find yourselves with the great honor of meeting me!<br>
+
+
+# 1a4
+; But who am I, you ask?
+
+
+# 1a5
+; We didn't.
+
+
+# 1a6
+; I am the thirty-eighth president of the United States...
+
+
+# 1a7
+; Gerald Rudolph Ford!
+
+
+# 1a8
+; Witness my awesome might as I defeat you with... 
+
+
+# 1a9
+; my unique Peggle Master ability!
+
+
+# 1aa
+; <shake>Hiiiiiiii-yah!</shake>
+
+
+# 1ab
+; ...
+
+
+# 1ac
+; ...
+
+
+# 1ad
+; Ah...
+
+
+# 1ae
+; So, about that...
+
+
+# 1af
+; ...
+
+
+# 1b0
+; Hey...
+
+
+# 1b1
+; You don't seem terrified.<br>Isn't this at least a <i>little</i> bit scary?
+
+
+# 1b2
+; ...
+
+
+# 1fa
+; Can I get <i>some</i> sort of reaction here, please?<br>Seriously, guys.
+
+
+# 1b5
+; Mr. President, Sam was just possessed by a demon.<br>We don't need this right now.
+
+
+# 1fb
+; .
+
+
+# 1fc
+; .
+
+
+# 1b6
+; .
+
+
+# 1b7
+; ..............
+
+
+# 1b8
+; Oh.<br>
+
+
+# 1b9
+; Bad time?
+
+
+# 1ba
+; I could rough you up a little.<br>Would that make you feel any better?
+
+
+# 1bb
+; No, but I appreciate it.
+
+
+# 1bc
+; .
+
+
+# 1bd
+; .
+
+
+# 1be
+; .
+
+
+# 1bf
+; Besides, uh...<br>
+
+
+# 1c0
+; You being controlled by a demon was actually my plan this whole time!
+
+
+# 1c1
+; It was me who released that demon!<br>The, ah...
+
+
+# 1c2
+; Uh...
+
+
+# 1fd
+; El...
+
+
+# 1fe
+; <br>Eltron? Elty? 
+
+
+# 1ff
+; Errol?
+
+
+# 1c3
+; Elgrim.
+
+
+# 1c4
+; Well I,
+
+
+# 1c5
+
+
+# 1c6
+; Gerald Ford,
+
+
+# 1c7
+;  am the reason that you fought the evil succubus Elgrim!
+
+
+# 1c8
+;  Elgrim is a guy.
+
+
+# 200
+; .
+
+
+# 201
+; .
+
+
+# 1c9
+; .
+
+
+# 202
+; And to clarify, Elgrim is not a sex demon.
+
+
+# 203
+; Eh, I don't know.<br>I can see appeal there.<br>
+
+
+# 204
+; Hypothetically, of course.
+
+
+# 205
+; Uh-huh.
+
+
+# 1ca
+; The incubus — Elgrim!
+
+
+# 1cb
+; What-
+
+
+# 1cc
+; ev-
+
+
+# 1cd
+; er you say.
+
+
+# 1ce
+; This is all because of me, Gerald Ford!
+
+
+# 1cf
+; Someone needs to remember me, dammit!<br>I was president!
+
+
+# 1d0
+; Hey, Rosa...<br>Why did Professor Bjorn hire this guy?
+
+
+# 1d1
+; Er...
+
+
+# 216
+; I <b>killed all the bees</b>
+
+
+# 1d2
+;  and yet people <i>still</i> don't remember me!
+
+
+# 1d3
+; It's un-
+
+
+# 1d4
+; bee
+
+
+# 1d5
+; -lievable!
+
+
+# 1d6
+; .
+
+
+# 1d7
+; .
+
+
+# 1d8
+; .
+
+
+# 1d9
+; You did <i>what</i>?
+
+
+# 218
+; Wait, that one was actually kind of scary.
+
+
+# 1da
+; Well good luck with...
+
+
+# 1db
+;  whatever it is you're doing, 
+
+
+# 1dc
+; uh...
+
+
+# 1dd
+; Henry.<br>His name is Henry.
+
+
+# 1de
+; It's not <i>Henry!</i><br>You know that.
+
+
+# 1df
+; Ohhh, Henry!
+
+
+# 1e0
+; ...
+
+
+# 1e1
+; Speaking of, I heard about a new car on that show <i>Breaking News</i>.
+
+
+# 1e2
+; <br>It's called the Model T.
+
+
+# 1e3
+; The Model T?<br>Ah, but isn't that from-
+
+
+# 1e4
+; You're all sick.<br>I'm leaving.
+
+
+# 1e5
+; ...
+
+
+# 1e6
+; Let's move on.<br>The professor should be waiting for us.
+
+
+# 1e7
+; Yeah, let's.
+

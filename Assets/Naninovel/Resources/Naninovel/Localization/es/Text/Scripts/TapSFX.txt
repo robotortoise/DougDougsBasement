@@ -1,0 +1,1 @@
+; English <en> to Spanish <es> localization document for `TapSFX` naninovel script

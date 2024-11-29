@@ -1,0 +1,33 @@
+Title variables
+
+
+g_TitleCharState - defaults to "0". Other states listed below.
+
+
+1 = Player character is present but no one else
+
+2 = Sam is on title too
+
+3 = add Luther
+
+4 = add Rosa
+
+5 = add jokebot
+
+6 = add Elgrim
+
+7 = change Sam to Evil Sam
+
+8 = Same as 6.
+
+9 = add Gerald Ford.
+
+10 = add Bjorn to title
+
+11 = add Pringle
+
+12 = remove Gerald Ford and Elgrim. Set Gerald to GeraldFear. Remove all other characters.
+
+13 = finished game. Add all pepper colors.
+
+Prefab order - 

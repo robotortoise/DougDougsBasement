@@ -1,0 +1,14 @@
+# DemoCreditsStart
+@processInput false
+@back id:Black
+@loadScene DemoCredits additive:true
+; play 95 seconds demo credits loop
+@bgm BGM_Credits_Demo loop:false
+; wait for 95 seconds for credits to finish
+@wait 95
+; unload the credits
+@unloadScene DemoCredits
+; process inputs again. return to title.
+@processInput true
+@title
+@stop

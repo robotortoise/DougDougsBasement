@@ -1,0 +1,27 @@
+; cliffhanger that plays and stops.
+@bgm BGM_Awkward1 volume:0.8
+@printer JordanFSPrinter
+@print "Will our heroes save Sam from High Demon Elgrim?|#a|" waitInput:true
+@wait 1.5
+@print "<br>Will Rosa ever graduate from her student teaching gig?|#b|" waitInput:true
+@wait 1.5
+@print "<br>And what the hell does Gerald Ford have to do with <i>any</i> of this?|#c|" waitInput:true
+@char DemoGerald.Smug2
+@print "<br><br>Go to <b>DougDougsBasement.org</b> to be notified when the full story releases.<br>|#19|" waitInput:true
+@wait 1.5
+@print "You can also sign up for the mailing list there. We're aiming to release in September.|#1a|" waitInput:true
+@print "<br>We'll post it on the subreddit and /r/WeHateDougDoug.|#18|"
+@wait 1.5
+@print "<br><br>Thanks for playing!|#e|" waitInput:true
+@stopBgm
+@wait 2
+
+
+; Fade out to black.
+; roll credits
+@set g_CompletedGame=true
+@hideAll remove:true
+; Jump to credits
+; set the "completed game" global variable to true
+@goto PlayDemoCredits
+@stop
