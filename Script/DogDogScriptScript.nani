@@ -1,0 +1,271 @@
+; DougDoug's Basement: How I Got a Sea Otter A Promotion!
+
+# GameStart
+
+@back id:BlackBG
+System: Choose what color you are.|#8d4|
+@choice "I'm red.|#8d5|" set:PlayerCustomAppearance="Red"
+@choice "I'm green.|#8d6|" set:PlayerCustomAppearance="Green"
+@choice "I'm purple.|#8d7|" set:PlayerCustomAppearance="Purple"
+@choice "I'm golden.|#8d8|" set:PlayerCustomAppearance="Gold"
+@choice "I've got that classic DougDoug orange, baby!|#8d9|" set:PlayerCustomAppearance="Orange"
+; wait for player input
+@stop
+
+@print "Thank you for your selection.|#8da|" author:System
+
+; show a sprite of the player.
+@sfx vineboom volume:.4
+@char PlayerFullBody.{PlayerCustomAppearance} pos:50,15 scale:.8
+@wait 1
+@sfx vineboom volume:.4
+@char PlayerFullBody.TextAppear+DespiteEverything
+; add player sprite to title
+@set g_TitleCharState="1"
+@wait 3
+@hide PlayerFullBody remove:true
+
+DougDoug: Welcome...|#8db|[wait .4] to DougDoug Community CollegeCollege!|#8dc|
+@hide AnimatedPrinter,BlackBG remove:true
+@sfx dramatic volume:.3
+@back id:WhiteBG transition:Crossfade time:2.5
+@wait 2
+@hide WhiteBG wait:false
+@bgm PMTTYD_SuperLuigi_all volume:1 loop:true
+@back id:CGDougTeaches
+@char DougDoug
+@char Student
+
+DougDoug: And that concludes the materials from chapter one.|#8dd|
+DougDoug: Remember that safety is paramount when rock climbing, and to always use your harness.|#8de|
+DougDoug: I'll see you all on Thursday.|#8df|
+DougDoug: Don't forget to bring your own equipment and to review chapter two on your own.|#8e0|
+DougDoug: You can buy the needed materials from the bookstore if you haven't already.|#8e1|
+DougDoug: Thank you.<br>Class is dismissed.|#8e2|
+@hide AnimatedPrinter remove:true
+@wait .4
+@printer LBubble position:4.00,-2.00,0.00 appearance:Right
+Student: Professor, you don't need to say "class dismissed".|#8e3|
+Student: This is college.<br>I could just leave in the middle of class if I wanted.|#8e5|
+Student: We're all adults here, you know.|#941|
+@hide LBubble remove:true
+@wait .3
+DougDoug: .|#93d|[wait .3].|#93e|[wait .3].|#93c|
+@wait .3
+DougDoug: Well I'm the professor, and I wanted a catchphrase.|#8e6|
+@hide AnimatedPrinter
+@wait .5
+@printer LBubble position:4.00,-2.00,0.00 appearance:Right
+Student: .|#8e7|[wait .3].|#8e8|[wait .3].|#8e9|
+@hide LBubble
+@wait .3
+DougDoug: <i>Class is dismissed!</i><br>|#8ea|[wait .4]See, it's fun.<br>We're having fun, and I'm a great college professor.|#8eb|
+DougDoug: I'm like the main character of this class.|#940|
+@hide AnimatedPrinter
+@wait .3
+@printer LBubble position:4.00,-2.00,0.00 appearance:Right
+Student: This guy seriously has a degree...?|#942|
+Student: I shudder to imagine what's on his LinkedIn...|#8ec|
+@hide LBubble
+@wait 1
+@hide CGDougTeaches,Student,DougDoug,AnimatedPrinter remove:true
+@stopBgm fade:1
+@wait .5
+@bgm BGM_MainTheme_Loop intro:BGM_MainTheme volume:.4
+@set Sam="???" wait:false
+@set PlayerName="Me" wait:false
+@back id:OutdoorStairs
+@char Sam.Happy wait:false
+Sam: Oh, howdy!<br>Glad I caught you after the lecture.|#8ed|
+; add sam to title
+@set g_TitleCharState="2"
+
+Player: Hi, Sam.|#8ee|
+@set Sam="Sam"
+
+; If this is the demo, skip this scene.
+@char Sam.Normal
+Sam: What'd you think of the class?|#8ef|
+; put a choice here.
+@set g_choice_enabled=true
+@choice "It was okay.|#8f0|" goto:.LectureOK
+@choice "I was extremely confused.|#8f1|" goto:.LectureProblems
+; wait for player choice
+@stop 
+	# LectureOK
+Player: It was okay.<br>But geez, that Professor DougDoug guy sure likes to hear himself talk.|#8f2|
+	@char Sam.Happy
+Sam: Yeah, he's a real yapper.|#8f3|
+	@goto .ContinueSamMeet
+# LectureProblems
+Player: I was so incredibly confused.|#8f4|
+Player: Why are we learning about rock climbing?<br>Aren't we in computer science?|#8f5|
+	@char Sam.Surprised
+Sam: Oh, right.<br>About that.|#8f6|
+Sam: I read about DougDoug on one of those professor rating sites.<br>They said he likes to solve problems that no one has.|#8f7|
+Player: Huh.<br>I guess that makes sense.|#8f8|
+	@goto .ContinueSamMeet
+
+# ContinueSamMeet
+@char Sam.Normal
+Sam: ...|#8f9|
+@char Sam.Annoyed
+Sam: Oh.|#93f|
+Sam: Ah, sorry!<br>I totally blanked on your name. Could you remind me?|#8fb|
+Player: Well, my name is…|#8fc|
+@hide Sam,OutdoorStairs,AnimatedPrinter
+@spawn DepthOfField
+; ask the player their name
+@input PlayerName summary:"Well, my name is...|#8fd|" value:{PlayerDefaultName}
+; wait until the player finishes entering their name before allowing inputs.
+@processInput false
+@stop
+
+@back id:OutdoorStairs
+@char Sam.Happy wait:false
+@processinput True
+@despawn DepthOfField
+Sam: Oh, yeah!<br>That sounds familiar.|#8fe|
+Sam: I feel silly for forgetting.<br>Sorry about that, |#8ff|{PlayerName}.|#900|
+Player: No problem, Sam.<br>It's nice to see you again!|#901|
+@char Sam.Happy
+Sam: Hey, we both have pottery class next, right?<br>Want to walk with me?|#902|
+Player: Sure!|#903|
+@wait .3
+@hide OutdoorStairs,Sam,AnimatedPrinter time:1
+@wait 1.5
+On our way to pottery class,<br>I pulled out my schedule.|#904|
+@hide OutdoorStairs,Sam,AnimatedPrinter
+; fade to black
+; show a CG of the class schedule
+@back id:Schedule
+@sfx sfx_book wait:false
+I wasn't particularly artsy, but the pottery class piqued my interest because it was being co-taught by Rosa, the famous marine biology YouTuber.|#905|
+Wow…<br>|#906|[wait .3]Rosa the Otter was <i>so</i> cool.|#907|
+And besides, the immature part of my brain liked it whenever I saw "POT101" on my class schedule.|#908|
+@wait .5
+Heh.<br>Illegal drugs.|#909|
+@hideAll
+@hide Schedule remove:true
+@wait 1.5
+; show the building
+@back id:DoorBG
+@char Sam.Normal
+Player: This is it.|#90a|
+@char Sam.Smug
+Sam: Yep. Room 2B.|#90b|
+@wait .3
+; show the door bg + door handle
+Player: "2B", huh?|#90c|
+@hide AnimatedPrinter
+@char Sam pose:Speaking wait:false
+@wait 1
+@char Sam.Annoyed
+@wait .3
+Sam: .|#90d|[wait .3].|#90e|[wait .3].|#90f|
+@wait 1
+Player: "2B" these nuts.|#910|
+@char Sam.Angry
+Sam: .|#911|[wait .3].|#912|[wait .3].|#913|
+Player: Got 'em.|#914|
+Sam: You sure did, |#915|{PlayerName}.|#916|
+; @hide DoorBG,Sam
+@hideAll wait:false
+@back id:BlackBG
+@stopBgm
+@wait 1
+@back id:ClassroomDark
+The lights in the room were off.|#917|
+@char Sam.Surprised
+Sam: Where is everyone?|#918|
+Player: This is kind of creeping me out.|#919|
+@char Sam.Annoyed
+Sam: Yeah, the darkness is really getting to me.|#91a|
+; set Luther's name as "???"
+@set Luther="???"
+@wait 1.5
+@bgm BGM_Awkward1 loop:true volume:1
+@char Sam.Surprised
+Luther: Shouldn't you guys figure out how to turn on the lights?|#91b|
+@char Luther.Normal
+Luther: You're just... standing there.<br>It's weird and I don't like it!|#91c|
+Sam: Oh.|#91d|[wait .3]<br>Hi, |#91e|[set Luther="Luther"]Luther.|#91f|
+; add Luther to title
+@set g_TitleCharState="3"
+
+; set Luther's name as "Luther"
+@set Luther="Luther"
+@char Luther.Mad1
+Luther: Ugh, <i>you're</i> here.<br><i>Great</i>.|#920|
+@char Sam.Surprised
+Sam: All I said was hello.|#921|
+@char Luther.Smug
+Luther: Counterpoint...|#922|[wait .3] I hate you.|#923|
+@char Sam.Annoyed
+Sam: You hate everyone.|#924|
+@stopBgm fade:0.5
+@wait 0.5
+@bgm BGM_Tense1 loop:true volume:1
+@char Luther.Mad2
+Luther: Everyone hated me first.<br>But you?|#925|
+Luther: [shake AnimatedPrinter]<wave>Noooooooo!</wave><br>People like <i>you</i> and your brothers.|#926|
+@char Luther.Mad1
+Luther: No one gives a damn about poor little Luther!|#927|
+Luther: They <i>despise</i> me!|#928|
+@char Sam.Sad
+Sam: …|#929|
+; Sam is distraught at the mention of his brothers.
+@char Sam.Angry
+Sam: You... |#92a|[wait .3]know about my brothers?|#92b|
+@char Luther.Smug
+Luther: Of course I do!<br>Everyone does.|#92c|
+@wait 1.5
+Sam: My brothers...<br>I'll avenge them, I swear it.|#92d|
+@wait 1.5
+
+@char Sam.Normal
+Sam: That DougDoug guy seemed weird to me.|#92e|
+@char Sam.Sad
+Sam: That's why I'm taking his class, actually.|#92f|
+Sam: Call it a hunch, but I think he might be related to my brothers' disappearances.|#930|
+@char Luther.Surprised
+Luther: Oh, hey.<br>You guys know Professor DougDoug?|#931|
+Player: Yeah. |#943|[wait .5]Actually, he taught us rigging.|#932|
+@wait .4
+@stopBgm fade:0.5
+@wait 0.5
+@bgm BGM_Awkward1 loop:true volume:1
+@char Sam.Normal
+Sam: Anyway...<br>Luther's right.|#933|[char Luther.Smug]<br>We need to find a light switch.|#934|
+; Rip the sprite from Putt-Putt saves the moon, and then trace over it or something?
+Player: Hey, what's that lever over there?|#935|
+@char Luther.Happy
+Luther: Ooh, I bet it does something really cool when I pull on it!|#936|
+@char Sam.Annoyed
+Sam: Luther, you shouldn't just-|#937|
+; play sfx of lever being pulled
+@sfx sfx_lever_pull volume:.5
+@stopBgm
+@hideChars
+Before me or Sam could protest,<br>Luther swam over to the lever and yanked it – hard.|#938|
+@show Sam,Luther
+@char Sam.Angry
+@char Luther.Smug wait:false
+@shake AnimatedPrinter
+Sam: <i>Luther!<i>|#939|
+@char Luther.Surprised
+Luther: Hey, nothing happened.<br>Maybe it's broken.|#93a|
+@hide Luther,Sam,AnimatedPrinter,ClassroomDark time:.01
+@back id:BlackBG wait:false
+@sfx sfx_trap_door volume:.4
+@wait 0.5
+@sfx lutherSamScream
+Suddenly, the floor dropped out from underneath us.|#93b|
+; Luther, Sam, and the player scream and fall through the floor.
+; fade out crossfade.
+@wait 1.5
+@hide ClassroomDark remove:true
+@hide AnimatedPrinter wait:false
+@wait 2
+@goto JokebotScript
+@stop
