@@ -1,0 +1,41 @@
+@back id:ChromaKey
+@set Gerald="???"
+Gerald: Wait, don't forget about me...|#1|
+@set Gerald="Gerald Ford"
+@char Gerald.Normal
+Gerald: ...Gerald Ford!|#28|
+@char Gerald.Smug2
+Gerald: You won't want to miss my fight scene!<br>I've been training alone in my apartment for weeks just to practice!|#29|
+Gerald: Check this out.|#2a|
+@hide Gerald
+@char GeraldKarate.Normal pose:Speaking
+@wait .2
+GeraldKarate: [shake GeraldKarate]Ha-cha!<br>Take that!|#2b|
+GeraldKarate: Oh, and wait 'til you see my special move!<br>I unleash a horde of bees that I've been farming in-|#2e|
+@hide AnimatedPrinter
+@sfx sfx_pa_sound volume:.5 wait:false
+@wait 2
+Bjorn: Jeremy?|#27|<br>What the <shake>fuck</shake> are you doing down there?|#d|
+@char GeraldKarate.Normal
+GeraldKarate: Er...|#e|
+@wait .1
+Bjorn: I revived you to clean the basement for the next Peggle challenge, not to mess around and kick holes in my drywall!|#2f|
+@char GeraldKarate.Annoyed
+GeraldKarate: .|#30|[wait .1].|#31|[wait .1].|#22|
+@wait .3
+Bjorn: If I don't find those Peggle Balls washed and sorted in the next hour, I'll personally come down there and|#33|[wait .2] MASH|#34| |#38|[wait .2]YOU|#35|[wait .2] INTO|#36|[wait .2] HOOF|#37|[wait .2] POLISH!|#14|
+@hide GeraldKarate,AnimatedPrinter
+@char Gerald.Normal pose:Speaking
+@wait 1
+Gerald: It's.|#39|[wait .1].|#3a|[wait .1].|#3b|[wait .4] Gerald.|#3c|[char Gerald.Sleepy]<br>Gerald Ford.|#32|
+Bjorn: I don't care.<br>|#1d|[wait .5]Just do your job, or I'm sending you back to hell.|#16|
+Gerald: .|#23|[wait .2].|#24|[wait .2].|#25|
+@char Gerald.Sleepy pose:Speaking
+@wait .2
+Gerald: Yes,|#3d|[wait .2] boss.|#26|
+@wait .1
+@char Gerald.Normal
+@wait 1
+@hide AnimatedPrinter,Gerald
+@wait .3
+@stop
