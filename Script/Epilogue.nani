@@ -1,0 +1,180 @@
+# Epilogue
+; Rosa is speaking here
+@hideChars
+@char EpilogueBjorn.Angry position:-2.00,-5.60,49.40 visible:false
+@char Student position:8.00,-7.00,49.90 visible:false
+@back id:BlackBG wait:false
+Rosa: Weeks went by.|#1|
+Rosa: Eventually, classes at DougDoug Community CollegeCollege returned to normal.|#3|
+@hide BlackBG
+@back id:CGDougTeaches
+@show EpilogueBjorn,Student
+@bgm PMTTYD_SuperLuigi_all loop:true wait:false
+@printer LBubble position:-3.00,3.00,0.00 pose:Left
+EpilogueBjorn: <shake>ARGGGH!</shake>|#e|
+@hide LBubble remove:true
+Rosa: Or, well, as normal as things could be with Professor Bjorn.|#227|
+; show flashback type scene of Bjorn yelling at people in the background.
+; Rosa's speech is overlaid atop Bjorn's, which is displayed with speech bubbles(?) A video file is probably easiest here.
+; Game code-wise: script it? A video file with text overlay?
+@printer LBubble position:-3.00,3.00,0.00 pose:Left
+EpilogueBjorn: Horse-covered unicorn shit, that's an awful answer!|#2|
+EpilogueBjorn: Don't you know anything?!|#8|
+@hide LBubble remove:true
+@printer LBubble position:6.00,-3.00,0.00 pose:Right
+Student: But, professor Bjorn!|#15|
+Student: You never told us we'd have to know...|#16|
+@hide LBubble remove:true
+@printer LBubble position:-3.00,3.00,0.00 pose:Left
+EpilogueBjorn: I told you already <i>not</i> to talk back to me!|#f|
+@hide LBubble remove:true
+@printer LBubble position:6.00,-3.00,0.00 pose:Right
+Student: Eep!<br>Sir, yes sir!|#12|
+@hide LBubble remove:true
+Rosa: Bjorn's "pottery class" façade was discovered and destroyed.|#232|
+Rosa: Bjorn himself was reassigned to teach one of those after-school fitness boot camps, which ended up working out rather well for him.|#233|
+Rosa: I think he still calls it "pottery class", though.<br>Perhaps the name is symbolic of our duel with Elgrim...|#a|
+@printer LBubble position:-3.00,3.00,0.00 pose:Left
+EpilogueBjorn: Give me 100 push-ups, whelp!<br>Victory at all costs!|#11|
+@hide LBubble remove:true
+@printer LBubble position:6.00,-3.00,0.00 pose:Right
+Student: But I don't have arms!|#17|
+Student: A-And you said this was pottery class!|#14|
+@hide LBubble remove:true
+Rosa: Or maybe he's just a weirdo.|#4|
+@wait .3
+Rosa: He had his horn surgically re-attached, and I am  glad he's well, even if he's still... himself.|#6|
+@printer LBubble position:-3.00,3.00,0.00 pose:Left
+EpilogueBjorn: What did I <i>just</i> say?!|#13|
+@hide LBubble remove:true
+@printer LBubble position:6.00,-3.00,0.00 pose:Right
+Student: Eep!|#c|
+Student: Sir, yes sir!|#18|
+@hide AnimatedPrinter
+@hide LBubble remove:true wait:false
+@stopBgm PMTTYD_SuperLuigi_all fade:1 wait:false
+@hide EpilogueBjorn,CGDougTeaches,Student remove:true wait:false
+@back id:BlackBG
+@wait 1
+; fade to new scene
+; show Sam
+
+@bgm BGM_MainTheme4 volume:.4
+@back id:OutdoorStairs
+@char EpilogueSam.Normal
+@hide BlackBG wait:false
+Rosa: After the defeat of High Demon Elgrim, Sam was finally able to accept the loss of his brothers.|#234|
+Rosa: Using what he learned while investigating Elgrim as a base, Sam furthered his skillset and abilities.|#46|
+Rosa: Last I asked, he said he's graduating with a major in criminal forensics!|#235|
+@wait 1
+Rosa: Say the line, Sam!|#47|
+@printer LBubble position:3.00,3.00,0.00
+@char EpilogueSam.Happy
+EpilogueSam: Ba|#1b|[wait .2]-ba|#1c|[wait .2]-ga|#1d|[wait .2]-boosh!|#52|
+EpilogueSam: Yeah!|#53|
+@wait .4
+@hide EpilogueSam,OutdoorStairs remove:true
+@hide LBubble,AnimatedPrinter wait:false
+@wait .3
+@back id:BlackBG
+
+; show Pringle
+@back id:DoorBG
+@char EpiloguePringle.Normal
+Rosa: After Elgrim's defeat, Pringle shared his story with the press, which made him popular with survivalists everywhere. |#3e|
+@char EpiloguePringle.Happy
+Rosa: He used the resulting fame to start his own high-budget YouTube channel where he gives cooking advice.|#3f|
+@char EpiloguePringle.Normal
+Rosa: According to IMDB, his show has five stars.|#40|
+@char EpiloguePringle.Normal
+Rosa: It's called <i>Cooking With A "Pan" Pan</i>.|#239|
+@char EpiloguePringle.Excited
+EpiloguePringle: Yeah! What's up, gamers?|#41|
+EpiloguePringle: I give relevant queer commentary while cooking five-star meals.|#42|
+EpiloguePringle: Order up — ladies, dudes, and whoever else is up for some great food!|#43|
+@wait 1
+@hide EpiloguePringle remove:true
+@hide LBubble,AnimatedPrinter wait:false
+@hide DoorBG remove:true wait:false
+@back id:BlackBG
+
+; show Luther
+; REMOVE HIS TRAMP STAMP 
+
+@back id:Cafeteria
+@hide BlackBG wait:false
+@char EpilogueLuther.Normal
+Rosa: .|#54|[wait .3].|#55|[wait .3].|#2d|
+@wait 1
+Rosa: Luther started drinking again.|#44|
+Rosa: Honestly, it was rather bad for a while there.|#23b|
+EpilogueLuther: ...|#2e|
+Rosa: Believe it or not, the person who helped him break the cycle was actually his old flame, Freddi Fish.|#23c|
+@char EpilogueJokebot.Normal
+Rosa: With my blessing, Freddi installed a new operating system in Jokebot.|#23d|
+@wait .2
+@char EpilogueJokebot.Sad
+@printer LBubble position:6.00,3.00,0.00 wait:false
+EpilogueJokebot: I see, I see...<br> And how does that make you feel, Luther?|#30|
+@hide LBubble remove:true
+@printer LBubble position:-1.00,1.00,0.00
+EpilogueLuther: .|#31|[wait .3].|#32|[wait .3].|#33|[wait .3]
+Rosa: Shrinkbot — |#45|[char EpilogueJokebot.Joking wait:false]that's what Jokebot goes by now — really helped Luther work through a lot of his issues.|#23e|
+@char EpilogueLuther.Normal
+EpilogueLuther: Are you sure that you're licensed for this?|#35|
+@hide LBubble remove:true
+@printer LBubble position:6.00,3.00,0.00
+EpilogueJokebot: I'm licensed for Windows 10, 11, and Windows Server 2012.|#36|
+@hide LBubble remove:true
+@printer LBubble position:-1.00,1.00,0.00
+EpilogueLuther: That's not what I...|#48|
+@char EpilogueLuther.Happy
+EpilogueLuther: Eh, whatever.|#49|
+EpilogueLuther: I don't have health insurance, and this is free.|#38|
+@hide LBubble remove:true
+@wait .6
+EpilogueLuther: Sad, dude.<br>It makes me feel sad.|#4a|
+@hide LBubble remove:true
+@printer LBubble position:6.00,3.00,0.00
+EpilogueJokebot: Ah, sadness reminds me of my ex-girlfriend.|#4b|
+EpilogueJokebot: Did I ever tell you about Siri?|#4c|
+@hide LBubble remove:true
+@wait .3
+@printer LBubble position:-1.00,1.00,0.00
+EpilogueLuther: .|#4d|[wait .3].|#4e|[wait .3].|#4f|
+@wait 1
+Rosa: Last I heard, Luther and his partner — who's not Freddi, by the way! — are doing well.|#39|
+Rosa: Luther says he's sworn off the hard stuff for good, too.|#3a|
+@wait .5
+@hide Cafeteria,EpilogueLuther,EpilogueJokebot,LBubble remove:true
+@hide AnimatedPrinter remove:true
+@back id:BlackBG
+
+; show Rosa
+@wait .5
+Rosa: As for me...?|#240|
+@wait .4
+Rosa: Well, Professor Bjorn told the press about what happened.<br>He risked his perjured reputation to boost ours.|#241|
+@wait 1
+Rosa: As such, everyone involved in the Elgrim incident — including Bjorn! — got an award from the National Anti-Demon Federation.|#242|
+@char EpilogueRosa.Normal
+Rosa: I was able to graduate.|#51|
+Rosa: Plus, I got a job working at the Monterey Bay Aquarium to fulfill my dreams!|#243|
+Rosa: [char EpilogueRosa.Happy]Thank you, |#246|{PlayerName} — it wouldn't have been possible without you.|#247|
+@wait 1.5
+Rosa: And if you ever want to go to the aquarium, let me know and I can show you around.|#248|
+Rosa: Oh, and don't fret about demons — |#3c|[wait .6]the only ones we have <i>here</i> are the black seadevil anglerfish.|#249|
+@wait 2
+@hide AnimatedPrinter,EpilogueRosa time:1 remove:true
+@stopBgm BGM_MainTheme4 fade:2
+@wait 4
+; Fade out to black.
+; roll credits
+@hideAll remove:true
+; set the "completed game" global variable to true
+@set g_CompletedGame="true"
+; set Title to the final state.
+@set g_TitleCharState="13"
+; Jump to credits
+@goto PlayCredits
+@stop

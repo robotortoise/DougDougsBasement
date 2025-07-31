@@ -1,0 +1,26 @@
+# CreditsStart
+@processInput false
+@hideUI TitleUI
+@back id:BlackBG time:1
+; play 95 seconds demo credits loop
+; @bgm BGM_Credits loop:false
+@bgm BGM_LongLiveTheQueen wait:false volume:.5 loop:false
+@char QueenPhoto.ShowQueen scale:1 time:3
+@wait 1
+@char QueenPhoto.ShowNothing transition:Crossfade time:3
+@wait .1
+@hide QueenPhoto remove:true
+@char LogoGuy.No position:0.00,-4.00,50.00 scale:0.20,0.20,0.20
+@animate LogoGuy appearance:Yes transition:Crossfade scale:.2|.3 time:3
+@wait 2
+@char LogoGuy.No transition:Crossfade time:1
+@hide LogoGuy remove:true
+@loadScene FinalCredits additive:true wait:false
+; wait for 95 seconds for credits to finish
+@wait 133
+; unload the credits
+@unloadScene FinalCredits
+; process inputs again. return to title.
+@processInput true
+@title
+@stop

@@ -1,0 +1,44 @@
+@hideUI PlayCreditsButtonMenu
+@bgm BGM_IndustrialDrone_Loop intro:BGM_IndustrialDrone_Loop volume:.4
+@sfx sfx_metal_push_bar wait:false
+@back BjornRoom_BjornSprite id:BjornOffice time:2
+@sfx sfx_walking
+@wait 6
+; fade out to new BG
+; Bjorn appears in his full unicorn glory. He takes up the whole screen, similar to Elgrim. Clear the screen after every Bjorn dialogue.
+; Perhaps he is standing in front of a throne, time permitting.
+@back BjornRoom id:BjornOffice
+@stopBgm wait:false
+@bgm ZeldaSS_GrooseSlow_Loop intro:ZeldaSS_GrooseSlow_Intro
+@char Bjorn.Normal
+Bjorn: Hello, brilliant little adventurers!|#1|
+Bjorn: It's me, Bjorn the Unicorn!|#2|[wait .3] Obviously.|#3|
+@char Bjorn.Happy
+Bjorn: Anyhoo, I am proud to present the final release<br>of our game, DougDoug's Basement!|#4|
+Bjorn: It's available on Windows, OS X,<br>and even Linux (for you savvy seahorses who know what an apt-get is!)|#5|
+Bjorn: The full game has 30-45 minutes of gameplay<br>featuring original music, voice acting, and art.|#d|
+Bjorn: Obviously, we also have<br>gratuitous innuendo...|#e|[wait .3] and bald jokes!|#6|
+@char Bjorn.Annoyed
+@wait .3
+Bjorn: You are <i>quite</i> fond of those bald jokes...|#7|
+@wait .3
+@char Bjorn.Normal
+Bjorn: Download DougDoug's Basement to join the class roster today!<br>|#b|[wait .6]I'll be waiting for you.|#8|
+@wait 1
+@hide Bjorn,AnimatedPrinter
+@stopBgm ZeldaSS_GrooseSlow_Loop
+@wait 2
+@bgm BGM_Scary2_Loop
+@back BjornRoom_OurpleMist id:BjornOffice
+@char EvilSam.Shadow
+@set EvilSam="???"
+EvilSam: ...|#9|
+EvilSam: As will I...<br>|#c|[wait .4]Heh heh heh...|#a|
+@wait 3
+@hideAll
+@back id:BlackBG
+@char LogoGuy.No position:0.00,-4.00,50.00 scale:0.20,0.20,0.20
+@animate LogoGuy appearance:Yes transition:Crossfade scale:.2|.3 time:3
+@wait 2
+@char LogoGuy.No transition:Crossfade time:1
+@hide LogoGuy remove:true

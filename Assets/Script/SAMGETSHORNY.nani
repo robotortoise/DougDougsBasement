@@ -1,0 +1,845 @@
+; crossfade to next scene
+; fade to new scene.
+; play walking sfx.
+@sfx sfx_walking
+@back Hallway_Normal id:ElgrimHallway time:3 wait:false
+@bgm BGM_IndustrialDrone_Loop intro:BGM_IndustrialDrone_Loop volume:.4
+; We arrived at the next room, which looked <i>neigh</i>-identical to the last.|#94|
+After getting lost in a series of rooms, each one <i>neigh</i>|#209|[wait .5]-identical to the last, we found ourselves at the final corridor.|#94|
+@wait 1.5
+@char Sam.Normal
+@char Luther.Normal
+Sam: Hm...<br>I wonder how much it costs for Professor Bjorn to power these bright lights all the time.|#1ef|
+Player: Does he really carry water all the way down here?<br>Sounds like such a pain...|#1f0|
+@char Sam.Normal
+Sam: Must be a hardcore vegan.<br>Mad respect.|#1eb|
+@char Luther.Smug
+Luther: Heh...<br>Those aren't ferns and veggies.|#1ec|
+@char Sam.Annoyed
+Sam: Oh yeah?<br>Then explain this fancy watering can.|#1f1|
+@hide Sam,Luther,AnimatedPrinter
+@wait .3
+@char ItemChara.BongBong scale:.7 pos:50,25
+@wait 3
+@hide ItemChara remove:true
+@show Sam,Luther
+@char Luther.Normal
+Luther: .|#1f2|[wait .3].|#1f3|[wait .3].|#1f4|
+@wait .5
+Luther: That's... |#20a|[wait .3]not a watering can.|#1f6|
+@char Sam.Surprised
+Sam: Then what is it?|#1f7|
+@wait .2
+Luther: Well, the answer is obvious.<br>That's clearly a-|#1f9|
+@hide Luther,Sam,AnimatedPrinter wait:false
+@stopBgm
+@wait .3
+; set Elgrim's name to "???". Don't show his sprite fully – he's cloaked in shadow. 
+; Elgrim's sprite takes up the whole screen, so the screen should be cleared after whenever he is onscreen.
+@sfx ElgrimTeleport
+@wait 1
+@set Elgrim="???"
+Elgrim: Heh heh…|#97|
+; add elgrim to title
+@set g_TitleCharState="6"
+Elgrim: Hello, Sam.|#98|
+@wait .3
+@hide EvilPrinter
+@wait .3
+@char Sam.Normal
+@char Sam.Surprised
+Sam: ...|#99|
+@wait .3
+Sam: Huh?|#9a|
+@wait 1
+@hide Sam,AnimatedPrinter time:1
+; Show Elgrim's sprite in full.
+@char Elgrim.Fadeout visible:false
+@char Elgrim.Fadeout transition:Crossfade time:.5
+@char Elgrim.ElgrimAppear1 transition:Radialblur time:.3
+@char Elgrim.ElgrimAppear2 transition:Crossfade time:.5
+@wait 2
+@bgm BGM_Scary2_Loop intro:BGM_Scary2_Intro wait:false
+@sfx Elgrim_Sudden_Jolt
+@char Elgrim.NormalWithBGAndVignette transition:RadialBlur time:.5 wait:false
+@wait 2
+@back Hallway_Purple id:ElgrimHallway
+@wait .5
+Elgrim: Do you remember me, Sam?|#9b|
+@wait .3
+@hide EvilPrinter
+@wait 2.5
+@hide Elgrim
+; Sam is shocked/surprised.
+@show Sam
+@char Sam.Surprised
+Sam: What the...?|#9c|
+@hide Sam,AnimatedPrinter
+@char Elgrim
+Elgrim: Perhaps not, then.|#9d|
+Elgrim: It's funny.<br>You look the same as the others,<br>but I suppose this one's memories have been wiped clean.|#9e|
+@wait .3
+Elgrim: Such a pity....|#9f|
+@char Elgrim.SmugWithBGAndVignette
+Elgrim: I would have relished the delectable scent of your fear.|#a0|
+@wait 1
+@hide Elgrim,EvilPrinter
+@show Sam
+@char Sam.Angry
+Sam: The others...?|#a1|
+Sam: What are you talking about?|#a2|
+@hide Sam time:1
+# ElgrimPeggleMaster
+@char Rosa.Normal wait:false
+@char Luther.Mad2
+Luther: Hey, mister big scary demon guy...<br>|#20b|[wait 1]Are you the next Peggle Master we need to kill?|#a4|
+@hide Luther,Rosa,Sam,AnimatedPrinter
+@stopBgm BGM_Scary2_Loop
+@char Elgrim.Smug
+@wait 1.5
+@char Elgrim.Normal wait:false
+@wait 2.5
+Elgrim: What?|#a5|
+@wait .5
+@hide Elgrim,EvilPrinter
+@show Luther,Rosa
+Luther: Peggle Master!<br>They're like these bad guys that we have to kill.|#a6|
+Luther: Rosa, he's the next one.<br>Right?|#a7|
+@char Rosa.Annoyed
+@wait .5
+Rosa: Hold on, no one said anything about killing-|#a8|
+@hide Luther,Rosa
+@show Elgrim
+@bgm BGM_Scary1 fade:1 wait:false
+Elgrim: If that'll make me scarier, then...|#a9|[wait .3][char Elgrim.Smug] yes.<br>Yes, I am.|#aa|
+@wait 1.5
+@char Elgrim.Normal
+@set Elgrim="Elgrim"
+Elgrim: You shall refer to me as "Elgrim"—|#ab|<br>High Demon Elgrim, to be precise.|#ac|
+Elgrim: I'd say it's a pleasure to make your acquaintance, but lying is a sin...<br>Not that <i>I'm</i> particularly concerned about sinning.|#ad|
+@wait 1.5
+@char Elgrim.Smug
+Elgrim: "High" demon means that I'm in the upper echelon of demons.|#ae|
+Elgrim: Anything bad that's ever happened to you is my fault — at least, indirectly.|#af|
+Elgrim: Ever lost your socks? Scrape your knee?|#b0|
+Elgrim: What about having a rough day at work, coming home to relax, and then a fly lands in your soup?|#b1|
+Elgrim: Feels like absolute shit, right?|#b2|
+Elgrim: Well, that's due to me.<br>I'm the root of all evil, spreading my essence throughout your crappy little lives.|#b3|
+Elgrim: I'm a busy guy.<br>I don't have time to make <i>everyone</i> personally suffer,<br>but I like to do what I can.|#b4|
+@wait 1.5
+; Sam scared sprite
+@hide Elgrim,EvilPrinter
+@char Sam.Surprised
+Sam: I've met some scary people, but this guy...|#b5|
+@hide Sam,AnimatedPrinter
+@char Elgrim.Smug
+Elgrim: Aw, does poor widdle Pajama Sam want to piss his linen pajamas?|#b6|
+Elgrim: Good.|#b7|
+Elgrim: I love watching you writhe in pain, Sam.|#b8|
+@hide Elgrim,EvilPrinter
+@show Sam
+Sam: You… know me?|#b9|
+@hide Sam,Luther,Rosa,AnimatedPrinter
+@char Elgrim.Normal
+Elgrim: Um, duh.<br>Your brothers banished me to the deepest pits of Hell.|#ba|
+Elgrim: I suppose you could say I'm bitter about it — because I am.<br>I'm extremely bitter, actually.|#bb|
+@hide Elgrim,EvilPrinter
+@show Sam,Luther,Rosa
+@char Rosa.Normal
+Rosa: If you were banished, how did you get out?|#bc|
+@hide Sam,Luther,Rosa,AnimatedPrinter
+@char Elgrim
+Elgrim: Wouldn't you like to know, Rosa?|#bd|
+@hide Elgrim,EvilPrinter
+@show Sam,Luther,Rosa
+; Rosa scared sprite
+@char Rosa.Sad
+Rosa: H-how do you know my...?|#be|
+@hide Sam,Luther,Rosa
+@show Elgrim
+Elgrim: I told you that I'm the root of all evil, didn't I?<br>I know <i>everyone</i>.|#bf|
+@hide Elgrim,EvilPrinter
+@show Sam
+@char Sam.Sad
+Sam: And... I guess you're not going to just let us go.|#c0|
+@hide Sam,AnimatedPrinter
+@show Elgrim
+Elgrim: Uh-huh.|#20d|[wait .3]<br>Good guess,|#20e|[wait .5] piss boy.|#c1|
+@hide Elgrim,EvilPrinter
+@wait 2
+Player: Hey, Luther.|#c2|
+@char Luther.Normal
+Luther: What is it?|#c3|
+Player: Elgrim...<br>What if we gave you a sacrifice as offering?<br>You know, instead of you killing us.|#c4|
+@wait 1.5
+Player: Because there's this fish guy I know|#c5|[char Luther.Mad2] that would definitely be up to offer himself-|#c6|
+@hide AnimatedPrinter
+Luther: [shake AnimatedPrinter]<shake><i>Hey!</i></shake>|#c7|
+@wait 1.5
+@hide Luther,AnimatedPrinter
+@char Elgrim.Smug
+Elgrim: Nice try, |#c8|{PlayerName}, but I think it's more evil of me to keep Luther alive.|#c9|
+@wait 1.5
+@hide Elgrim,EvilPrinter
+@show Luther
+@char Luther.Mad1
+Player: <i>Dammit.</i>|#ca|
+@wait 1
+Luther: I don't know if I should feel insulted or relieved.|#cb|
+@hide Luther,AnimatedPrinter
+@wait 1.5
+
+# SamGrowsHorns
+@char Sam.Angry
+Sam: Why are you here?|#cc|
+@wait .5
+@hide Sam,AnimatedPrinter
+@char Elgrim.Smug
+@shake EvilPrinter
+@bgm BGM_Scary2_Loop intro:BGM_Scary2_Intro wait:false
+Elgrim: To do... |#cd|[wait .05]<shake><i>this</i>!</shake>|#ce|
+@char Elgrim.Fadeout transition:DropFade time:1
+@hide Elgrim,EvilPrinter remove:true wait:false
+@char Sam.Surprised time:0
+@print "Wait, what are you-|#cf|" author:Sam waitInput:false
+@stopBGM
+@sfx sfx_possession wait:false
+@char Sam.Possessed transition:DropFade time:1.5 wait:false
+@back Hallway_Normal id:ElgrimHallway time:1.5 wait:false
+; Elgrim possesses Sam.
+; Sam turns evil - maybe with red eyes
+@wait 1.5
+Sam: .........|#d0|
+@char Sam.Possessed
+Sam: ..........................................|#d1|
+@wait .5
+@hide Sam
+@char Luther.Dismayed
+@char Rosa.Normal
+Luther: Uh, Sam?<br>|#d2|[wait .5]You okay there, dude?|#d3|
+@char Rosa.Normal
+Rosa: Sam?|#d4|
+@hide Rosa,Luther,AnimatedPrinter
+@char Sam.Possessed
+Sam: ..............|#d5|
+@wait 1.5
+@hide Sam remove:true wait:false
+@show Luther,Rosa
+Luther: What's going on?<br>Where...|#d6|[wait 1.5] Where's Elgrim?|#d7|
+@wait .4
+@set EvilSam="???"
+@hide Luther,Rosa,AnimatedPrinter
+@char EvilSam.Shadow
+EvilSam: .|#d8|[wait .3].|#d9|[wait .3].|#da|[wait .3].|#db|
+; change Sma to evil sam on title
+@set g_TitleCharState="7"
+
+@wait 1.5
+
+# SamIsPossessed
+@set EvilSam="\"Sam\""
+@char EvilSam.Shadow
+@char EvilSam.Normal transition:crossfade
+@back Hallway_Purple_Fog id:ElgrimHallway time:1 wait:false
+@bgm BGM_MoebiusBattle_Loop intro:BGM_MoebiusBattle_Start_WithFieldTheme
+EvilSam: Understood, captain!|#dc|
+@wait 1.5
+; Sam glows and starts demon speaking.
+EvilSam: All right, initiate the bone ritual with a splash of lunar escape.|#dd|
+EvilSam: And don't forget to zigzag through the crevices of one storefront.|#de|
+@wait 1.5
+@hide EvilSam,EvilPrinter
+@char Luther.SurprisedWithTear
+Luther: What the hell?|#df|
+@char Rosa.Sad
+Rosa: Sam is...|#e0|[wait .5]<br>He's...!|#e1|
+@hide Rosa,Luther
+@char EvilSam.Normal
+EvilSam: .|#e2|[wait .3].|#e3|[wait .3].|#e4|[wait .3]
+@wait 1.5
+EvilSam: <shake>Heh...</shake>|#e5|
+EvilSam: Everything I learned in the darkness,<br>we shall use in our worst moments.|#e6|
+EvilSam: Ba-ba-ga-<shake>boosh!</shake>|#e7|
+@hide EvilPrinter
+@wait 1
+Player: Guys, he's talking crazy!|#e8|
+Player: Elgrim...|#e9|[wait 1.5]<br>He's got Sam!|#ea|
+@hide AnimatedPrinter
+@set EvilSam="Elgrim"
+@wait .5
+@show EvilSam
+EvilSam: Then, perhaps a glance at the simmering horizon will unearth a constellation of enigmas awaiting our decryption.|#eb|
+EvilSam: Once our vessels are brimming with celestial ichor,<br>we shall storm the citadel,<br>raining shards of the void upon the stalwart guardians until balance is struck.|#ec|
+EvilSam: With the cosmic equilibrium restored, we will channel our energies through the astral gateway,<br>soaring like phoenixes reborn.|#ed|
+@hide EvilSam,EvilPrinter
+@char Luther.Surprised
+@char Rosa.Mad wait:false
+Luther: ...|#ee|
+Rosa: ........|#ef|
+@wait 1.5
+Player: What.|#f0|[wait .3] The.|#f1|[wait .3] Hell.|#f2|
+@char Rosa.Normal
+Rosa: Is Sam...?|#f3|
+Luther: What do we do, |#f4|{PlayerName}?<br>We need to save Sam!|#f5|
+@hide Luther,Rosa,AnimatedPrinter
+@wait .2
+@char EvilSam
+@wait .5
+# EvilSamChoice
+@char EvilSam.Normal
+PlayerInternal: What should I do...?|#f6|
+@set g_choice_enabled=!chose_evilsam_remember
+@choice "Remind Sam who he is.|#f7|" goto:.SamRemember
+@set g_choice_enabled=!chose_evilsam_gibberish
+@choice "Speak gibberish back to counter the demonspeak.|#f8|" goto:.SamGibberish
+@set g_choice_enabled=!(chose_evilsam_inventory_gun&&chose_evilsam_inventory_oil)
+@choice "Use something from my inventory.|#f9|" goto:.SamInventory
+@stop
+
+# SamGibberish
+@set chose_evilsam_gibberish=true
+PlayerInternal: Maybe...|#fa|[wait .5] Maybe if I speak gibberish back at him, it'll cause Sam to realize how crazy he sounds.|#fb|
+Player: Hey, Sam!|#fc|
+@hide EvilPrinter
+EvilSam: Gigamesh.|#fd|
+Player: ...|#fe|
+Player: Uh...|#ff|[wait .5] right.|#100|[wait .3]<br>Let me try something.|#101|
+@hidePrinter
+@wait 1.5
+Player: Dougtales, woo-ooh!<br>Every day they're out there making...|#102|[wait .5] <i>Dougtales</i>!|#103|
+@wait 1.5
+EvilSam: .|#104|[wait .3].|#105|[wait .3].|#106|[wait .3]
+EvilSam: ..........|#107|
+@wait 1.5
+Player: Did...|#108|[wait .3] Did it work?|#109|
+EvilSam: Potatoes and popcorn are awful dishes.<br>Truly, their palette lacks any semblance of flavor, and they only serve as vessels for other condiments.|#10a|
+Player: Nope, didn't fix him.<br>He's... |#20f|[wait .2]still talking crazy.|#10b|
+PlayerInternal: Guess I need to try something else.|#10c|
+@goto .EvilSamChoice
+
+# SamRemember
+@set chose_evilsam_remember=true
+PlayerInternal: Maybe if I help Sam remember who he is and what his place<br>in this world is, he'll come to.|#10d|
+@wait 1.5
+Player: This isn't you, Sam!|#10e|
+Player: You're a kind, smart college student.<br>That's who you are — you're not a demon!|#10f|
+Player: Remember your truth, Sam!<br>Don't let Elgrim control you!|#110|
+@wait 1.5
+@sfx Sunshaft_sfx_looping loop:true volume:.2
+@spawn SunShafts wait:false
+EvilSam: Grr...|#111|[wait 1.5]<br>I...|#112|[wait 1.5]<br><shake>Elgrim...!</shake>|#113|
+Player: Sam!?<br>|#114|[wait .7]Is that really you?|#115|
+@wait 1.5
+@stopSfx Sunshaft_sfx_looping
+@despawn SunShafts wait:false
+EvilSam: Laruel's lexicon levels luddite.<br>Truly, I cannot turkey the meat appetizer henceforth.|#116|
+EvilSam: Why lexicon not happen?<br>Don't you agree, heavenly?|#117|
+Player: ...|#118|
+@wait .3
+Player: Oh.|#119|
+@hide EvilSam,AnimatedPrinter
+@char Rosa.Normal
+Rosa: There has to be something else we can try.|#11a|
+@hide Rosa
+@goto .EvilSamChoice
+
+# SamInventory
+PlayerInternal: What should I use...?|#11b|
+@set g_choice_enabled=!chose_evilsam_inventory_gun
+@choice "Use the gun.|#11c|" goto:.SamShoot
+@set g_choice_enabled=!chose_evilsam_inventory_oil
+@choice "Use the oil.|#11d|" goto:.SamOil
+@set g_choice_enabled=true
+@choice "Return to the previous menu.|#11e|" goto:.EvilSamChoice
+@stop
+
+# SamShoot
+@set chose_evilsam_inventory_gun=true
+I retrieved the gun from my pepper pocket (my ass).|#11f|
+@sfx sfx_gun_cock volume:.5
+Player: Hm, maybe if I...|#120|
+@hide EvilSam,AnimatedPrinter
+@wait .5
+@char Rosa.Mad
+@wait .5
+Rosa: You're not thinking of shooting one of my students, are you?<br>That's <i>highly</i> unethical, demonic possession or otherwise.|#121|
+@wait .3
+@char Luther.Smug
+Luther: Come on, |#122|{PlayerName}.<br>Even <i>I</i> know that's too far.|#123|
+@char Luther.Happy
+Luther: What kind of |#124|[wait .3]<i>idiot</i>|#213|[wait .3] kills a kid<br>just for being <i>sliiiiiightly</i> demonically possessed?|#125|
+@char Rosa.Sad
+Rosa: .|#126|[wait .1].|#127|[wait .1].|#128|
+@wait 1.5
+@char Luther.Dismayed
+Luther: .|#129|[wait .1].|#12a|[wait .1].|#12b|
+@wait .3
+@hide Luther,Rosa,AnimatedPrinter
+@show EvilSam
+EvilSam: .|#12c|[wait .1].|#12d|[wait .1].|#12e|
+@wait .5
+@hide EvilPrinter
+Player: .|#214|[wait .3].|#215|[wait .3].|#12f|
+@hide AnimatedPrinter
+@wait .3
+I reluctantly put the gun away.|#130|
+;Broken
+@sfx sfx_cloth_rustle wait:false 
+@wait 1.5
+PlayerInternal: Guess I'll have to try something else.|#131|
+@goto .SamInventory
+
+# SamOil
+@set chose_evilsam_inventory_oil=true
+@hide EvilSam
+@char Rosa
+Player: Rosa, you said that Jokebot's oil was holy.|#132|
+@char Rosa.Normal
+Rosa: Yes, it was blessed by a priest.<br>It's not filled with holes or anything.|#133|
+@wait 1.5
+Player: Why would it be filled with...?|#211|[wait .3]<br>Eh, whatever.|#134|
+Player: So,|#135|[wait .3] demons are supposed to <i>hate</i> holy water, right?|#136|
+@hide Rosa
+@show EvilSam
+EvilSam: No, we love it, actually.|#137|[wait .3]<br><i>Huuuge</i> holy water fanboy here.|#138|
+@wait 1.5
+@hide EvilSam
+@char Luther
+@char Luther.Surprised
+Luther: Hey, he's speaking normal again!|#139|
+@hide Luther
+@show EvilSam
+; Sam's eyes are still red and he is still possessed by Elgrim.
+; He sounds extremely strained when he says this, as Elgrim does not know how to act like Sam.
+EvilSam: Yes, I am so very normal now.|#13a|
+@wait .3
+EvilSam: Ha ha, poggies!<br>Ready to go adventuring in the land of Desire?|#13b|
+@hide EvilSam
+@show Rosa
+@char Rosa.Annoyed
+Rosa: Do you... |#13c|[wait .3]mean the land of <i>Darkness</i>?|#13d|
+@hide Rosa
+@show EvilSam
+EvilSam: Sure!<br>If that's what I'm supposed to say.|#13e|
+PlayerInternal: Does he think that we're idiots?|#13f|
+@hide EvilSam
+@show Luther
+@char Luther.Happy
+Luther: <i>Phew!</i><br>Good thing you're back to normal, Sam!|#140|
+@wait 1.5
+Player: ...|#141|
+@wait 1.5
+PlayerInternal: Okay, at least <i>one</i> of us is "idiots".|#142|
+@wait 1
+@char Luther.Normal
+@char Rosa.Normal wait:false
+Player: Rosa, Luther.<br>Can you hold Sam down for me?|#143|
+Luther: Eh...<br>I don't touch <i>mammals</i>.|#144|
+@char Rosa.Mad wait:false
+Rosa: .|#145|[wait .3].|#146|[wait .3].|#147|
+Luther: What if he gives me a disease, like salmonella?|#148|
+Player: Just <shake><i>do it</i></shake>!|#149|
+@wait .3
+@hide AnimatedPrinter
+@stopBgm
+@bgm XBC3_YoungWarriors_Loop intro:XBC3_YoungWarriors_Intro
+@hide Luther,Rosa
+@hide EvilSam remove:true
+@camera zoom:0.18
+@char PolyTrio.1
+@char PolyTrio.2
+@char PolyTrio.3
+; see if you can actually position Luther and Rosa on his arms here.
+@printer AnimatedPrinter position:0,5.5
+Luther and Rosa each grabbed one of Sam's arms, holding him in place.|#14a|
+@hide AnimatedPrinter
+@wait 1.5
+Player: Here goes nothing...|#14b|
+@wait .5
+I held the lunchbox over my possessed friend and unlatched it, the holy oil coating Sam's gangly body.|#14c|
+@sfx sfx_oil_pour
+@sfx sizzle
+EvilSam: W-wait!<br>Don't-|#14d|
+@wait 1
+@hide EvilPrinter
+@camera zoom:0
+@wait .3
+@hide PolyTrio,EvilPrinter remove:true
+@char SavingSam.EvilSam
+; the player splashes Sam with the oil.
+EvilSam: <shake>AGHHH!!</shake>|#14e|
+; Sam is splashed with oil and screeches.
+EvilSam: Levitation without fail, bake me a reindeer cake.|#14f|[wait .3]<br>Shit, that cake is enormous.|#150|
+@hide EvilPrinter
+@sfx Sunshaft_sfx_looping loop:true volume:.2
+@spawn SunShafts wait:false
+@char SavingSam.GoodSamFaded transition:Appearance.RadialBlur time:2
+; Sam whiplashes between evil and normal as the demon is expelled
+@spawn ShakeCharacter params:SavingSam
+Sam: <shake>I-I can feel him...</shake>|#151|
+Sam: <shake>H-He's...|#152|[wait .3] He's almost...!|#153|
+; This is Elgrim
+@char SavingSam.EvilSam transition:Appearance.Crumble time:2
+EvilSam: Dirt monkey drops were always excellent practicing for stoning.|#154|
+EvilSam: <shake>Levigate Mike Pence|#155|[wait .3] henceforth.</shake>|#156|
+; This is Sam
+@hide EvilPrinter
+@char SavingSam.GoodSamLoud transition:Appearance.RadialBlur time:2
+Sam: <shake>Get........|#157|[wait .4]out........!</shake>|#158|
+; Elgrim
+@wait 1.5
+@char SavingSam.EvilSam transition:Appearance.Crumble time:2
+Sam: <shake>BA-BA-GA-BOOSH!</shake>|#15c|
+; Sam
+@char SavingSam.GoodSamLoud transition:Appearance.RadialBlur time:1
+Sam: <shake>BEGONE, </shake>|#15d|[shake AnimatedPrinter count:2]<shake>DEMON!</shake>|#15e|
+@stopSfx Sunshaft_sfx_looping
+@despawnall wait:false
+@hideAll wait:false
+@stopBgm fade:0.5 wait:false
+@back id:WhiteBG time:2.1 wait:false
+; set Sam on title to normal Sam
+@set g_TitleCharState="8"
+
+; crossfade from EvilSam sprite to regular Sam
+@wait 3.1
+@back Hallway_Purple id:ElgrimHallway wait:false
+@hide WhiteBG time:2.1
+@wait 1
+@char Sam.Oil
+@printer AnimatedPrinter position:0,0 visible:false
+Sam: Ngh...|#15f|
+@hide AnimatedPrinter
+@wait 1
+@hide Sam,AnimatedPrinter
+@char Elgrim.Fadeout transition:Crossfade time:.1
+@char Elgrim.ElgrimAppear2 transition:Crossfade time:.3
+@sfx Elgrim_Sudden_Jolt
+@bgm BGM_MoebiusBattle_Loop
+@char Elgrim.NormalWithBGAndVignette transition:DropFade time:1 wait:false
+; Elgrim leaves Sam's body
+Elgrim: <shake>Augh!</shake>|#160|[wait .3]<br><shake>You...!</shake>|#161|
+Elgrim: You little <shake>twerp</shake>!<br>How <shake><i>dare</i></shake> you reject being my vessel!|#162|
+@wait 1
+Elgrim: And <shake><i>you</i></shake>, |#163|{PlayerName}!|#164|
+@wait 1.5
+@char Elgrim.Normal transition:Crossfade time:1
+@char Elgrim.Smug
+Elgrim: Who do you think you are, exorcizing High Demon Elgrim?|#165|[wait .3]<br>Heh...<br>Do you even know who I am?|#166|
+@hide EvilPrinter
+@wait .3
+PlayerInternal: Ah...<br>I shouldn't have pissed him off.<br>|#167|[wait .3]<i>Shit.</i>|#168|
+@hide AnimatedPrinter
+@hide Elgrim
+@char Luther.Smug visible:false
+@stopBGM
+@wait .3
+@show Luther
+@char Luther.Smug pose:Speaking
+@wait .3
+@char Luther.Happy pose:Speaking
+@wait 2
+@hide Luther
+@wait .1
+@show Elgrim
+@wait 1
+Elgrim: .|#169|[wait .3].|#16a|[wait .3].|#16b|
+Elgrim: Uh...|#217|[char Elgrim.Normal]<br>Is there some reason you're staring at me?|#16c|
+@hide Elgrim,EvilPrinter
+@wait .3
+@char Luther.Smug
+@bgm BGM_Awkward1 loop:true
+Luther: Of course we know who you are, silly!<br>|#16d|[wait .3]You're the second Peggle Master!|#16e|
+Luther: Now, come on! Hand it over!|#219|
+@wait 1.5
+@hide Luther
+@char Elgrim.Normal
+; Elgrim has forgotten about this and is genuinely surprised.
+Elgrim: No!<br>I'm the...|#16f|
+Elgrim: .|#170|[wait .3].|#171|[wait .3].|#172|
+Elgrim: What did you just call me?|#173|
+@hide Elgrim,EvilPrinter
+@char Luther.Happy
+Luther: Our prize! Jokebot said that all of the Peggle Masters would give us a prize when we beat them.|#21a|
+Luther: I <i>love</i> free stuff...|#21b|[wait .4]<br>So hand it over, jackass!|#21c|
+; play flashback sfx
+@hide Luther,AnimatedPrinter
+@wait .5
+@back id:WhiteBG time:1
+@hideChars
+@wait 1
+
+; flashback to the previous scene where Elgrim said he was the Peggle Master.
+; It is # ElgrimPeggingMaster scene.
+; Use black and white filter.
+
+# Flashback_ElgrimPeggle
+@back Hallway_Normal_BW id:ElgrimHallway
+@hide WhiteBG time:1
+@char BWLuther.Smug
+BWLuther: Hey, mister big scary demon guy!|#174|
+BWLuther: Are you the next Peggle Master we need to kill?|#175|
+@hide BWLuther,AnimatedPrinter
+@char BWElgrim.Smug
+@wait .5
+@char BWElgrim.Normal
+BWElgrim: What?|#176|
+@hide BWElgrim,EvilPrinter
+@show BWLuther
+BWLuther: Peggle Master!<br>They're like these bad guys that we have to kill.|#177|
+@hide AnimatedPrinter
+@hide BWLuther
+@show BWElgrim
+@char BWElgrim.Smug
+BWElgrim: If that'll make me scarier, then...|#178|[wait .3] yes.<br>Yes, I am.|#179|
+@hide EvilPrinter wait:false
+@hide BWLuther,BWElgrim remove:true
+@back id:WhiteBG time:1
+@hideChars
+@wait 1
+@back Hallway_Purple id:ElgrimHallway
+@hide WhiteBG time:1
+@wait .3
+@show Elgrim
+; Elgrim is not angry anymore. Now he is just confused.
+Elgrim: ...|#17a|
+@wait .6
+Elgrim: .............|#17b|
+Elgrim: I...<br>|#17c|[wait .3]Uh...<br>|#17d|[wait .5]Uhhhhhh....|#17e|
+@hide EvilPrinter
+@wait 1.5
+Elgrim: Well...|#17f|[wait .5] shit.<br>|#180|[wait .8]Must I...?|#181|
+@wait .6
+@hide Elgrim,EvilPrinter
+@char Rosa.Annoyed
+Rosa: Hey, Luther?<br>This guy isn't actually part of-|#182|
+@hide AnimatedPrinter
+Player: Shhhhh!|#183|
+Player: Come on, Rosa!<br>I want to see what he gives us!|#184|
+Player: Free stuff <i>is</i> free stuff, you know.|#212|
+@wait 1.0
+Rosa: S-Sure,|#185|[wait .2] but...|#186|
+@hide Rosa,AnimatedPrinter
+@wait .3
+@show Elgrim
+Elgrim: Fine. Take this thing I found when I was on my way over.<br>It's useless to me.|#187|
+@wait .5
+@hide Elgrim,EvilPrinter
+@char Pringle.Normal pose:Speaking
+@wait 3
+@shake Pringle count:2
+@wait .3
+@hide Pringle remove:true
+@show Elgrim
+Elgrim: It's some type of human cooking utensil.|#188|
+@wait .7
+@hide Elgrim,EvilPrinter
+@show Luther
+Luther: Neat, a funny-looking pan!<br>Thanks, Elgrim!|#189|
+@wait .3
+@hide Luther,AnimatedPrinter
+@show Elgrim
+Elgrim: ...|#18a|
+@stopBgm BGM_Awkward1
+@wait 1.5
+Elgrim: Anyway, I'll have my revenge...|#18b|[wait .4] I suppose.|#18c|
+; Elgrim gets smaller on screen as he floats away.
+Elgrim: Way to kill the moment.|#18d|[wait .5]<br><br>Fucking Luther, I swear.|#18e|
+; Elgrim warps away
+@sfx ElgrimTeleport
+@char Elgrim.Fadeout transition:BandedSwirl time:1.5 wait:false
+@hide Elgrim,EvilPrinter remove:true
+@back Hallway_Normal id:ElgrimHallway time:2
+@char Sam.OilSad
+Sam: ...|#18f|
+Sam: He left.|#190|
+@char Luther.Surprised
+Luther: Eww, this pan is all slimy!|#191|
+@char Luther.Normal
+Luther: {PlayerName}, you can have it.|#192|
+@wait 1.5
+System: You got the frying pan!|#193|
+@wait .3
+@hideChars
+@hidePrinter
+@sfx sfx_walking
+@back Hallway_End id:ElgrimHallway time:1.5
+@bgm AITSF_tenkai_loop intro:AITSF_tenkai_start volume:.8
+@wait 1.5
+@char Sam.OilSad
+Sam: ...|#194|
+@char Rosa.Normal
+Rosa: How are you feeling, Sam?|#195|
+Sam: Did I...|#196|[wait .3] join my brothers?|#197|
+@char Rosa.Happy
+Rosa: No, nothing like that.<br>You're alive and well.|#198|
+Sam: That was...|#199|[wait .5] really shit.<br>I never want to be demonically possessed again.|#19a|
+@char Luther.Mad2
+Luther: Do you think he'll come back?<br>Elgrim, I mean.|#19b|
+@wait 1
+Sam: I guess.<br>At this point, we have to be prepared for anything.|#19c|
+@char Luther.Smug
+Luther: Okay, but do you think-|#19d|
+@hide AnimatedPrinter
+@sfx SFX_RecordScratch volume:.4 wait:false
+@hide Sam,Luther,Rosa,AnimatedPrinter remove:true wait:false
+@stopBgm wait:false
+@bgm BGM_GeraldFordIntro
+@set Gerald="???"
+Gerald: <shake>Behold, whelps!</shake>|#19e|
+@wait 1.5
+Player: Oh, for Doug's sake...<br>What is it <i>now</i>?|#19f|
+@wait .5
+Gerald: <shake>Ha-</shake>|#1a0|[wait .3]<shake>ha-</shake>|#1a1|[wait .3]<shake>ha!</shake>|#1a2|
+@set g_TitleCharState="9"
+
+; Gerald Ford appears.
+@char Gerald.Smug
+Gerald: You all find yourselves with the great honor of meeting me!<br>|#1a3|[wait .5]But who am I, you ask?|#1a4|
+@wait .4
+@char Luther.Mad2
+Luther: We didn't.|#1a5|
+@hide Luther
+@char Gerald.Smug pos:50,0
+Gerald: I am the thirty-eighth president of the United States...|#1a6|
+@set Gerald="Gerald Ford"
+@char Gerald.Smug2
+Gerald: Gerald Rudolph Ford!|#1a7|
+@wait .3
+Gerald: Witness my awesome might as I defeat you with... |#1a8|[wait .3]my unique Peggle Master ability!|#1a9|
+@hide Gerald
+@char GeraldKarate.Smug2 wait:false pose:Speaking
+@wait .5
+; Gerald Ford strikes a pose, Jojo style. Or Karate style, as seen in \References\Karate. Just... something where he looks really stupid and over-the-top.
+GeraldKarate: <shake>Hiiiiiiii-yah!</shake>|#1aa|
+@stopBgm BGM_GeraldFordIntro
+@wait 2.5
+@hide GeraldKarate
+@char Rosa.Annoyed
+Rosa: ...|#1ab|
+@hide Rosa
+@char Sam.Sad
+Sam: ...|#1ac|
+@hide Sam
+@char Luther.Surprised
+Luther: Ah...|#1ad|
+@hide Sam
+@wait .5
+@hide Luther
+@char GeraldKarate.Stern pose:Speaking
+@wait .2
+Player: So, about that...|#1ae|
+@hide AnimatedPrinter
+@char GeraldKarate.Annoyed pose:Speaking
+GeraldKarate: ...|#1af|
+@wait .6
+GeraldKarate: Hey...|#1b0|
+GeraldKarate: You don't seem terrified.<br>Isn't this at least a <i>little</i> bit scary?|#1b1|
+@wait .5
+Player: ...|#1b2|
+@hide AnimatedPrinter
+@char GeraldKarate.Normal
+GeraldKarate: Can I get <i>some</i> sort of reaction here, please?<br>Seriously, guys.|#1fa|
+@wait .3
+@char Rosa.Mad
+Rosa: Mr. President, Sam was just possessed by a demon.<br>We don't need this right now.|#1b5|
+@hide GeraldKarate remove:true
+@char Gerald.Stern wait:false
+Gerald: .|#1fb|[wait .3].|#1fc|[wait .3].|#1b6|
+@wait .5
+Gerald: ..............|#1b7|
+@char Gerald.Sleepy
+Gerald: Oh.<br>|#1b8|[wait 1]Bad time?|#1b9|
+@wait .2
+@char Gerald.Normal wait:false
+@hide Rosa
+@char Sam.Happy
+Sam: I could rough you up a little.<br>Would that make you feel any better?|#1ba|
+@char Gerald.Normal
+Gerald: No, but I appreciate it.|#1bb|
+@char Gerald.Sleepy
+Gerald: .|#1bc|[wait .3].|#1bd|[wait .3].|#1be|
+Gerald: Besides, uh...<br>|#1bf|[wait .6][bgm BGM_MoebiusBattle_Loop][char Gerald.Smug2]You being controlled by a demon was actually my plan this whole time!|#1c0|
+Gerald: It was me who released that demon!<br>The, ah...|#1c1|
+@stopBgm BGM_MoebiusBattle_Loop
+@char Gerald.Annoyed
+Gerald: Uh...|#1c2|
+Gerald: El...|#1fd|[wait .4]<br>Eltron? Elty? |#1fe|[wait .5]Errol?|#1ff|
+@hide Sam
+@char Luther.Smug
+Luther: Elgrim.|#1c3|
+@char Gerald.Smug
+Gerald: Well I,|#1c4|[bgm BGM_MoebiusBattle_Loop] |#1c5|[wait .3]Gerald Ford,|#1c6|[wait .3] am the reason that you fought the evil succubus Elgrim!|#1c7|
+@wait .3
+@char Luther.Mad1
+Luther: [stopBgm BGM_MoebiusBattle_Loop] Elgrim is a guy.|#1c8|
+@hide Luther
+@char Gerald.Annoyed
+Gerald: .|#200|[wait .3].|#201|[wait .3].|#1c9|
+@hide Gerald
+@char Rosa.Annoyed
+Rosa: And to clarify, Elgrim is not a sex demon.|#202|
+@wait .3
+@show Luther
+@char Luther.Happy
+Luther: Eh, I don't know.<br>I can see appeal there.<br>|#203|[wait .4]Hypothetically, of course.|#204|
+@hide Luther
+@char Rosa.Annoyed
+Rosa: Uh-huh.|#205|
+@hide Rosa
+@char Gerald.Smug
+Gerald: [bgm BGM_MoebiusBattle_Loop]The incubus — Elgrim!|#1ca|
+; Luther is disbelieving
+@wait 1.5
+@stopBgm BGM_MoebiusBattle_Loop
+@char Luther.Happy
+Luther: What-|#1cb|[wait .3]ev-|#1cc|[wait .3]er you say.|#1cd|
+@wait .3
+@hide Luther
+@char Gerald.Smug2 pos:50,0
+Gerald: This is all because of me, Gerald Ford!|#1ce|
+Gerald: Someone needs to remember me, dammit!<br>I was president!|#1cf|
+@wait 1
+Player: Hey, Rosa...<br>Why did Professor Bjorn hire this guy?|#1d0|
+@char Rosa.Mad
+Rosa: Er...|#1d1|
+@wait .3
+@hide Rosa
+@char Gerald pos:50,0
+Gerald: I <b>killed all the bees</b>|#216|[wait .5] and yet people <i>still</i> don't remember me!|#1d2|
+@char Gerald.Smug
+Gerald: It's un-|#1d3|[wait .5]bee|#1d4|[wait .6]-lievable!|#1d5|
+Player: .|#1d6|[wait .3].|#1d7|[wait .3].|#1d8|
+@wait .3
+@char Rosa.Mad
+Rosa: You did <i>what</i>?|#1d9|
+@hide Rosa
+Player: Wait, that one was actually kind of scary.|#218|
+@wait .4
+@char Sam.Normal
+@char Gerald.Normal
+Sam: Well good luck with...|#1da|[wait .5] whatever it is you're doing, |#1db|[wait .2]uh...|#1dc|
+Player: Henry.<br>His name is Henry.|#1dd|
+@char Gerald.Annoyed
+Gerald: It's not <i>Henry!</i><br>You know that.|#1de|
+@char Sam.Happy
+Sam: Ohhh, Henry!|#1df|
+Gerald: ...|#1e0|
+Sam: Speaking of, I heard about a new car on that show <i>Breaking News</i>.|#1e1|[char Sam.Smug]<br>It's called the Model T.|#1e2|
+@char Rosa.Normal
+Rosa: The Model T?<br>Ah, but isn't that from-|#1e3|
+@wait .3
+@char Gerald.Annoyed pos:50
+Gerald: You're all sick.<br>I'm leaving.|#1e4|
+; Gerald Ford leaves. Remove his sprite.
+@wait .5
+@hide Gerald remove:true
+@char Sam.Surprised
+Sam: ...|#1e5|
+@wait .3
+@char Rosa.Annoyed
+Rosa: Let's move on.<br>The professor should be waiting for us.|#1e6|
+Sam: Yeah, let's.|#1e7|
+@hide Sam,Rosa,AnimatedPrinter
+@goto MeetingBjorn
+@stop

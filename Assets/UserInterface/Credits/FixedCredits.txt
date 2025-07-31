@@ -1,0 +1,136 @@
+<br>
+<t>Direction
+<n>xlluminations (x)
+<n>Robotortoise (Jordan Brown)
+<br>
+<br>
+<t>Script
+<n>Robotortoise (Jordan Brown)
+<br>
+<br>
+<t>Sprite Art
+<n>Amari
+<n>Desfortune
+<n>xlluminations (x)
+<n>Twolonelystars (Teddy)
+<br>
+<br>
+<t>Background Art
+<n>Lexuss39
+<n>QuarkTypeM
+<br>
+<br>
+<t>CG Art -
+<n>Twolonelystars (Teddy)
+<br>
+<br>
+<t>Logo Art
+<n>512px
+<br>
+<br>
+<t>Original Music
+<n>Quebecker
+<br>
+<br>
+<t>Scripting, Development
+<n>Robotortoise (Jordan Brown)
+<n>Block57
+<n>MrL314
+<n>QuarkTypeM
+<br>
+<br>
+<t>Management
+<n>Desfortune
+<n>xlluminations (x)
+<br>
+<br>
+<t>Proofreading
+<n>Blazerona
+<n>Amari
+<br>
+<br>
+<t>Concept, Initial Script, Staff Recruitment
+<n>Autistic_Astro
+<br>
+<br>
+<t>Voice Direction
+<n>Ariana Rosario
+<br>
+<br>
+<t>Voice Cast
+<n>Bjorn Quebecker
+<n>Elgrim KingZexo
+<n>Gerald Ford/Fear 512px
+<n>Jokebot Elijah Ocelotzin Espinoza
+<n>Luther, Sam OdyOkami
+<n>Pringle Blazerona
+<n>Rosa Ariana Rosario
+<n>Singer Peter Hotvedt
+<br>
+<br>
+<t>"Long Live The Queen"
+<n>Composed, recorded, and mastered by The Recovery System.
+<n>Used with permission.
+<br>
+<br>
+<t>Special Thanks
+<n>Nukeparty101
+<n>Terra “xterrene”
+<n>PurpleParfait
+<n>Okkefac
+<n>Douglas Wreden
+<n>Monterey Bay Aquarium
+<n>Feòrag NicBhrìde for "Chapbook" font
+<n>Noraneko Games for "Anime Backgrounds" pack
+<n>David Rakowski for “Eraser Font” font
+<n>João Paulo for “Concrete” and “Rusted Steel” textures
+<n>Jonny Atma for the modified PEPSIMAN song backing
+<br>
+<br>
+<t>Non-Original Music Sourced from -
+<n>AI: THE SOMNIUM FILES Keisuke Itō
+<n>Blue Archive Nor, Mitsukiyo, KARUT
+<n>Zero Escape: The Nonary Games Shinji Hosoe
+<n>Xenoblade Chronicles 3 Yasunori Mitsuda, Manami Kiyota, ACE, Kenji Hiramatsu, Mariam Abounnasr
+<n>Paper Mario: The Origami King Yoshiaki Kimura, Kazuki Komai
+<n>Paper Mario: Color Splash Takeru Kanazaki, Fumihiro Isobe
+<n>Paper Mario: The Thousand-Year Door (2024) Yuka Tsujiyoko, Yoshito Hirano, Kazuki Komai, Fumihiro Isobe
+<n>The Legend of Zelda: Skyward Sword Koji Kondo, Takeshi Hama, Shiho Fujii, Mahito Yokota, Hajime Wakai
+<n>PEPSIMAN James Shimoji
+<br>
+<br>
+<t>"Metallic Showroom Gallery"
+<n>(https://skfb.ly/oEyUM) by jimbogies is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+<br>
+<t>Clean Record Scratch
+<t> by kwahmah_02 -- https://freesound.org/s/269476/ -- License: Attribution 3.0
+<t>"LAYERS 023 - Industrial drone-53"
+<n>Jovica
+<br>
+<br>
+<t>Original Creators & Owners of IPs
+<br>
+<t>Pajama Sam & Luther
+<n>Humongous Entertainment
+<br>
+<t>Bjorn
+<n>PopCap Games
+<br>
+<t>Elgrim
+<n>Hallucination of ChatGPT (and Twitch Chat)
+<br>
+<t>DougDoug & Pringle
+<n>Douglas Wreden
+<br>
+<t>Gerald Ford
+<n>Leslie Lynch King Sr
+<n>Dorothy Ayer Gardner Ford
+<br>
+<br>
+<i>"DougDoug's Basement: How I Got a Sea Otter A Promotion!" is an unofficial, non-profit fan game made for entertainment purposes only.
+<br>
+<br>
+<i>In memory of the real-life Rosa the Otter, who passed away during this project's development.
+<br>
+<br>
+<i>Thank you for playing.

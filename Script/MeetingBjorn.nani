@@ -1,0 +1,794 @@
+; The cast walks through the doorway to the next room.
+
+@hideUI PlayCreditsButtonMenu
+@bgm BGM_IndustrialDrone_Loop intro:BGM_IndustrialDrone_Loop volume:.4
+@sfx sfx_metal_push_bar wait:false
+@back BjornRoom_BjornSprite id:BjornOffice time:2
+@sfx sfx_walking
+@wait 6
+; fade out to new BG
+; Bjorn appears in his full unicorn glory. He takes up the whole screen, similar to Elgrim. Clear the screen after every Bjorn dialogue.
+; Perhaps he is standing in front of a throne, time permitting.
+@back BjornRoom id:BjornOffice
+@stopBgm wait:false
+@bgm ZeldaSS_GrooseSlow_Loop intro:ZeldaSS_GrooseSlow_Intro
+@char Bjorn.Normal
+Bjorn: Welcome, students!|#60|
+; add Bjorn to title.
+@set g_TitleCharState="10"
+@wait .4
+@hide Bjorn,AnimatedPrinter
+@char Luther.Surprised
+Luther: You're a...|#61|[wait .4] donkey?|#62|
+@hide Luther
+@char Bjorn.Normal
+Bjorn: <shake>Donkey?!</shake><br>You think I'm a...|#63|
+@wait .4
+@char Bjorn.Annoyed
+Bjorn: I'd threaten to eat you if I thought that you had any nutritional value.|#64|
+@char Bjorn.Normal
+; change his expression mid-dialogue from angry to happy
+Bjorn: (Come on, Bjorn. Rein it in...)|#65|
+@wait .5
+@char Bjorn.Normal
+Bjorn: I'm not a zebra, Luther!<br>I'm actually a unicorn.<br>|#66|[wait .3]We're <i>much</i> sparklier!|#67|
+@wait .4
+@char Bjorn.Happy
+Bjorn: So, students...<br>Have you been enjoying your escape room experience?|#68|
+@hide Bjorn,AnimatedPrinter
+@char Luther.Smug
+Luther: The Jokebot was okay.|#69|
+@char Sam.Happy
+Sam: I had fun...|#6a|[wait .6]<br>|#6b|[char Sam.Sad]Well, until Elgrim showed up, at least.|#6c|
+@hide Sam,Luther
+@show Bjorn
+Bjorn: Elgrim?|#6d|
+@wait .5
+@hide Bjorn,AnimatedPrinter
+@char Luther.Happy
+Luther: More like "Elgrim |#6e|[wait .5]this milt |#6f|[wait .5]on your-"|#70|
+@wait .3
+@hide Luther
+@char Bjorn.Angry wait:false
+@wait .4
+Bjorn: Don't <i>make</i> me vore you, Luther.|#71|
+@hide Bjorn,AnimatedPrinter
+@char Luther.Dismayed
+Luther: .|#72|[wait .3].|#73|[wait .3].|#74|
+Luther: I... |#1c3|[wait .3]retract my statement.|#75|
+@wait .3
+@hide Luther
+@char Bjorn.Normal
+Bjorn: What's an "Elgrim"?|#76|
+@hide Bjorn,AnimatedPrinter
+@char Rosa.Happy
+Rosa: Don't worry about that.<br>Everything went according to plan.|#77|
+Rosa: No demons here, haha!<br>Ha...|#78|
+@hide Rosa,AnimatedPrinter
+@char Bjorn
+Bjorn: Oh well.<br>I trust your judgment, Rosa.|#79|
+@wait 1
+@stopBgm
+Bjorn: Now, before we start the final battle...|#7a|
+@bgm BGM_XBC3_Mobeius_Loop intro:BGM_XBC3_Mobeius_Intro
+Bjorn: {PlayerName}!|#7b|[wait .3]<br>You're the main character, so you may ask me any questions you have before we duel.|#7c|
+@hide Bjorn,AnimatedPrinter
+@char Luther.Happy
+Luther: Take <i>that</i>, Twitch chat.|#7d|
+@hide Luther
+@char Bjorn.Angry pose:Speaking
+Bjorn glared at Luther, and Luther promptly shut up.|#7e|
+@wait .2
+PlayerInternal: Wish he would do that when <i>I</i> glared at him.|#7f|
+
+# AskPlayerAboutDemonTopMenu
+@char Bjorn.Normal
+@set g_choice_enabled=true
+@choice "So, Elgrim wasn't part of the escape room?|#80|" goto:.AskPlayerAboutDemonQ1
+@choice "What would a microwave talk like?|#81|" goto:.AskPlayerAboutDemonQ2
+@choice "Do you know Herald Ford?|#82|" goto:.AskPlayerAboutDemonQ3
+@choice "The only question is how fast you'll lose. Let's fight, zebra.|#83|" goto:.DoneAskingBjorn
+@stop
+
+# AskPlayerAboutDemonQ1
+@set chose_askaboutdemon_q1=true
+Player: That demon guy, Elgrim...|#84|[wait .3]<br>Was he part of the escape room, too?|#85|
+@wait .6
+Bjorn: What the flippity-fuck are you blabbering about, |#86|{PlayerName}?|#87|
+; pronounced like "demon"
+Bjorn: "Demon?"<br>The only demon here is your demon-strable lack of sanity!|#88|
+Bjorn: <wave>Sparkles!</wave><br>That was such nonsense, I feel like I'm getting a horse-ache just listening to you!|#89|
+@hide Bjorn,AnimatedPrinter
+@char Luther.Smug
+Luther: Are you sure you don't mean a unicorn-ache?|#8a|
+@hide Luther
+@char Bjorn.Angry
+Bjorn: I will <shake>smite</shake> you, fish!|#8b|
+@wait .5
+PlayerInternal: I guess Bjorn doesn't know anything about High Demon Elgrim.|#8c|
+@goto .AskPlayerAboutDemonSecondMenu
+
+# AskPlayerAboutDemonQ2
+@set chose_askaboutdemon_q2=true
+Player: Have you ever wondered what your microwave would sound like if it could talk?|#8d|
+@char Bjorn.Normal
+Bjorn: .|#8e|[wait .3].|#8f|[wait .3].|#90|
+Bjorn: Have you?|#91|
+Player: Constantly.<br>It's always on my mind.|#92|
+Player: For example — would it hate me for the smelly food that I put inside it?|#93|
+@wait .3
+Player: What would Michael Wave even sound like?|#94|
+@wait .4
+Player: Heh.<br>Actually...|#95|
+Player: Do you think he <i>likes</i> it when I put tin foil<br>inside his naughty little mouth?|#96|
+@hide AnimatedPrinter
+@wait .5
+@char Bjorn.Angry pose:Speaking
+@wait 1
+Bjorn: It's not often that I'm at a loss for words, but...|#97|
+Bjorn: .|#98|[wait .3].|#99|[wait .3].|#9a|
+Bjorn: Admittedly, I'm at a loss.<br>What do I even say to that?|#9b|
+@wait .5
+Player: Maybe you could comment on how the American education system is responsible for my silliness?|#9c|
+@wait .3
+Bjorn: "Silliness" is one word for it, certainly.<br>Not the one I'd use.|#9d|
+@wait .3
+@char Bjorn.Normal
+Bjorn: There must be something deeper going on.|#9e|
+@char Bjorn.Happy
+Bjorn: Do you perhaps have some sort of injury to your prefrontal cortex?|#9f|
+@wait .3
+@hide Bjorn,AnimatedPrinter
+@char Rosa.Annoyed
+Rosa: Professor.<br>You can't just say that to a student.|#a0|
+@hide Rosa
+@char Bjorn.Angry
+Bjorn: What's the fucker gonna do?<br>|#a1|[wait .3]Microwave me?|#a2|
+@hide AnimatedPrinter
+@wait .4
+PlayerInternal: Maybe I should ask him something else...|#a3|
+@goto .AskPlayerAboutDemonSecondMenu
+
+# AskPlayerAboutDemonQ3
+@set chose_askaboutdemon_q3=true
+Player: Do you know the 38th president of the United States, Henry Ford?<br>I saw him earlier.|#a4|
+@char Bjorn.Happy
+Bjorn: Oh, yes.<br>He's one of my employees.|#a5|
+Player: You...|#a6|[wait .3] hired a former president to run your<br>pottery class—turned—escape room?|#a7|
+Bjorn: Sure did.<br>I took it upon myself to read the entirety of the Geneva Conventions, and believe it or not...|#1c0|
+PlayerInternal: Oh boy.|#1c1|
+Bjorn: ...They don't list <i>anything</i> about the enslavement of ghosts!<br>Now that's a loophole if I've ever heard one!|#1c2|
+@wait .3
+@hide Bjorn,AnimatedPrinter
+@char Sam.Surprised
+Sam: Terry Ford is...|#aa|
+@char Luther.Surprised
+@shake Luther
+@wait .4
+Luther: ...a <shake>g-ghost</shake>?|#ab|
+@wait .3
+@hide Sam,Luther
+@char Bjorn.Normal
+Bjorn: Indeed he is!|#ac|
+@char Bjorn.Normal
+Bjorn: Ford died in 2006.<br>A day after Christmas, too — rough.|#ad|
+@hide Bjorn,AnimatedPrinter
+@show Sam,Luther
+@char Sam.Annoyed
+@wait .3
+@char Sam.Surprised
+Sam: ...|#ae|
+@char Luther.SurprisedWithTear
+Luther: You hired a <i>dead guy?!</i>|#af|
+@wait .3
+@char Sam.Surprised
+@wait 1
+Sam: You hired <i>that</i> dead guy?!|#b0|
+@wait 1
+@hide AnimatedPrinter
+@wait 1
+@hide Sam,Luther
+; set "knows Ford is ghost" variable to true
+@set KnowsFordIsGhost=true
+@char Rosa.Normal
+Rosa: He's very sensitive about it.<br>Try not to bring it up, okay?|#b1|
+@wait .3
+@hide Rosa,Luther,Sam,AnimatedPrinter
+@char Bjorn.Normal
+Bjorn: Moving on...|#b2|
+@goto .AskPlayerAboutDemonSecondMenu
+
+# AskPlayerAboutDemonSecondMenu
+@set g_choice_enabled=!chose_askaboutdemon_q1
+@choice "So, Elgrim wasn't part of the escape room?|#b3|" goto:.AskPlayerAboutDemonQ1
+@set g_choice_enabled=!chose_askaboutdemon_q2
+@choice "What would a microwave talk like?|#b4|" goto:.AskPlayerAboutDemonQ2
+@set g_choice_enabled=!chose_askaboutdemon_q3
+@choice "Do you know Herald Ford?|#b5|" goto:.AskPlayerAboutDemonQ3
+@set g_choice_enabled=true
+@choice "I'm done asking questions. Let's fight, zebra.|#b6|" goto:.DoneAskingBjorn
+@stop
+
+# DoneAskingBjorn
+@stopBgm ZeldaSS_GrooseSlow_Loop
+Bjorn: <shake>ZEBRA?!</shake><br>Ohhh, you tumultuous little shit!|#b7|
+@back BjornRoom_Red id:BjornOffice
+Bjorn: I am <shake>Bjorn</shake>, the majestic unicorn and headmaster of this school!<br>You will treat me as the trivia master that I am!|#b8|
+
+; only show this choice if the player knows that Bjorn is the headmaster.
+@set g_choice_enabled=true
+@choice "Provoke Bjorn more. It's funny!|#b9|" goto:.BjornTriviaBattlePissed if:KnowsBjornHeadmaster=true
+@choice "Leave poor Bjorn alone.|#ba|" goto:.BjornTriviaBattleNormal
+@stop
+
+# BjornTriviaBattlePissed
+@char Bjorn.Normal
+Player: "Trivia master", huh?|#bb|
+Player: Well, I'm glad you're still a master of <i>something</i>, Professor, even if not the school.|#bc|
+@hide AnimatedPrinter
+@stopBgm
+@wait 1
+@bgm BGM_MoebiusBattle_Loop intro:BGM_MoebiusBattle_Start
+@char Bjorn.Annoyed
+@wait .5
+Bjorn: Oh, that is <i>it!</i>|#bd|
+@wait .5
+Bjorn: I was going to go easy on you since you twerps were<br>clearly struggling with Jokebot.|#be|
+@char Bjorn.Angry
+Bjorn: But it's all hoofs on deck now!|#bf|
+; Bjorn gets red with anger
+@shake AnimatedPrinter
+Bjorn: Get ready to be <i>pegged</i>, fuckers!<br><shake>I am <i>not</i> playing around!</shake>|#c0|
+@wait .5
+Bjorn: Choose a question...<br><shake>NOW!</shake>|#c1|
+@goto .BjornTriviaQuizStart
+
+# BjornTriviaBattleNormal
+@stopBgm
+@char Bjorn.Normal
+@bgm BGM_Awkward1 loop:true
+Bjorn: All right.<br>Let the trivia battle begin!|#c2|
+Bjorn: What would you like the first question to be about?|#c3|
+@hide Bjorn,AnimatedPrinter
+@char Sam.Happy
+Sam: Can we really choose anything?<br>Anything at all?|#c4|
+@hide Sam,AnimatedPrinter
+@show Bjorn
+Bjorn: Anything!<br>I am the trivia master, after all!<br>No subject exists that I don't know trivia about.|#c5|
+@hide Bjorn,AnimatedPrinter
+@char Luther.Smug
+Luther: That's a double negative.<br>I think what you actually meant to say-|#c6|
+@hide Luther
+@show Bjorn
+Bjorn: Don't make me have fish sticks tonight.|#c7|
+@hide Bjorn
+@char Luther.Sad
+Luther: ...|#c8|
+@wait .2
+@stopBgm
+@goto .BjornTriviaQuizStart
+
+# BjornTriviaQuizStart
+@hideChars
+@back BjornRoom id:BjornOffice
+@char Rosa.Happy
+Rosa: How about we start with... fried foods?|#c9|
+@char Luther.Dismayed
+Luther: Hey, you're not a student.|#ca|
+@hide Luther,Rosa,AnimatedPrinter
+; Bjorn shows happy sprite
+@char Bjorn.Happy
+Bjorn: Excellent choice, Rosa!|#cb|
+Bjorn: Like unicorns, fried foods are simply delightful.<br>The shape of a round donut reminds me of the delicious golden hue of a peg in Peggle...|#cc|
+@hide Bjorn,AnimatedPrinter
+@char Luther.Happy
+Luther: By the way, what's a Peggle?|#cd|
+@hide Luther,AnimatedPrinter
+@char Bjorn.Angry
+@shake AnimatedPrinter wait:false
+@back BjornRoom_Red id:BjornOffice wait:false
+Bjorn: <shake>Shut up!</shake>|#ce|
+@wait .5
+@char Bjorn.Happy
+@back BjornRoom id:BjornOffice wait:false
+Bjorn: Now, for the trivia question!<br>Oh, I'm just <i>sparkling</i> with excitement!|#cf|
+@stopBgm
+@bgm BGM_Quiz1
+@wait .3
+
+# BjornQ1Start
+@char Bjorn.Normal
+Bjorn: What temperature is food generally fried at?<br>Remember, oil works by frying foods at <i>extremely</i> high temperatures.|#d0|
+@set g_choice_enabled=!chose_bjornq1_wronga1
+@choice "240 degrees Fahrenheit.|#d1|" goto:.BjornQ1_Wrong_A1
+@set g_choice_enabled=!chose_bjornq1_wronga2
+@choice "190 degrees Celsius.|#d2|" goto:.BjornQ1_Wrong_A2
+@set g_choice_enabled=!chose_bjornq1_righta1
+@choice "375 degrees Fahrenheit.|#d3|" goto:.BjornQ1_Right_A1
+@stop
+
+# BjornQ1_Wrong_A1
+@set chose_bjornq1_wronga1=true
+Player: 240 degrees?<br>That's a <wave>biiiig</wave> number!|#d4|
+@char Bjorn.Angry
+Bjorn: <i>240 degrees?!</i><br>That's barely enough to cook rocky mountain oysters, much less fry them!|#d5|
+@char Bjorn.Normal
+Bjorn: Try again, and remember that fried foods<br>need to be |#d6|[wait .3]<shake>HOT</shake>, |#d7|[wait .3]<shake>HOT</shake>, |#d8|[wait .3]<shake>HOT</shake>!!|#d9|
+@goto .BjornQ1Start
+
+# BjornQ1_Wrong_A2
+@set chose_bjornq1_wronga2=true
+Player: 190 degrees?|#da|
+@char Bjorn.Annoyed
+Bjorn: That's way too cold for-|#db|
+Player: .|#dc|[wait .3].|#dd|[wait .3].<br>|#de|[wait .5]Uh, 190 degrees... |#df|[wait .6]<i>in Celsius</i>.|#e0|
+@char Bjorn.Angry
+Bjorn: <i>Celcius?!</i><br>We only measure things in Fahrenheit here in the<br>good 'ol U-S of A!|#e1|
+Bjorn: I may be an immigrant from Peggleland, but I got my citizenship the same way anyone else did —|#e2|[wait .8] by passing a written test and having white relatives.|#e3|
+@wait .3
+Bjorn: That's a point from you, |#e4|[wait .3]or it would be if you had any.|#e5|
+@hide Bjorn,AnimatedPrinter
+@char Rosa.Mad
+Rosa: But Professor, |#e6|{PlayerName} is right.<br>190 degrees is actually-|#e7|
+@hide Rosa
+@char Bjorn.Angry
+Bjorn: Nothing's right about communism, Rosa.|#e8|
+@hide Bjorn,AnimatedPrinter
+@char Rosa.Normal
+Rosa: What?|#e9|
+@hide Rosa,AnimatedPrinter
+@show Bjorn
+Bjorn: I meant what I said,|#ea|[shake AnimatedPrinter] dammit!|#eb|
+@hide Bjorn,AnimatedPrinter
+@char Rosa.Annoyed
+Rosa: .|#ec|[wait .3].|#ed|[wait .3].|#ee|
+@hide Rosa
+@goto .BjornQ1Start
+
+# BjornQ1_Right_A1
+@set chose_bjornq1_righta1=true
+Player: 350 degrees...?|#ef|
+@char Bjorn.Annoyed
+Bjorn: That's way too cold.|#f0|
+@wait .3
+Player: 375 degrees.|#f1|
+@char Bjorn.Angry
+Bjorn: You're guessing! You can't guess.|#f2|
+Player: You never told me that.|#f3|
+Bjorn: I'm telling you <i>now</i>.|#f4|
+@stopBgm BGM_Quiz1
+@wait .4
+@hide Bjorn,AnimatedPrinter
+@set Pringle="???"
+Pringle: They're pretty close to right, though!<br>It depends on the batch.|#f5|
+Pringle: Sometimes the doughier ones need a higher temperature to fry.|#f6|
+@char Bjorn.Angry
+Bjorn: What...?!<br>|#f7|[shake AnimatedPrinter]Who the hell said that?|#f8|
+@hide Bjorn,AnimatedPrinter
+Pringle: Oh, that was me!|#f9|
+Player: Something in my inventory is... |#fa|[wait .5]tingling.|#fb|
+@char Sam.Annoyed
+Sam: We didn't need to know that, |#fc|{PlayerName}.|#fd|
+Player: It's <i>not</i> a euphemism!|#fe|
+@char Luther.Mad2
+Luther: Sam's right.|#ff|
+Luther: Keep the meta commentary<br>on a need-to-know basis, |#100|{PlayerName}.|#101|
+@wait .3
+Pringle: Hee hee!<br>You guys are funny.|#102|
+Player: Well, I definitely heard something.|#103|
+Pringle: You did?<br>Where?|#104|
+@hideChars
+@sfx sfx_cloth_rustle wait:false
+I rummaged around in my inventory until I found... something.|#105|
+Whatever it was, it was... <i>squirming</i>.|#106|
+@wait .5
+Player: Is this...?|#107|
+@bgm SMBW_Wonder_Funny_Loop intro:SMBW_Wonder_Funny_Intro
+@char Pringle.Normal
+Pringle: Hey, guys!|#1c4|
+@set Pringle="Pringle"
+; Pringle uses he/him pronouns and is a guy.
+Pringle: It's me, Pringle! |#109|[wait 1]I'm not just any voice...<br>|#10a|[char Pringle.Laughing]I'm part of a complete breakfast!|#10b|
+; add pringle to title
+@set g_TitleCharState="11"
+
+Player: <shake>WHAT THE <b>FUCK</b> IS THAT?!</shake>|#10c|
+@char Luther.SurprisedWithTear
+Luther: <wave>Ewwwwwwwwwwwwww!!</wave><br><br>Kill it, |#10d|{PlayerName}!|#10e|
+@hide Luther,AnimatedPrinter
+@char Rosa.Mad
+Rosa: Everyone,|#10f|[wait .3] calm down!|#110|
+@hide Rosa,Pringle
+@char Bjorn.Normal
+Bjorn: You...!<br>You're one of the missing students.|#111|
+@hide Bjorn,AnimatedPrinter
+; Pringle is completely genuine about this. He has lost his mind.
+@char Pringle.Happy
+Pringle: Oh, Professor Bjorn!|#112|
+@char Pringle.Love
+Pringle: It's so nice to see your friendly face once again!|#113|
+@hide Pringle,AnimatedPrinter
+; Bjorn angry expression
+@char Bjorn.Angry
+Bjorn: .|#114|[wait .3].|#115|[wait .3].|#116|
+; Bjorn confused sprite.
+Bjorn: Wait...<br>How the <i>fuck</i> are you alive?|#117|
+@hide Bjorn,AnimatedPrinter
+@char Pringle.Excited
+Pringle: Oh, I've just been hanging out down here in the basement since, ah...|#118|
+@char Pringle.Normal
+Pringle: .|#119|[wait .3].|#11a|[wait .3].|#11b|
+@char Pringle.Excited
+Pringle: Well, the Wii U was just announced.<br>Did it come out yet?|#11c|
+@wait .5
+@char Sam.Sad
+Sam: Hm...<br>How long have you been down here?|#11d|
+@char Pringle.Laughing
+Pringle: Personally, I think all time is meaningless!<br>Only fools value its sway.|#11e|
+@char Sam.Normal
+Sam: ...|#11f|
+@char Pringle.Normal
+Pringle: Seriously, though, you kind of find yourself losing track when your only company is the cellar slugs.<br>|#120|[char Pringle.Mad]They're <wave>soooooooooooo</wave> uninteresting!|#121|
+@wait .5
+Pringle: Yes, I <i>know</i> Slugmantha is pregnant.<br>No, I don't care!|#122|
+@wait .3
+Pringle: You're <i>always</i> pregnant!|#123|[char Pringle.Laughing]<br>You're <i>slugs!</i>|#124|
+@char Pringle.Normal
+Pringle: Anyhoo!<br>It's nice to chat up some vertebrates for a change.<br>Got stuffy in there.|#125|
+PlayerInternal: Is he... okay...?|#126|
+@char Rosa.Sad
+Rosa: Forgive me if this is rude, but...|#127|
+Rosa: I have to echo the professor's sentiments.<br>How <i>are</i> you even alive?|#128|
+; Somber tone
+@char Pringle.Normal
+Pringle: Can you really say that I was living?|#129|
+Pringle: My body parts regenerate, so I was able to subsist on my own flesh until that demon guy found me.|#12a|
+@wait .3
+PlayerInternal: Guess he's talking about Elgrim.|#12b|
+@wait .4
+@char Sam.Surprised
+Sam: Should we take you to a hospital?|#12c|
+@char Pringle.Laughing
+Pringle: I'm fine, seriously!<br>Just finish the quiz!|#12d|
+@stopBgm SMBW_Wonder_Funny_Loop
+@hideChars
+@char Bjorn.Normal
+Bjorn: Oh, right!<br>The quiz!|#12e|
+Bjorn: Yes, ah...|#12f|[wait .3]<br>You got that question right, so your score is now |#130|[set TriviaScore=1]one. <br>Congrats!|#131|
+
+# BjornTriviaQ2Intro
+@bgm ZE_ExtremeExtrication_all
+Bjorn: Now, onto the second question!|#132|
+Bjorn: Give me a topic!<br>Any topic.|#133|
+@hide Bjorn,AnimatedPrinter
+@char Luther.Smug
+Luther: Okay, so I know you told me not to ask about <i>Peggle</i>, but what's <i>pegging</i>?|#134|
+@hide Luther
+@show Bjorn
+@char Bjorn.Angry
+Bjorn: ...|#135|
+@wait .4
+Bjorn: Not that topic.|#136|
+@wait .3
+@hide Bjorn,AnimatedPrinter
+@char Sam.Happy
+Sam: Ooh, ooh!<br>|#137|[wait .3]What about the ancient Egyptian pyramids?|#138|
+@hide Sam
+@char Bjorn.Happy
+Bjorn: Excellent choice, Sam!|#139|
+Bjorn: Oh, just thinking about the magnificent architecture of the ancient Egyptians has my horn tingling with uninhibited excitement!|#13a|
+@hide Bjorn,AnimatedPrinter
+@char Sam.Angry
+Sam: We didn't want to know that.|#13b|
+@hide Sam
+; Luther sounds intrigued.
+@char Luther.Happy
+Luther: Hey, speak for yourself.|#13c|
+@hide Luther
+@char Bjorn.Normal
+Bjorn: Now, for the question!|#13d|
+Bjorn: What is my favorite flavor of ice cream?|#13e|
+@hide Bjorn,AnimatedPrinter
+@char Rosa.Annoyed
+Rosa: You said you were going to ask the students about the pyramids.|#13f|
+@hide Rosa
+@char Bjorn.Annoyed
+Bjorn: No, I didn't.<br>Answer the question, |#140|{PlayerName}.|#141|
+@hide Bjorn,AnimatedPrinter
+@char Rosa.Mad
+Rosa: But you just-|#142|
+@hide Rosa
+@char Bjorn.Angry
+Bjorn: I said <shake><b>answer the question</b></shake>!|#143|
+Player: ...|#144|
+@stopBgm ZE_ExtremeExtrication_all
+@bgm BGM_Quiz2
+
+# BjornQ2Start
+@char Bjorn.Normal
+PlayerInternal: What is Bjorn's favorite flavor of ice cream?|#145|
+@set g_choice_enabled=!chose_bjornq2_righta1
+@choice "Rainbow sorbet.|#146|" goto:.BjornQ2_Right
+@set g_choice_enabled=!chose_bjornq2_wronga1
+@choice Lemon.|#147| goto:.BjornQ2_Wrong_A1
+@set g_choice_enabled=!chose_bjornq2_wronga2
+@choice "Chocolate chip.|#148|" goto:.BjornQ2_Wrong_A2
+@set g_choice_enabled=!chose_bjornq2_wronga3
+@choice "Minoxidil with finasteride.|#149|" goto:.BjornQ2_Wrong_A3
+@stop
+
+# BjornQ2_Wrong_A1
+@set chose_bjornq2_wronga1=true
+Player: Lemon?|#14a|
+@char Bjorn.Angry
+Bjorn: Lemon?!<br>Are you for fucking real right now?<br><shake>LEMON!?</shake>|#14b|
+@hide Bjorn,AnimatedPrinter
+@char Luther
+Luther: I like lemon.|#14c|
+@hide Luther
+@char Bjorn.Normal
+Bjorn: You know what?<br>Maybe lemon does have some value... |#14d|[char Bjorn.Angry][wait .2]when squeezed over <i>fish and chips!</i>|#14e|
+@hide Bjorn,AnimatedPrinter
+@char Luther.SurprisedWithTear
+Luther: I... don't think the professor likes lemon, |#14f|{PlayerName}.|#150|
+; Sam is sarcastic here.
+@char Sam.Annoyed
+Sam: Gee, you don't say.|#151|
+@hide Luther,Sam
+@char Bjorn.Angry
+Bjorn: Mention it again and I'll turn your <i>life</i> into lemonade!|#152|
+@hide Bjorn,AnimatedPrinter
+PlayerInternal: Maybe I should try something else...|#153|
+@hideChars
+@goto .BjornQ2Start
+
+# BjornQ2_Wrong_A2
+@set chose_bjornq2_wronga2=true
+Player: Chocolate chip?|#154|
+@char Bjorn.Annoyed
+Bjorn: Eh, I'm not the biggest fan of chocolate.<br>It's toxic to some animals, you know.|#155|
+@hide Bjorn,AnimatedPrinter
+@char Pringle.Normal
+Pringle: Is it toxic to unicorns?|#156|
+@hide Pringle
+@char Bjorn.Normal
+Bjorn: No.<br>I just don't like it.|#157|
+@hide Bjorn
+@char Pringle.Normal
+Pringle: Oh.|#158|
+@wait .3
+PlayerInternal: There's gotta be <i>something</i> that he likes.|#159|
+@hideChars
+@goto .BjornQ2Start
+
+# BjornQ2_Wrong_A3
+@set chose_bjornq2_wronga3=true
+Player: What about minoxidil with a side of finasteride?|#15a|
+@char Bjorn.Angry
+Bjorn: .|#1af|[wait .3].|#1b0|[wait .3].|#15b|
+@wait .2
+@hide Bjorn,AnimatedPrinter
+@char Sam.Normal
+Sam: .......|#15c|
+@hide Sam
+@char Rosa.Mad
+Rosa: ........|#15d|
+@hide Rosa
+@char Pringle.Laughing
+Pringle: Aren't those the ingredients that are used in anti-balding medicine?|#15e|
+@hide Pringle,AnimatedPrinter
+@char Bjorn.Normal pose:Speaking
+@wait .2
+@char Bjorn.Angry
+Bjorn: Stay calm, Bjorn.|#15f|[wait .3]<br>Remember what your parole officer told you.|#160|
+@wait .3
+@hide Bjorn,AnimatedPrinter
+Player: I think I'll try something else.|#161|
+@char Rosa.Normal
+Rosa: That's probably the right call.|#162|
+@hideChars
+@goto .BjornQ2Start
+
+# BjornQ2_Right
+@set chose_bjornq2_righta1=true
+Player: Rainbow sorbet ice cream, maybe?|#163|
+@hide Bjorn,AnimatedPrinter
+@char Sam.Normal
+Sam: Sorbet isn't ice cream.|#164|
+@hide Sam
+@char Bjorn.Happy
+@stopBgm BGM_Quiz2
+Bjorn: Ice cream or not, you've churned out the right answer |#1b8|[set TriviaScore=2]with that crisp head of yours, |#168|{PlayerName}!|#169|
+Bjorn: You're two questions in, but don't get cocky!|#16a|
+@hide Bjorn,AnimatedPrinter
+@char Pringle.Happy
+Pringle: Yay!<br>You did it!|#16b|
+@hide Pringle
+@char Bjorn.Normal
+Bjorn: We've quizzed |#16c|{PlayerName}, so it's time for your turn, Sam.|#16d|
+@hide Bjorn,AnimatedPrinter
+@char Sam.Normal
+@char Sam.Happy
+Sam: Let's go!|#16e|
+@wait .3
+@hide Sam
+@char Bjorn.Normal
+@set Gerald="Gerald Ford"
+Bjorn: Who was the first president of the United States of America?|#16f|
+@hide Bjorn,AnimatedPrinter
+@char Sam.Happy
+Sam: Oh, that's easy!<br>|#170|[wait .5]It was none other than-|#171|
+@hide AnimatedPrinter,Sam
+@bgm XBC3_YoungWarriors_Loop intro:XBC3_YoungWarriors_Intro wait:false
+# GeraldFordReappears
+@char Gerald.Stern wait:false
+Gerald: I have a better question for you, Sam.|#172|
+Gerald: Who was the 38th president of the United States?|#173|
+@set g_choice_enabled=true
+@choice "Herald Ford!|#174|" goto:.GeraldResponseGood
+@choice "Ford Prefect!|#175|" goto:.GeraldResponseAngry
+; wait for player input
+@stop
+
+# GeraldResponseGood
+; Gerald steps forward from shadow
+Gerald: Hmph.|#176|[char Gerald.Normal][set Gerald="Herald Ford"] Not the worst I've heard.|#177|
+@char Gerald.Smug
+Gerald: Color me impressed.|#1b2|
+@set Gerald="Gerald Ford"
+Gerald: The first name is actually "Gerald", by the way.|#1b3|
+@goto .GeraldContinue
+
+# GeraldResponseAngry
+@set Gerald="Ford Prefect"
+Gerald: <shake>Augh!</shake>|#178|[char Gerald.Normal]<br>Can't a single goddamn person remember who I am?|#179|
+Gerald: [set Gerald="Gerald Ford"]Gerald Ford!<br>Gerald <shake>FUCKING</shake> Ford!!<br>It's not difficult to remember!|#17b|
+Gerald: Maybe you're messing with me.<br>Is that it?|#17c|
+@goto .GeraldContinue
+
+# GeraldContinue
+Gerald: Whatever.<br>You'll all learn to respect me soon enough.|#17d|
+Gerald: I fought inflation during one of the worst economic recessions in America, and this is the thanks I get for it?|#17e|
+Gerald: You there — fish!|#17f|
+@hide Gerald
+@char Luther.Mad1
+Luther: Me?|#180|
+@wait .3
+@hide Luther
+@show Gerald
+Gerald: Who was the first president?|#181|
+@hide Gerald
+@char Luther.Smug
+Luther: George Washington, obviously.|#182|
+@hide Luther
+@show Gerald
+Gerald: And you — blue child.<br>I bet you know who William Taft was.|#183|
+@hide Gerald
+@char Sam.Happy
+Sam: Oh, of course!<br>William Taft was the biggest president ever!|#184|
+@hide Sam
+@char Gerald.Annoyed
+Gerald: GAH! See?!|#185|
+Gerald: People remember Taft, and all he did was eat too many fruitcakes!|#186|
+@wait 1.5
+Gerald: Well, guess who the fruitcake is now, assholes?|#187|
+@wait 1.5
+PlayerInternal: Is he coming out?|#188|
+@wait 1.5
+; show the ominous purple mist of Elgrim
+
+@back BjornRoom_OurpleMist id:BjornOffice time:2 wait:false
+@hide Gerald,AnimatedPrinter
+@show Bjorn
+@char Bjorn.Angry
+Bjorn: All right, Gerald.<br>That's enough.|#189|
+Bjorn: You've had your time in the spotlight — I don't pay you for theatrics.|#18a|
+@hide Bjorn,AnimatedPrinter
+@char Gerald.Sleepy
+Gerald: Quiet, emu!<br>You don't pay me at all!|#18b|
+@hide Gerald
+@wait .2
+@char Bjorn.Angry
+Bjorn: An <shake>emu</shake>?!|#18c|
+Bjorn: I'd have your head for this if you had one!|#18d|
+@hide Bjorn,AnimatedPrinter
+@char Sam.Surprised
+Sam: What's he talking about?|#18e|
+; If they know Ford is a ghost, skip this line.
+@if KnowsFordIsGhost=true
+    Player: The president is a ghost, remember?|#18f|
+@else
+    Player: I don't know.|#190|
+@endIf
+; continues on
+@hide Sam
+@show Gerald
+@char Gerald.Stern
+Gerald: Whatever.<br>I don't need to listen to you.|#191|
+Gerald: You — the large bell pepper.|#192|
+@wait .3
+Player: Me?|#193|
+@wait .3
+Gerald: You just <i>had</i> to stop Elgrim from returning, didn't you?|#1b9|
+Gerald: He only needed the souls of eighteen more teensy-weensy, little, itty-bitty human children for a full resurrection,<br>but you wouldn't even let him have that, would you?|#195|
+@wait .3
+@hide Gerald
+@char Sam.Normal
+Sam: Elgrim was...|#1ba|[wait .4]<br>trying to eat me...?|#196|
+@char Sam.Surprised
+@wait 1.5
+Sam: T-that's gross!<br>I'm eighteen. I am <i>not</i> a kid!|#197|
+@wait .4
+@hide Sam
+@char Rosa.Annoyed
+Rosa: I feel like you should be upset for other reasons, Sam.|#198|
+@hideChars
+@hide AnimatedPrinter wait:false
+@wait .3
+@sfx ElgrimTeleport
+@wait 1
+@char Elgrim.Normal wait:false
+Elgrim: What?<br>Don't be gross, man.|#199|
+@hide Elgrim,EvilPrinter
+@char Sam.Angry
+Sam: Elgrim...!|#1bb|
+@wait .5
+@hide Sam,AnimatedPrinter
+@show Elgrim
+Elgrim: I only wanted your soul.|#19a|
+Elgrim: Eating the whole child is like eating the shell of a lobster.<br>You just don't do that.|#19b|
+@hide Elgrim,EvilPrinter
+@show Rosa
+@char Rosa.Mad
+Rosa: So, the reason Elgrim is back...|#19c|
+@char Gerald.Normal
+Gerald: Correct.|#19d|
+@wait 1.5
+Gerald: From the depths of the underworld, I joined Elgrim-|#19e|
+@hide Gerald,Rosa
+@sfx ElgrimTeleport
+@wait .3
+@char Elgrim.Normal
+Elgrim: Yo.|#19f|
+@hide Elgrim
+@char Gerald.Normal
+Gerald: -in a quest to conquer this wretched Earth.|#1a0|
+@char Gerald.Smug
+Gerald: My thought was that, hey, once their world is overrun by demons and hellspawn,<br>people will finally remember me for something!|#1a1|
+@char Gerald.Smug2
+Gerald: No such thing as bad publicity, right?|#1a2|
+@char Rosa.Mad
+Rosa: That's horrible!|#1a3|
+@char Gerald.Smug
+Gerald: See?<br>The otter gets it.|#1a4|
+Rosa: I do not “get it”.<br>I think what you're doing is absolutely vile.|#1bf|
+Rosa: I think you should be ashamed of yourself, Gerald!|#1a5|
+@char Gerald.Annoyed
+Gerald: But you remembered my name, right?<br>That means my evil plan is working.|#1a6|
+Rosa: .|#1bc|[wait .3].|#1bd|[wait .3].|#1a7|
+@hideChars
+@hide AnimatedPrinter wait:false
+@wait .4
+@char Gerald.Normal
+Gerald: It's time...|#1be|
+@char Gerald.Smug
+Gerald: Come inside me, Elgrim!|#1a8|
+Gerald: Use me, Elgrim!<br>Use me to show them all how <shake>fucked</shake> they are when I'm in control!|#1a9|
+@wait 1.5
+@char Elgrim
+Elgrim: You're...|#1b5|[wait .6] doing this on purpose, right?|#1aa|
+@wait .3
+Gerald: Don't make me wait.|#1ab|
+@wait .2
+Elgrim: Oh, for crying out...<br>|#1c5|[char Elgrim.Smug]<i>Sure.</i><br>|#1b7|[wait .1]Let's get started.|#1ac|
+@stopBgm
+@wait .4
+@char Elgrim.Smug
+Elgrim: Open wide, Gerry.|#1ad|
+@wait .4
+Gerald: Gerry?|#1ae|
+@hideAll remove:true
+
+; fade to black
+@goto FinalBossScript
+@stop

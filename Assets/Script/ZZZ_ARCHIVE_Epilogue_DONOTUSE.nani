@@ -1,0 +1,60 @@
+# Epilogue
+; Rosa is speaking here
+@back id:BlackBG
+Rosa: Weeks went by.|#1|
+Rosa: Eventually, classes at DougDoug Community CollegeCollege returned to normal.|#226|
+@loadScene RosaAutoScene additive:true wait:false
+@bgm PMTTYD_SuperLuigi_all loop:true
+@wait .5
+Rosa: Or, well, as normal as things could be.|#227|
+; show flashback type scene of Bjorn yelling at people in the background.
+; Rosa's speech is overlaid atop Bjorn's, which is displayed with speech bubbles(?) A video file is probably easiest here.
+; Game code-wise: script it? A video file with text overlay?
+@wait 7
+
+@stopBgm PMTTYD_SuperLuigi_all fade:1
+; Rosa's dialogue during the Bjorn scene:
+Rosa: Bjorn's "pottery class" façade was discovered and destroyed.|#232|
+Bjorn himself was reassigned to teach one of those fitness boot camps, which ended up working out rather well for him.|#233|
+; fade to new scene
+; show Sam
+Rosa: After the defeat of High Demon Elgrim, Sam was finally able to accept the loss of his brothers.|#234|
+Rosa: Using what he learned while investigating his brothers, Sam furthered his skill set and is graduating with a career in criminal forensics.|#235|
+; show Pringle
+Rosa: After we escaped, Pringle shared his story with the press, which made him famous among survivalists everywhere.|#236|
+Rosa: He used the resulting fame to start his own high-budget YouTube channel where he gave cooking advice.|#237|
+Rosa: Nowadays, Pringle is famous throughout the world.|#238|
+Rosa: People know him for giving queer commentary while cooking five-star meals on his hit channel, <i>Cooking With A 'Pan' Pan</i>.|#239|
+; show Luther
+; REMOVE HIS TRAMP STAMP 
+Rosa: Luther...<br>|#23a|[wait .3]He started drinking soda again, and it was pretty bad for a while there.|#23b|
+Rosa: Believe it or not, the person who helped him break the cycle was actually Luther's old flame, Freddi Fish.|#23c|
+Rosa: Freddi installed a new operating system in him.|#23d|
+Rosa: Shrinkbot — that's what he goes by nowadays — really helped Luther work through a lot of issues.|#23e|
+Rosa: Last I heard, Luther and his boyfriend are doing a lot better.<br>I'm happy for him!|#23f|
+
+; show Rosa
+Rosa: As for me...?|#240|
+Rosa: Well, Professor Bjorn told the press about what happened, risking his reputation to save ours.|#241|
+Rosa: Everyone involved in the Elgrim incident — including Bjorn — got an award from the National Anti-Demon Federation.|#242|
+Rosa: I was able to graduate and I got a job working at the Monterey Bay Aquarium.|#243|
+Rosa: I still run my YouTube channel, but it's a side thing now.|#244|
+Rosa: My true passion is helping pups learn about the ocean and the treasures within.|#245|
+Rosa: I could have never dreamed of getting a job like this. Thank you, |#246|{PlayerName} — it wouldn't have been possible without you.|#247|
+@wait 1.5
+Rosa: And if you ever want to go to the aquarium, let me know and I'll get you in for free.|#248|
+Rosa: Oh, and don't worry — the only demons we have here at the Monterey Bay Aquarium are black seadevil anglerfish.|#249|
+@wait 2.5
+; Fade out to black.
+; roll credits
+@hideAll
+; Jump to credits
+@processInput false
+@hideAll
+; set the "completed game" global variable to true
+@set g_CompletedGame="true"
+; set Title to the final state.
+@set g_TitleCharState="13"
+; Jump to credits
+@goto PlayCredits
+@stop
