@@ -5,7 +5,7 @@ To build DougDoug's Basement, you'll need:
 - Unity 6000 or later
 - Naninovel 1.21
 - Text Animator for Unity By Febucci
-- 
+  
 The latter two plugins are paid, but I highly HIGHLY recommend them. I love supporting independent developers, so you should, too! You can probably get away without the latter if you remove the Text Animator component from the printers just to build it, however.
 Additionally, you MUST unzip the zip file "BGM_MoebiusBattle_Start_WithFieldTheme.zip" and leave the .wav file it extracts in the same directory. It is located at \Assets\Audio\BGM\BorrowedMusic. The full sized .wav file was too large for Github to handle, so I had to use this workaround (also, this is why I had to push so many commits with smaller files - sorry!!)
 
